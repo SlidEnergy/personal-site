@@ -1,0 +1,32 @@
+dt {
+    float: left;
+    width: 170px;
+}
+
+dd {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #000;
+    padding: 1px 4px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    text-shadow: none;
+    text-decoration: none;
+    background-color: #b5edff;
+
+    &:hover {
+        background-color: #cff3ff;
+    }
+}
+
+@media (max-width: 768px) {
+    dd {
+        margin: 0 0 8px 0;
+    }
+
+    dt {
+        width: 100%;
+    }
+}

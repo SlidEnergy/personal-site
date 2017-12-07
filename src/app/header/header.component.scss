@@ -1,3 +1,5 @@
+@import '../app.component';
+
 .nav {
     min-height: 90px;
     border-bottom: 1px solid #ececec;
@@ -7,9 +9,9 @@
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 1080px;
-        margin: 0 auto;
-        padding: 0 40px;
+        max-width: $wrap-width;
+        margin: $wrap-margin;
+        padding: $wrap-padding;
 
         .logo {
             margin-top: 30px;
@@ -35,6 +37,15 @@
                     color: #000;
                     text-decoration: none;
                     border-bottom: 2px solid #333;
+
+                    &.active {
+                        border-bottom-color: #00aee8;
+                    }
+
+                    &:hover {
+                        transition: border .3s;
+                        border-bottom-color: #00aee8;
+                    }
                 }
             }
         }

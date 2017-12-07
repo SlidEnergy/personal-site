@@ -1,0 +1,22 @@
+<section>
+    <h3>Профессиональные навыки</h3>
+    <table class="skills">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Beginner</th>
+                <th>Intermediate</th>
+                <th>Expert</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of items">
+                <td>{{item.name}}</td>
+                <td>{{item.beginner}}</td>
+                <td>{{item.intermediate}}</td>
+                <td>{{item.expert}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Знаю <a>английский язык</a> на уровне чтения и переписки. Пользуюсь системами управления задачами <a>JIRA</a> и <a>Mantis</a>. Работаю преимущественно в среде <a>MS Visual Studio</a> с использованием базы данных <a>MS SQL Server</a>.</p>
+    </section>

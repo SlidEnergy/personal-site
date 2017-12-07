@@ -1,0 +1,29 @@
+@import '../../app.component';
+
+.cv {
+    padding-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 #b3b3b3;
+    text-shadow: #fff 0 1px 0;
+
+    .wrapper {
+        display: block;
+        max-width: $wrap-width;
+        margin: $wrap-margin;
+        padding: $wrap-padding;
+
+        a {
+            color: #000;
+            padding: 1px 4px;
+            border-radius: 4px;
+            background-clip: padding-box;
+            text-shadow: none;
+            text-decoration: none;
+            background-color: #b5edff;
+        
+            &:hover {
+                background-color: #cff3ff;
+            }
+        }
+    }
+}
