@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfSkillsComponent implements OnInit {
 
-  prog_lang = {
+  progLang = {
     name: 'Языки программирования и скриптовые языки',
     beginner: 'PowerShell',
     intermediate: 'JavaScript, TypeScript, T-SQL',
@@ -21,14 +21,14 @@ export class ProfSkillsComponent implements OnInit {
     expert: 'WinForms, ado.net, ASP.NET'
   };
 
-  visual_components = {
+  visualComponents = {
     name: 'Визуальные компоненты',
     beginner: '',
     intermediate: '',
     expert: 'DevExpress WinForms/ASP.NET/JS&HTML'
   };
 
-  markup_lang = {
+  markupLang = {
     name: 'Языки разметки',
     beginner: '',
     intermediate: 'XML',
@@ -42,7 +42,7 @@ export class ProfSkillsComponent implements OnInit {
     expert: '.NET 4.0'
   };
 
-  sys_vers_ctrl = {
+  sysVersCtrl = {
     name: 'Системы контроля версий',
     beginner: '',
     intermediate: 'GIT',
@@ -50,12 +50,12 @@ export class ProfSkillsComponent implements OnInit {
   };
 
   items = [
-    this.prog_lang,
+    this.progLang,
     this.technology,
-    this.visual_components,
-    this.markup_lang,
+    this.visualComponents,
+    this.markupLang,
     this.frameworks,
-    this.sys_vers_ctrl
+    this.sysVersCtrl
   ];
 
   constructor() { }

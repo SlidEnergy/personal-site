@@ -1,11 +1,11 @@
-<div class="nav">
+<header>
     <div class="wrapper">
         <div class="logo">
             <a routerLink="/">SlidEnergy</a>
         </div>
         <ul class="menu" role="navigation">
-			<li><a routerLink="/" routerLinkActive="active">Обо мне</a></li>
+			<li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Обо мне</a></li>
 			<li><a routerLink="/projects" routerLinkActive="active">Проекты</a></li>
 		</ul>
     </div>
-</div>
+</header>

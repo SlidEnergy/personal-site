@@ -1,6 +1,6 @@
 @import '../app.component';
 
-.footer {
+footer {
     position: relative;
     padding: 20px 0 10px;
     background: #333;
@@ -87,7 +87,7 @@
 }
 
 @media (max-width: 768px) {
-    .footer {
+    footer {
         .wrapper {
             padding: 0 20px;
             grid-template-columns: 1fr;

@@ -1,0 +1,40 @@
+@import '../app.component';
+
+section {
+    .wrapper {
+        max-width: $wrap-width;
+        margin: $wrap-margin;
+        padding: $wrap-padding;
+
+        .project {
+            min-height: 350px;
+
+            .tags {
+                margin-bottom: 16px;
+
+                a:not(:last-child):after {
+                    content: ',';
+                    right: -5px;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+a {
+    color: #000;
+    position: relative;
+    margin-right: 10px;
+    padding: 0px 4px;
+    background-color: #b5edff;
+    border-radius: 8px;
+    background-clip: padding-box;
+    text-shadow: none;
+    text-decoration: none;
+    border: 1px solid #a5cdef;
+
+    &:hover {
+        background-color: #cff3ff;
+    }
+}

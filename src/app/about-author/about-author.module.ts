@@ -7,6 +7,7 @@ import { AboutMeFormalComponent } from './about-me-formal/about-me-formal.compon
 import { ContactsComponent } from './about-me-formal/contacts/contacts.component';
 import { ProfSkillsComponent } from './about-me-formal/prof-skills/prof-skills.component';
 import { PresonalQualComponent } from './about-me-formal/presonal-qual/presonal-qual.component';
+import { WorkExpComponent } from './about-me-formal/work-exp/work-exp.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { PresonalQualComponent } from './about-me-formal/presonal-qual/presonal-
     AboutMeFormalComponent,
     ContactsComponent,
     ProfSkillsComponent,
-    PresonalQualComponent
+    PresonalQualComponent,
+    WorkExpComponent
   ]
 })
 export class AboutAuthorModule { }
