@@ -1,11 +1,35 @@
 <section>
   <div class="wrapper">
     <h1>Основные проекты</h1>
-    <section class="project">
+    <section class="project" *ngFor="let project of projects">
         <h3>{{project?.title}}</h3>
         <div class="tags">
           <a href="#" *ngFor="let tag of project?.tags">{{tag}}</a>
-			  </div>
+        </div>
+        <img src="{{project?.images}}" width="300" height="250" class="left frame" itemprop="image">
+        <p innerHTML="{{project?.description}}"></p>
+        <p>В проекте использовалось:</p>
+        <ul class="inside">
+          <li *ngFor="let uses of project?.projectUsed">{{uses}}</li>
+        </ul>
+    </section>
+    <h1>Утилиты</h1>
+    <section class="project" *ngFor="let utility of utilities">
+      <h3>{{utility?.title}}</h3>
+      <div class="tags">
+          <a href="#" *ngFor="let tag of utility?.tags">{{tag}}</a>
+      </div>
+      <img src="{{utility?.images}}" width="300" height="250" class="left frame" itemprop="image">
+      <p innerHTML="{{utility?.description}}"></p>
+    </section>
+    <h1>Хобби</h1>
+    <section class="project" *ngFor="let hobby of hobbies">
+      <h3>{{hobby?.title}}</h3>
+      <div class="tags">
+          <a href="#" *ngFor="let tag of hobby?.tags">{{tag}}</a>
+      </div>
+      <img src="{{hobby?.images}}" width="300" height="250" class="left frame" itemprop="image">
+      <p innerHTML="{{hobby?.description}}"></p>
     </section>
   </div>
 </section>
