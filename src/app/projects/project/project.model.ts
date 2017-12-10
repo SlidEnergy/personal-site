@@ -3,5 +3,5 @@ export class Project {
     tags: string;
     images: string;
     description: string;
-    projectUsedd: string;
+    projectUsed: string;
 }
