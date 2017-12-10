@@ -1,0 +1,12 @@
+<section class="project">
+    <h3>{{project?.title}}</h3>
+    <div class="tags">
+      <a href="#" *ngFor="let tag of project?.tags">{{tag}}</a>
+    </div>
+    <img src="{{project?.images}}" width="300" height="250" class="left frame" itemprop="image">
+    <p innerHTML="{{project?.description}}"></p>
+    <p>В проекте использовалось:</p>
+    <ul class="inside">
+      <li *ngFor="let uses of project?.projectUsed">{{uses}}</li>
+    </ul>
+</section>

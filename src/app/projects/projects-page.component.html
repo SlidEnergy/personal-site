@@ -1,18 +1,10 @@
 <section>
   <div class="wrapper">
     <h1>Основные проекты</h1>
-    <section class="project" *ngFor="let project of projects">
-        <h3>{{project?.title}}</h3>
-        <div class="tags">
-          <a href="#" *ngFor="let tag of project?.tags">{{tag}}</a>
-        </div>
-        <img src="{{project?.images}}" width="300" height="250" class="left frame" itemprop="image">
-        <p innerHTML="{{project?.description}}"></p>
-        <p>В проекте использовалось:</p>
-        <ul class="inside">
-          <li *ngFor="let uses of project?.projectUsed">{{uses}}</li>
-        </ul>
-    </section>
+    <app-project 
+      *ngFor="let project of projects" 
+      [project]="project">
+    </app-project>
     <h1>Утилиты</h1>
     <section class="project" *ngFor="let utility of utilities">
       <h3>{{utility?.title}}</h3>

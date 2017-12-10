@@ -9,11 +9,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutAuthorComponent } from './about-author/about-author.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsPageComponent } from './projects/projects-page.component';
+import { ProjectComponent } from './projects/project/project.component';
 
 const appRoutes: Routes =[
   { path: '', component: AboutAuthorComponent},
-  { path: 'projects', component: ProjectsComponent},
+  { path: 'projects', component: ProjectsPageComponent},
   { path: '**', redirectTo: '/' }
 ];
 
@@ -22,7 +23,8 @@ const appRoutes: Routes =[
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsPageComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

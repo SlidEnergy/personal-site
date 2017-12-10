@@ -2,23 +2,22 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http'; 
 import { HttpModule } from '@angular/http';
 
-import { ProjectsService } from './projects.service';
-import { Project } from './project.model';
+import { ProjectsPageService } from './projects-page.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss'],
-  providers: [ProjectsService],
+  selector: 'app-projects-page',
+  templateUrl: './projects-page.component.html',
+  styleUrls: ['./projects-page.component.scss'],
+  providers: [ProjectsPageService],
   encapsulation: ViewEncapsulation.None
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectsPageComponent implements OnInit {
 
-  projects: Project[] = [];
+  projects;
   utilities;
   hobbies;
 
-  constructor(private httpService: ProjectsService) { }
+  constructor(private httpService: ProjectsPageService) { }
 
   ngOnInit() {
     this.httpService.getProjects().subscribe(data => {
