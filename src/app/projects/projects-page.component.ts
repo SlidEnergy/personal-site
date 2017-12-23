@@ -13,18 +13,31 @@ import { ProjectsPageService } from './projects-page.service';
 })
 export class ProjectsPageComponent implements OnInit {
 
-  projects;
-  utilities;
-  hobbies;
+  projects = [];
+  utilities = [];
+  hobbies = [];
 
   constructor(private httpService: ProjectsPageService) { }
 
   ngOnInit() {
     this.httpService.getProjects().subscribe(data => {
-      this.projects = data["projects"];
-      this.utilities = data["utilities"];
-      this.hobbies = data["hobbies"];
+      this.listByCategory(data);
     });
   }
 
+  listByCategory(projectsList) {
+    projectsList.map((item) => {
+      if (item.category === 'project') {
+        this.projects.push(item);
+      }
+
+      if (item.category === 'utility') {
+        this.utilities.push(item);
+      }
+
+      if (item.category === 'hobby') {
+        this.hobbies.push(item);
+      }
+    });
+  }
 }
