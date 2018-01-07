@@ -4,4 +4,5 @@ export class Project {
     images: string;
     description: string;
     projectUsed: string;
+    category: string;
 }

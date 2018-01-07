@@ -1,8 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http'; 
 import { HttpModule } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
 
 import { ProjectsPageService } from './projects-page.service';
+import { Project } from './project/project.model';
 
 @Component({
   selector: 'app-projects-page',
@@ -13,9 +15,9 @@ import { ProjectsPageService } from './projects-page.service';
 })
 export class ProjectsPageComponent implements OnInit {
 
-  projects = [];
-  utilities = [];
-  hobbies = [];
+  projects: Observable<Project[]>;
+  utilities: Observable<Project[]>;
+  hobbies: Observable<Project[]>;
 
   constructor(private httpService: ProjectsPageService) { }
 
@@ -26,18 +28,8 @@ export class ProjectsPageComponent implements OnInit {
   }
 
   listByCategory(projectsList) {
-    projectsList.map((item) => {
-      if (item.category === 'project') {
-        this.projects.push(item);
-      }
-
-      if (item.category === 'utility') {
-        this.utilities.push(item);
-      }
-
-      if (item.category === 'hobby') {
-        this.hobbies.push(item);
-      }
-    });
+    this.projects = projectsList.filter(item => item.category == 'project');
+    this.utilities = projectsList.filter(item => item.category == 'utility');
+    this.hobbies = projectsList.filter(item => item.category == 'hobby');
   }
 }
