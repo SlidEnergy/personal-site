@@ -4,7 +4,10 @@ import { HttpModule } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
 import { ProjectsPageService } from './projects-page.service';
-import { Project } from './project/project.model';
+import { Project } from './project/project';
+
+import 'rxjs/add/operator/filter';
+import { Category } from '../models/category';
 
 @Component({
   selector: 'app-projects-page',
@@ -14,22 +17,21 @@ import { Project } from './project/project.model';
   encapsulation: ViewEncapsulation.None
 })
 export class ProjectsPageComponent implements OnInit {
-
-  projects: Observable<Project[]>;
-  utilities: Observable<Project[]>;
-  hobbies: Observable<Project[]>;
+  projects$: Observable<Project[]>;
+  categories: Category[];
 
   constructor(private httpService: ProjectsPageService) { }
 
   ngOnInit() {
-    this.httpService.getProjects().subscribe(data => {
-      this.listByCategory(data);
-    });
+    this.projects$ = this.httpService.getProjects();
+    this.initCategories();
   }
 
-  listByCategory(projectsList) {
-    this.projects = projectsList.filter(item => item.category == 'project');
-    this.utilities = projectsList.filter(item => item.category == 'utility');
-    this.hobbies = projectsList.filter(item => item.category == 'hobby');
+  initCategories() {
+    this.categories = [
+      { id: 'project', title: 'Основные проекты' },
+      { id: 'utility', title: 'Утилиты' },
+      { id: 'hobby', title: 'Хобби' },
+    ];
   }
 }

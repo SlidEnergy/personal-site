@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AboutAuthorModule } from './about-author/about-author.module';
@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutAuthorComponent } from './about-author/about-author.component';
 import { ProjectsPageComponent } from './projects/projects-page.component';
 import { ProjectComponent } from './projects/project/project.component';
+import { ProjectFilterPipe } from './projects/project-filter.pipe';
 
 const appRoutes: Routes =[
   { path: '', component: AboutAuthorComponent},
@@ -24,7 +25,8 @@ const appRoutes: Routes =[
     HeaderComponent,
     FooterComponent,
     ProjectsPageComponent,
-    ProjectComponent
+    ProjectComponent,
+    ProjectFilterPipe
   ],
   imports: [
     BrowserModule,

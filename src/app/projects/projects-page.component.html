@@ -1,19 +1,11 @@
 <section>
   <div class="wrapper">
-    <h1>Основные проекты</h1>
-    <app-project 
-      *ngFor="let project of projects" 
-      [project]="project">
-    </app-project>
-    <h1>Утилиты</h1>
-    <app-project 
-      *ngFor="let utility of utilities" 
-      [project]="utility">
-    </app-project>
-    <h1>Хобби</h1>
-    <app-project 
-      *ngFor="let hobby of hobbies" 
-      [project]="hobby">
-    </app-project>
+    <div *ngFor="let category of categories">
+      <h1>{{category.title}}</h1>
+      <app-project 
+        *ngFor="let project of projects$ | async | projectFilter:category.id" 
+        [project]="project">
+      </app-project>
+    </div>
   </div>
 </section>
