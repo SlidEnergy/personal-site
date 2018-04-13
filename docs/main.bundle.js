@@ -136,7 +136,7 @@ var AboutAuthorModule = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/about-me-formal.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"cv\">\r\n    <div class=\"wrapper\">\r\n        <h1>Теперь более <span class=\"nobr\">формально (<a href=\"assets/author/resume_kluchko_michael.pdf\" target=\"_blank\">скачать файл</a>)</span></h1>\r\n        <p>Ключко Михаил Юрьевич, 30 лет.</p>\r\n        <app-contacts></app-contacts>\r\n        <app-prof-skills></app-prof-skills>\r\n        <app-presonal-qual></app-presonal-qual>\r\n        <app-work-exp></app-work-exp>\r\n        <section>\r\n            <h3>Образование</h3>\r\n            <ul>\r\n                <li><u>Магистратура</u> (2009‑2011) Тихоокеанский государственный университет (ТОГУ, бывший ХГТУ).<br> \r\n                    Информатика и вычислительная техника.</li>\r\n                <li><u>Инженер программист</u> (2004‑2009) Тихоокеанский государственный университет (ТОГУ, бывший ХГТУ).<br> Программное обеспечение.</li>\r\n            </ul>\r\n        </section>\r\n        <section>\r\n            <h3>Напишите мне</h3>\r\n            <p>Если у вас есть интересный проект связанный с блокчейном, веб-разработкой, игростроением или вы просто хотите пообщаться на общие темы, пишите.</p>\r\n        </section>\r\n        <section>&nbsp;</section>\r\n    </div>\r\n</div>"
+module.exports = "<div class=\"cv\">\r\n    <div class=\"wrapper\">\r\n        <h1>Теперь более <span class=\"nobr\">формально (<a href=\"assets/author/resume_kluchko_michael.pdf\" target=\"_blank\">скачать файл</a>)</span></h1>\r\n        <p>Ключко Михаил Юрьевич, 30 лет.</p>\r\n        <app-contacts></app-contacts>\r\n        <app-prof-skills></app-prof-skills>\r\n        <app-presonal-qual></app-presonal-qual>\r\n        <app-work-exp></app-work-exp>\r\n        <section>\r\n            <h3>Образование</h3>\r\n            <ul>\r\n                <li><u>Магистратура</u> (2009‑2011) Тихоокеанский государственный университет (ТОГУ, бывший ХГТУ).<br> \r\n                    Информатика и вычислительная техника.</li>\r\n                <li><u>Инженер программист</u> (2004‑2009) Тихоокеанский государственный университет (ТОГУ, бывший ХГТУ).<br> Программное обеспечение.</li>\r\n            </ul>\r\n        </section>\r\n        <section>\r\n            <h3>Напишите мне</h3>\r\n            <p>Если у вас есть интересный проект связанный с блокчейном, веб-разработкой или вы просто хотите пообщаться на общие темы, пишите.</p>\r\n        </section>\r\n        <section>&nbsp;</section>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -148,7 +148,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".cv {\n  padding-top: 30px;\n  background-color: #fff;\n  box-shadow: 0 0 8px 0 #b3b3b3;\n  text-shadow: #fff 0 1px 0; }\n  .cv .wrapper {\n    display: block;\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 0 40px; }\n    .cv .wrapper a {\n      color: #000;\n      padding: 1px 4px;\n      border-radius: 4px;\n      background-clip: padding-box;\n      text-shadow: none;\n      text-decoration: none;\n      background-color: #b5edff; }\n      .cv .wrapper a:hover {\n        background-color: #cff3ff; }\n", ""]);
+exports.push([module.i, ".cv {\n  padding-top: 30px;\n  background-color: #fff;\n  box-shadow: 0 0 8px 0 #b3b3b3;\n  text-shadow: #fff 0 1px 0; }\n  .cv .wrapper {\n    display: block;\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 0 40px; }\n    .cv .wrapper a {\n      color: #000;\n      padding: 1px 4px;\n      border-radius: 4px;\n      background-clip: padding-box;\n      text-shadow: none;\n      text-decoration: none;\n      background-color: #b5edff; }\n      .cv .wrapper a:hover {\n        background-color: #cff3ff; }\n    .cv .wrapper ul {\n      padding-left: 20px; }\n      .cv .wrapper ul li {\n        margin: 4px 0; }\n", ""]);
 
 // exports
 
@@ -319,7 +319,7 @@ var PresonalQualComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю <a>английский язык</a> на уровне чтения и переписки. Пользуюсь системами управления задачами <a>JIRA</a> и <a>Mantis</a>. Работаю преимущественно в среде <a>MS Visual Studio</a> с использованием базы данных <a>MS SQL Server</a>.</p>\r\n    </section>"
+module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю\r\n        <a>английский язык</a> на уровне чтения и переписки. Пользуюсь системами управления задачами\r\n        <a>JIRA</a> и\r\n        <a>Mantis</a>, системами управления версий\r\n        <a>GIT</a> и\r\n        <a>SVN</a>. Работаю в среде\r\n        <a>MS Visual Studio (Code)</a> с базой данных\r\n        <a>MS SQL Server</a>.\r\n    </p>\r\n</section>"
 
 /***/ }),
 
@@ -331,7 +331,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "table {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nth {\n  padding: 0 8px 8px;\n  border-bottom: 1px solid #a0a0a0;\n  text-align: left;\n  font-weight: normal; }\n\ntd:first-child {\n  width: 250px; }\n\ntd {\n  width: 170px;\n  padding: 10px 8px; }\n\ntd:nth-child(1n+2) {\n  border-top: 1px solid #fff;\n  text-shadow: #ececec 0 1px 0; }\n\ntd:nth-child(2) {\n  background-color: #e3f2d2;\n  background-image: linear-gradient(to right, #fff, #e3f2d2); }\n\ntd:nth-child(3) {\n  background-color: #bfe196;\n  background-image: linear-gradient(to right, #e3f2d2, #bfe196); }\n\ntd:last-child {\n  width: 280px;\n  background-color: #a7d56f;\n  background-image: linear-gradient(to right, #bfe196, #a7d56f);\n  border-right: 1px solid #b9b9b9; }\n\na {\n  color: #000;\n  padding: 1px 4px;\n  border-radius: 4px;\n  background-clip: padding-box;\n  text-shadow: none;\n  text-decoration: none;\n  background-color: #b5edff; }\n  a:hover {\n    background-color: #cff3ff; }\n", ""]);
+exports.push([module.i, "table {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nth {\n  padding: 0 8px 8px;\n  border-bottom: 1px solid #a0a0a0;\n  text-align: left;\n  font-weight: normal; }\n\ntd:first-child {\n  width: 250px; }\n\ntd {\n  width: 170px;\n  padding: 10px 8px; }\n\ntd:nth-child(1n+2) {\n  border-top: 1px solid #fff;\n  text-shadow: #ececec 0 1px 0; }\n\ntd:nth-child(2) {\n  background-color: #e3f2d2;\n  background-image: linear-gradient(to right, #fff, #e3f2d2); }\n\ntd:nth-child(3) {\n  background-color: #bfe196;\n  background-image: linear-gradient(to right, #e3f2d2, #bfe196); }\n\ntd:last-child {\n  width: 280px;\n  background-color: #a7d56f;\n  background-image: linear-gradient(to right, #bfe196, #a7d56f);\n  border-right: 1px solid #b9b9b9; }\n\na {\n  color: #000;\n  padding: 1px 4px;\n  border-radius: 4px;\n  background-clip: padding-box;\n  text-shadow: none;\n  text-decoration: none;\n  background-color: #b5edff; }\n  a:hover {\n    background-color: #cff3ff; }\n\n.skills {\n  background-color: #fff;\n  border-bottom: 1px solid #b9b9b9;\n  width: 100%; }\n", ""]);
 
 // exports
 
@@ -360,16 +360,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ProfSkillsComponent = (function () {
     function ProfSkillsComponent() {
         this.progLang = {
-            name: 'Языки программирования и скриптовые языки',
+            name: 'Языки программирования/разметки и скриптовые языки',
             beginner: 'PowerShell',
-            intermediate: 'JavaScript, TypeScript, T-SQL',
+            intermediate: 'JavaScript, TypeScript, T-SQL, HTML, CSS',
             expert: 'C#'
         };
         this.technology = {
             name: 'Технологии',
-            beginner: 'NodeJS, NUnit testing, Entity Framework',
-            intermediate: 'WebApi, sockets, async programming',
-            expert: 'WinForms, ado.net, ASP.NET'
+            beginner: 'NodeJS, Entity Framework',
+            intermediate: 'NUnit testing, sockets',
+            expert: 'WinForms, ado.net, ASP.NET, WebApi, async programming'
         };
         this.visualComponents = {
             name: 'Визуальные компоненты',
@@ -377,31 +377,17 @@ var ProfSkillsComponent = (function () {
             intermediate: '',
             expert: 'DevExpress WinForms/ASP.NET/JS&HTML'
         };
-        this.markupLang = {
-            name: 'Языки разметки',
-            beginner: '',
-            intermediate: 'XML',
-            expert: 'HTML, CSS'
-        };
         this.frameworks = {
             name: 'Фреймворки',
             beginner: 'Bootstrap',
             intermediate: 'AngularJS, Angular 2+',
-            expert: '.NET 4.0'
-        };
-        this.sysVersCtrl = {
-            name: 'Системы контроля версий',
-            beginner: '',
-            intermediate: 'GIT',
-            expert: 'Subversion'
+            expert: '.NET 4.5'
         };
         this.items = [
             this.progLang,
             this.technology,
             this.visualComponents,
-            this.markupLang,
             this.frameworks,
-            this.sysVersCtrl
         ];
     }
     ProfSkillsComponent.prototype.ngOnInit = function () {
@@ -615,12 +601,14 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_author_about_author_component__ = __webpack_require__("../../../../../src/app/about-author/about-author.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__projects_projects_page_component__ = __webpack_require__("../../../../../src/app/projects/projects-page.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__projects_project_project_component__ = __webpack_require__("../../../../../src/app/projects/project/project.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projects_project_filter_pipe__ = __webpack_require__("../../../../../src/app/projects/project-filter.pipe.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -648,7 +636,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_7__header_header_component__["a" /* HeaderComponent */],
                 __WEBPACK_IMPORTED_MODULE_8__footer_footer_component__["a" /* FooterComponent */],
                 __WEBPACK_IMPORTED_MODULE_10__projects_projects_page_component__["a" /* ProjectsPageComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__projects_project_project_component__["a" /* ProjectComponent */]
+                __WEBPACK_IMPORTED_MODULE_11__projects_project_project_component__["a" /* ProjectComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__projects_project_filter_pipe__["a" /* ProjectFilterPipe */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -790,6 +779,40 @@ var HeaderComponent = (function () {
 
 /***/ }),
 
+/***/ "../../../../../src/app/projects/project-filter.pipe.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectFilterPipe; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ProjectFilterPipe = (function () {
+    function ProjectFilterPipe() {
+    }
+    ProjectFilterPipe.prototype.transform = function (projects, category) {
+        if (!projects) {
+            return;
+        }
+        return projects.filter(function (project) { return project.category == category; });
+    };
+    ProjectFilterPipe = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* Pipe */])({
+            name: 'projectFilter'
+        })
+    ], ProjectFilterPipe);
+    return ProjectFilterPipe;
+}());
+
+
+
+/***/ }),
+
 /***/ "../../../../../src/app/projects/project/project.component.html":
 /***/ (function(module, exports) {
 
@@ -821,7 +844,6 @@ module.exports = module.exports.toString();
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__project_model__ = __webpack_require__("../../../../../src/app/projects/project/project.model.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -832,7 +854,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
 var ProjectComponent = (function () {
     function ProjectComponent() {
     }
@@ -840,7 +861,7 @@ var ProjectComponent = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__project_model__["a" /* Project */])
+        __metadata("design:type", Object)
     ], ProjectComponent.prototype, "project", void 0);
     ProjectComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -857,25 +878,10 @@ var ProjectComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/projects/project/project.model.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Project; });
-var Project = (function () {
-    function Project() {
-    }
-    return Project;
-}());
-
-
-
-/***/ }),
-
 /***/ "../../../../../src/app/projects/projects-page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"wrapper\">\r\n    <h1>Основные проекты</h1>\r\n    <app-project \r\n      *ngFor=\"let project of projects\" \r\n      [project]=\"project\">\r\n    </app-project>\r\n    <h1>Утилиты</h1>\r\n    <section class=\"project\" *ngFor=\"let utility of utilities\">\r\n      <h3>{{utility?.title}}</h3>\r\n      <div class=\"tags\">\r\n          <a href=\"#\" *ngFor=\"let tag of utility?.tags\">{{tag}}</a>\r\n      </div>\r\n      <img src=\"{{utility?.images}}\" width=\"300\" height=\"250\" class=\"left frame\" itemprop=\"image\">\r\n      <p innerHTML=\"{{utility?.description}}\"></p>\r\n    </section>\r\n    <h1>Хобби</h1>\r\n    <section class=\"project\" *ngFor=\"let hobby of hobbies\">\r\n      <h3>{{hobby?.title}}</h3>\r\n      <div class=\"tags\">\r\n          <a href=\"#\" *ngFor=\"let tag of hobby?.tags\">{{tag}}</a>\r\n      </div>\r\n      <img src=\"{{hobby?.images}}\" width=\"300\" height=\"250\" class=\"left frame\" itemprop=\"image\">\r\n      <p innerHTML=\"{{hobby?.description}}\"></p>\r\n    </section>\r\n  </div>\r\n</section>"
+module.exports = "<section>\r\n  <div class=\"wrapper\">\r\n    <div *ngFor=\"let category of categories\">\r\n      <h1>{{category.title}}</h1>\r\n      <app-project \r\n        *ngFor=\"let project of projects$ | async | projectFilter:category.id\" \r\n        [project]=\"project\">\r\n      </app-project>\r\n    </div>\r\n  </div>\r\n</section>"
 
 /***/ }),
 
@@ -904,6 +910,7 @@ module.exports = module.exports.toString();
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectsPageComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__projects_page_service__ = __webpack_require__("../../../../../src/app/projects/projects-page.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/filter.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -915,17 +922,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var ProjectsPageComponent = (function () {
     function ProjectsPageComponent(httpService) {
         this.httpService = httpService;
     }
     ProjectsPageComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.httpService.getProjects().subscribe(function (data) {
-            _this.projects = data["projects"];
-            _this.utilities = data["utilities"];
-            _this.hobbies = data["hobbies"];
-        });
+        this.projects$ = this.httpService.getProjects();
+        this.initCategories();
+    };
+    ProjectsPageComponent.prototype.initCategories = function () {
+        this.categories = [
+            { id: 'project', title: 'Основные проекты' },
+            { id: 'utility', title: 'Утилиты' },
+            { id: 'hobby', title: 'Хобби' },
+        ];
     };
     ProjectsPageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -951,6 +962,8 @@ var ProjectsPageComponent = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectsPageService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/share.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -962,12 +975,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 var ProjectsPageService = (function () {
     function ProjectsPageService(http) {
         this.http = http;
     }
     ProjectsPageService.prototype.getProjects = function () {
-        return this.http.get('data/projects.json');
+        return this.http.get('data/projects.json').share();
     };
     ProjectsPageService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
