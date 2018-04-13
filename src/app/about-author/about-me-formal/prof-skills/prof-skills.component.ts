@@ -30,8 +30,8 @@ export class ProfSkillsComponent implements OnInit {
 
   frameworks = {
     name: 'Фреймворки',
-    beginner: 'Bootstrap',
-    intermediate: 'AngularJS, Angular 2+',
+    beginner: 'Bootstrap, AngularJS',
+    intermediate: 'Angular 2+',
     expert: '.NET 4.5'
   };
 
