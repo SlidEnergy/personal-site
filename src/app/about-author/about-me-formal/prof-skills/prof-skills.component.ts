@@ -8,17 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class ProfSkillsComponent implements OnInit {
 
   progLang = {
-    name: 'Языки программирования и скриптовые языки',
+    name: 'Языки программирования/разметки и скриптовые языки',
     beginner: 'PowerShell',
-    intermediate: 'JavaScript, TypeScript, T-SQL',
+    intermediate: 'JavaScript, TypeScript, T-SQL, HTML, CSS',
     expert: 'C#'
   };
 
   technology = {
     name: 'Технологии',
-    beginner: 'NodeJS, NUnit testing, Entity Framework',
-    intermediate: 'WebApi, sockets, async programming',
-    expert: 'WinForms, ado.net, ASP.NET'
+    beginner: 'NodeJS, Entity Framework',
+    intermediate: 'NUnit testing, sockets',
+    expert: 'WinForms, ado.net, ASP.NET, WebApi, async programming'
   };
 
   visualComponents = {
@@ -28,34 +28,18 @@ export class ProfSkillsComponent implements OnInit {
     expert: 'DevExpress WinForms/ASP.NET/JS&HTML'
   };
 
-  markupLang = {
-    name: 'Языки разметки',
-    beginner: '',
-    intermediate: 'XML',
-    expert: 'HTML, CSS'
-  };
-
   frameworks = {
     name: 'Фреймворки',
     beginner: 'Bootstrap',
     intermediate: 'AngularJS, Angular 2+',
-    expert: '.NET 4.0'
-  };
-
-  sysVersCtrl = {
-    name: 'Системы контроля версий',
-    beginner: '',
-    intermediate: 'GIT',
-    expert: 'Subversion'
+    expert: '.NET 4.5'
   };
 
   items = [
     this.progLang,
     this.technology,
     this.visualComponents,
-    this.markupLang,
     this.frameworks,
-    this.sysVersCtrl
   ];
 
   constructor() { }
