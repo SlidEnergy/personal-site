@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    font-family: 'PT Sans',Helvetica,sans-serif;
+    font-family: Roboto, 'PT Sans',Helvetica,sans-serif;
 }
 
 h1, h3 {
@@ -21,6 +21,10 @@ h1, h3 {
 h1 {
     font-size: 2em;
     margin: .67em 0;
+}
+
+h1:first-child {
+    margin-top: 0;
 }
 
 h3 {
