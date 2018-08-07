@@ -141,7 +141,7 @@
         "category": "utility"
     },
     {
-        "title": "Холостяк",
+        "title": "Игра - Холостяк",
         "tags": [
             "hobby",
             "gamedev",
@@ -149,7 +149,19 @@
             "unity3d"
         ],
         "images": "",
-        "description": "",
+        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/unmarried\">Unmarried</a>, <a href=\"https://github.com/SlidEnergy/unmarried\">Проект на GitHub</a></p><p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
+        "category": "hobby"
+    },
+    {
+        "title": "Игра - VirusWar",
+        "tags": [
+            "hobby",
+            "gamedev",
+            "c#",
+            "unity3d"
+        ],
+        "images": "",
+        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/viruswar\">VirusWar</a>, <a href=\"https://github.com/SlidEnergy/viruswar\">Проект на GitHub</a></p><p>Простая игра аркада в стиле virus, в которой нужно развить колонию вирусов и не дать развиться вражеским колониям. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
         "category": "hobby"
     },
     {
@@ -173,7 +185,7 @@
             "frontend"
         ],
         "images": "assets/hobbies/about.png",
-        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/index.html\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/slidenergy.github.io\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь.</p>",
+        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь.</p>",
         "category": "hobby"
     }
 ]
