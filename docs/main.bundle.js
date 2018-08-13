@@ -64,7 +64,7 @@ var AboutAuthorComponent = (function () {
     AboutAuthorComponent.prototype.ngOnInit = function () {
     };
     AboutAuthorComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-about-author',
             template: __webpack_require__("../../../../../src/app/about-author/about-author.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-author.component.scss")]
@@ -111,9 +111,9 @@ var AboutAuthorModule = (function () {
     function AboutAuthorModule() {
     }
     AboutAuthorModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */]
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"]
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_2__about_author_component__["a" /* AboutAuthorComponent */],
@@ -180,7 +180,7 @@ var AboutMeFormalComponent = (function () {
     AboutMeFormalComponent.prototype.ngOnInit = function () {
     };
     AboutMeFormalComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-about-me-formal',
             template: __webpack_require__("../../../../../src/app/about-author/about-me-formal/about-me-formal.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me-formal/about-me-formal.component.scss")]
@@ -241,7 +241,7 @@ var ContactsComponent = (function () {
     ContactsComponent.prototype.ngOnInit = function () {
     };
     ContactsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-contacts',
             template: __webpack_require__("../../../../../src/app/about-author/about-me-formal/contacts/contacts.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me-formal/contacts/contacts.component.scss")]
@@ -302,7 +302,7 @@ var PresonalQualComponent = (function () {
     PresonalQualComponent.prototype.ngOnInit = function () {
     };
     PresonalQualComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-presonal-qual',
             template: __webpack_require__("../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.scss")]
@@ -319,7 +319,7 @@ var PresonalQualComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю\r\n        <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами\r\n        <b>JIRA</b> и\r\n        <b>Mantis</b>, системами управления версий\r\n        <b>GIT</b> и\r\n        <b>SVN</b>. Работаю в среде\r\n        <b>MS Visual Studio (Code)</b> с базой данных\r\n        <b>MS SQL Server</b>.\r\n    </p>\r\n</section>"
+module.exports = "<section>\r\n    <h3>Профессиональные навыки</h3>\r\n    <table class=\"skills\">\r\n        <thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Beginner</th>\r\n                <th>Intermediate</th>\r\n                <th>Expert</th>\r\n            </tr>\r\n        </thead>\r\n        <tbody>\r\n            <tr *ngFor=\"let item of items\">\r\n                <td>{{item.name}}</td>\r\n                <td>{{item.beginner}}</td>\r\n                <td>{{item.intermediate}}</td>\r\n                <td>{{item.expert}}</td>\r\n            </tr>\r\n        </tbody>\r\n    </table>\r\n    <p>Знаю\r\n        <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами\r\n        <b>JIRA</b> и\r\n        <b>Mantis</b>, системами управления версий\r\n        <b>GIT</b> и\r\n        <b>SVN</b>. Работаю в среде\r\n        <b>MS Visual Studio и VS Code</b> с базой данных\r\n        <b>MS SQL Server</b>.\r\n    </p>\r\n</section>"
 
 /***/ }),
 
@@ -381,7 +381,7 @@ var ProfSkillsComponent = (function () {
             name: 'Фреймворки',
             beginner: 'Bootstrap, AngularJS',
             intermediate: 'Angular 2+',
-            expert: '.NET 4.5'
+            expert: '.NET 4.6'
         };
         this.items = [
             this.progLang,
@@ -393,7 +393,7 @@ var ProfSkillsComponent = (function () {
     ProfSkillsComponent.prototype.ngOnInit = function () {
     };
     ProfSkillsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-prof-skills',
             template: __webpack_require__("../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.scss")]
@@ -454,7 +454,7 @@ var WorkExpComponent = (function () {
     WorkExpComponent.prototype.ngOnInit = function () {
     };
     WorkExpComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-work-exp',
             template: __webpack_require__("../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.scss")]
@@ -515,7 +515,7 @@ var AboutMeComponent = (function () {
     AboutMeComponent.prototype.ngOnInit = function () {
     };
     AboutMeComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-about-me',
             template: __webpack_require__("../../../../../src/app/about-author/about-me/about-me.component.html"),
             styles: [__webpack_require__("../../../../../src/app/about-author/about-me/about-me.component.scss")]
@@ -571,7 +571,7 @@ var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
             template: __webpack_require__("../../../../../src/app/app.component.html"),
             styles: [__webpack_require__("../../../../../src/app/app.component.scss")]
@@ -594,14 +594,16 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular_font_awesome__ = __webpack_require__("../../../../angular-font-awesome/angular-font-awesome.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_author_about_author_module__ = __webpack_require__("../../../../../src/app/about-author/about-author.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_author_about_author_component__ = __webpack_require__("../../../../../src/app/about-author/about-author.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__projects_projects_page_component__ = __webpack_require__("../../../../../src/app/projects/projects-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__projects_project_project_component__ = __webpack_require__("../../../../../src/app/projects/project/project.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projects_project_filter_pipe__ = __webpack_require__("../../../../../src/app/projects/project-filter.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ngx_gallery__ = __webpack_require__("../../../../ngx-gallery/bundles/ngx-gallery.umd.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ngx_gallery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_ngx_gallery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_author_about_author_module__ = __webpack_require__("../../../../../src/app/about-author/about-author.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__about_author_about_author_component__ = __webpack_require__("../../../../../src/app/about-author/about-author.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__projects_projects_page_component__ = __webpack_require__("../../../../../src/app/projects/projects-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projects_project_project_component__ = __webpack_require__("../../../../../src/app/projects/project/project.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__projects_project_filter_pipe__ = __webpack_require__("../../../../../src/app/projects/project-filter.pipe.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -621,33 +623,35 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var appRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_9__about_author_about_author_component__["a" /* AboutAuthorComponent */] },
-    { path: 'projects', component: __WEBPACK_IMPORTED_MODULE_10__projects_projects_page_component__["a" /* ProjectsPageComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_10__about_author_about_author_component__["a" /* AboutAuthorComponent */] },
+    { path: 'projects', component: __WEBPACK_IMPORTED_MODULE_11__projects_projects_page_component__["a" /* ProjectsPageComponent */] },
     { path: '**', redirectTo: '/' }
 ];
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__header_header_component__["a" /* HeaderComponent */],
-                __WEBPACK_IMPORTED_MODULE_8__footer_footer_component__["a" /* FooterComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__projects_projects_page_component__["a" /* ProjectsPageComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__projects_project_project_component__["a" /* ProjectComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__projects_project_filter_pipe__["a" /* ProjectFilterPipe */]
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__header_header_component__["a" /* HeaderComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__footer_footer_component__["a" /* FooterComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__projects_projects_page_component__["a" /* ProjectsPageComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__projects_project_project_component__["a" /* ProjectComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__projects_project_filter_pipe__["a" /* ProjectFilterPipe */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
+                __WEBPACK_IMPORTED_MODULE_5_ngx_gallery__["NgxGalleryModule"],
                 __WEBPACK_IMPORTED_MODULE_2_angular_font_awesome__["a" /* AngularFontAwesomeModule */],
-                __WEBPACK_IMPORTED_MODULE_5__about_author_about_author_module__["a" /* AboutAuthorModule */],
+                __WEBPACK_IMPORTED_MODULE_6__about_author_about_author_module__["a" /* AboutAuthorModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["b" /* HttpClientModule */],
                 __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(appRoutes)
             ],
             providers: [],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -704,7 +708,7 @@ var FooterComponent = (function () {
     FooterComponent.prototype.ngOnInit = function () {
     };
     FooterComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-footer',
             template: __webpack_require__("../../../../../src/app/footer/footer.component.html"),
             styles: [__webpack_require__("../../../../../src/app/footer/footer.component.scss")]
@@ -765,7 +769,7 @@ var HeaderComponent = (function () {
     HeaderComponent.prototype.ngOnInit = function () {
     };
     HeaderComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-header',
             template: __webpack_require__("../../../../../src/app/header/header.component.html"),
             styles: [__webpack_require__("../../../../../src/app/header/header.component.scss")]
@@ -802,7 +806,7 @@ var ProjectFilterPipe = (function () {
         return projects.filter(function (project) { return project.category == category; });
     };
     ProjectFilterPipe = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* Pipe */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"])({
             name: 'projectFilter'
         })
     ], ProjectFilterPipe);
@@ -816,7 +820,7 @@ var ProjectFilterPipe = (function () {
 /***/ "../../../../../src/app/projects/project/project.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"project\">\r\n  <h3>{{project?.title}}</h3>\r\n  <div class=\"tags\">\r\n    <a href=\"#\"\r\n       *ngFor=\"let tag of project?.tags\">{{tag}}</a>\r\n  </div>\r\n  <img src=\"{{project?.images}}\"\r\n       width=\"300\"\r\n       height=\"250\"\r\n       class=\"left frame\"\r\n       itemprop=\"image\">\r\n  <p innerHTML=\"{{project?.description}}\"></p>\r\n  <p *ngIf=\"project?.projectUsed\">В проекте использовалось:</p>\r\n  <ul class=\"inside\">\r\n    <li *ngFor=\"let uses of project?.projectUsed\">{{uses}}</li>\r\n  </ul>\r\n</section>"
+module.exports = "<section class=\"project\">\r\n  <h3>{{project?.title}}</h3>\r\n  <div class=\"tags\">\r\n    <a href=\"#\"\r\n       *ngFor=\"let tag of project?.tags\">{{tag}}</a>\r\n  </div>\r\n  <ngx-gallery class=\"gallery\"\r\n               [options]=\"galleryOptions\"\r\n               [images]=\"project?.images\">\r\n  </ngx-gallery>\r\n  <p innerHTML=\"{{project?.description}}\"></p>\r\n  <p *ngIf=\"project?.projectUsed\">В проекте использовалось:</p>\r\n  <ul class=\"inside\">\r\n    <li *ngFor=\"let uses of project?.projectUsed\">{{uses}}</li>\r\n  </ul>\r\n</section>"
 
 /***/ }),
 
@@ -828,7 +832,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".project {\n  min-height: 350px; }\n  .project .tags {\n    margin-bottom: 16px;\n    word-wrap: break-word; }\n    .project .tags a:not(:last-child):after {\n      content: ',';\n      right: -10px;\n      position: relative; }\n  .project .gallery {\n    float: left;\n    margin-right: 15px; }\n  .project ul.inside {\n    list-style-position: inside; }\n  .project a {\n    color: #000;\n    position: relative;\n    margin-right: 10px;\n    padding: 0px 4px;\n    background-color: #beefff;\n    border-radius: 8px;\n    background-clip: padding-box;\n    text-shadow: none;\n    text-decoration: none;\n    border: 1px solid #a5cdef; }\n    .project a:hover {\n      background-color: #cff3ff; }\n", ""]);
 
 // exports
 
@@ -844,6 +848,8 @@ module.exports = module.exports.toString();
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_gallery__ = __webpack_require__("../../../../ngx-gallery/bundles/ngx-gallery.umd.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ngx_gallery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_ngx_gallery__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -854,17 +860,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var ProjectComponent = (function () {
     function ProjectComponent() {
     }
     ProjectComponent.prototype.ngOnInit = function () {
+        this.galleryOptions = [
+            {
+                imageSize: 'contain',
+                imageArrows: this.project.images.length > 1,
+                thumbnails: this.project.images.length > 1,
+                width: '300px',
+                height: '250px',
+                thumbnailsColumns: 3,
+                imageAnimation: __WEBPACK_IMPORTED_MODULE_1_ngx_gallery__["NgxGalleryAnimation"].Slide
+            },
+            // max-width 400
+            {
+                breakpoint: 400,
+                preview: false
+            }
+        ];
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
         __metadata("design:type", Object)
     ], ProjectComponent.prototype, "project", void 0);
     ProjectComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-project',
             template: __webpack_require__("../../../../../src/app/projects/project/project.component.html"),
             styles: [__webpack_require__("../../../../../src/app/projects/project/project.component.scss")]
@@ -893,7 +916,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "section .wrapper {\n  max-width: 1080px;\n  margin: 0 auto;\n  padding: 0 40px; }\n  section .wrapper .project {\n    min-height: 350px; }\n    section .wrapper .project .tags {\n      margin-bottom: 16px;\n      word-wrap: break-word; }\n      section .wrapper .project .tags a:not(:last-child):after {\n        content: ',';\n        right: -10px;\n        position: relative; }\n    section .wrapper .project img.frame {\n      padding: 2px;\n      background-color: #fff;\n      box-shadow: -1px -1px 0 #ececec, inset -1px -1px 5px #b3b3b3;\n      border: 1px solid #b3b3b3;\n      border-radius: 2px;\n      background-clip: padding-box; }\n    section .wrapper .project img.frame.left {\n      margin-right: 15px; }\n    section .wrapper .project .left {\n      float: left; }\n    section .wrapper .project ul.inside {\n      list-style-position: inside; }\n    section .wrapper .project a {\n      color: #000;\n      position: relative;\n      margin-right: 10px;\n      padding: 0px 4px;\n      background-color: #beefff;\n      border-radius: 8px;\n      background-clip: padding-box;\n      text-shadow: none;\n      text-decoration: none;\n      border: 1px solid #a5cdef; }\n      section .wrapper .project a:hover {\n        background-color: #cff3ff; }\n", ""]);
+exports.push([module.i, "section .wrapper {\n  max-width: 1080px;\n  margin: 0 auto;\n  padding: 0 40px; }\n", ""]);
 
 // exports
 
@@ -939,12 +962,12 @@ var ProjectsPageComponent = (function () {
         ];
     };
     ProjectsPageComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-projects-page',
             template: __webpack_require__("../../../../../src/app/projects/projects-page.component.html"),
             styles: [__webpack_require__("../../../../../src/app/projects/projects-page.component.scss")],
             providers: [__WEBPACK_IMPORTED_MODULE_1__projects_page_service__["a" /* ProjectsPageService */]],
-            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewEncapsulation */].None
+            encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__projects_page_service__["a" /* ProjectsPageService */]])
     ], ProjectsPageComponent);
@@ -985,7 +1008,7 @@ var ProjectsPageService = (function () {
         return this.http.get('data/projects.json').share();
     };
     ProjectsPageService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
     ], ProjectsPageService);
     return ProjectsPageService;
@@ -1046,7 +1069,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* enableProdMode */])();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */])
     .catch(function (err) { return console.log(err); });
