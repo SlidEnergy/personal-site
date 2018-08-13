@@ -32,7 +32,7 @@ export class ProfSkillsComponent implements OnInit {
     name: 'Фреймворки',
     beginner: 'Bootstrap, AngularJS',
     intermediate: 'Angular 2+',
-    expert: '.NET 4.5'
+    expert: '.NET 4.6'
   };
 
   items = [

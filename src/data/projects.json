@@ -4,12 +4,13 @@
         "tags": [
             "web",
             "c#",
-            "javascript",
-            "angular",
-            "devexpress",
             "frontend",
             "backend",
-            "lers"
+            "lers",
+            "aspnet",
+            "javascript",
+            "angular",
+            "devexpress"
         ],
         "images": [
             {
@@ -39,10 +40,10 @@
     {
         "title": "Рабочее место оператора + сервер",
         "tags": [
-            "c#",
-            "devexpress",
-            "lers",
             "winforms",
+            "c#",
+            "lers",
+            "devexpress",
             "t-sql",
             "teamwork",
             "windows-services"
@@ -56,8 +57,8 @@
         ],
         "description": "<p>Рабочее место оператора и сервер являются частями системы диспетчирезации ЛЭРС УЧЕТ.</p><p>Работа над рабочим местом оператора позволило компании <u>поддерживать свои услуги на современном уровне</u>, постоянно <u>расширяя функциональные возможности</u> продаваемого комплекса. Что в свою очередь <u>выделило програмный продукт среди конкурентов</u> и сделало <u>имя компании узнаваемым</u> в своей сфере.</p><p>Получен опыт работы в команде.</p>",
         "projectUsed": [
-            "WinForms, C#, async programming, sockets, windows servises, ado.net, t-sql",
-            "Библиотеки: .NET 4.6, Entity Framework, Newtonsoft",
+            "WinForms, C#, async programming, sockets, windows services, ado.net, t-sql",
+            "Библиотеки: Entity Framework, Newtonsoft",
             "Компоненты: DevExpress WinForms"
         ],
         "category": "project"
@@ -65,12 +66,12 @@
     {
         "title": "Фреймворк + веб-сервис soap + сервис REST Api",
         "tags": [
+            "web",
             "c#",
+            "backend",
             "api",
             "lers",
-            "teamwork",
-            "web",
-            "backend"
+            "teamwork"
         ],
         "images": [
             {
@@ -81,27 +82,25 @@
         ],
         "description": "<p>Были разработаны: фреймворк, веб-сервис soap, сервис REST Api и система внешних модулей для взаимодействия программного продукта с другими системами.</p><p>Багодаря разработки фреймворка удалось <u>упростить и стандартизировать взаимодействие компонентов</u> системы, что в свою учередь <u>ускорило дальнейшую разработку</u> программного продукта и дало возможность расширять функциональность системы под свои нужны.</p><p>В результате интеграции с другими системами, компания смогла <u>войти в занятый сектор рынка</u>, <u>увеличить количество клиентов и продаж</u>, <u>увеличить узнаваемость программного продукта</u>.</p><p>Получен опыт разработки больших проектов с нуля и опыт работы в команде.</p>",
         "projectUsed": [
-            "Фреймворк: .NET 4.6, C#, async programming, sockets",
-            "Веб-сервис xml/soap/json: .NET 4.6, C#, asmx web services",
-            "Веб-сервис REST Api: .NET 4.6, C#, WebApi",
-            "Система внешних модулей: .NET 4.6, C#"
+            "Фреймворк: C#, async programming, sockets",
+            "Веб-сервисы: C#, asmx web services, WebApi, Swagger, OpenApi"
         ],
         "category": "project"
     },
     {
         "title": "Менеджер лицензий + сайт + сервер",
         "tags": [
-            "c#",
-            "t-sql",
             "web",
-            "devexpress",
-            "javascript",
+            "c#",
             "frontend",
             "backend",
             "lers",
+            "t-sql",
+            "devexpress",
             "pipes",
             "windows-services",
-            "winforms"
+            "winforms",
+            "aspnet"
         ],
         "images": [
             {
@@ -110,22 +109,26 @@
                 "big": "assets/projects/lers-license/main.png"
             }
         ],
-        "description": "",
-        "projectUsed": [],
+        "description": "<p>Я разработал комплекс программного ПО, при помощи которого компания смогла <u>автоматизировать работу</u> с лицензиями и <u>перевести программный продукт на новую модель</u> активации и проверки лицензии на сервере. В результате, это позволило <u>нанять отдел продаж</u> и <u>делегировать им все работу</u> с лицензиями.</p><p>Модель активации позволила <u>значительно уменьшить количество неправомерного использования</u> программного продукта.</p>",
+        "projectUsed": [
+            "Менеджер лицензий: WinForms, C#, pipes, DevExpress",
+            "Сайт: ASP.NET WebForms/MVC, pipes, DevExpress/DevExtreme, asp.net handlers",
+            "Сервер лицензий: C#, pipes, windows services, ado.net, t-sql"
+        ],
         "category": "project"
     },
     {
         "title": "Сервер телеметрии + сайт",
         "tags": [
-            "c#",
-            "t-sql",
             "web",
-            "devexpress",
-            "javascript",
-            "angular",
+            "c#",
             "frontend",
             "backend",
             "lers",
+            "t-sql",
+            "devexpress",
+            "javascript",
+            "angular",
             "teamwork"
         ],
         "images": [
@@ -142,11 +145,11 @@
     {
         "title": "Информационная система в здравоохранении + утилита (2010 год)",
         "tags": [
-            "t-sql",
+            "winforms",
             "c#",
-            "devexpress",
             "miac",
-            "winforms"
+            "devexpress",
+            "t-sql"
         ],
         "images": [
             {
@@ -166,9 +169,9 @@
         "title": "Утилита настройки модемов",
         "tags": [
             "utils",
+            "winforms",
             "c#",
-            "lers",
-            "winforms"
+            "lers"
         ],
         "images": [
             {
@@ -184,9 +187,9 @@
         "title": "Утилита восстановления базы данных",
         "tags": [
             "utils",
+            "winforms",
             "c#",
-            "lers",
-            "winforms"
+            "lers"
         ],
         "images": [
             {
@@ -254,9 +257,9 @@
         "tags": [
             "hobby",
             "web",
-            "angular",
-            "devexpress",
-            "frontend"
+            "frontend",
+            "angularjs",
+            "devexpress"
         ],
         "images": [
             {
@@ -265,7 +268,7 @@
                 "big": "assets/projects/lifecalendar/main.png"
             }
         ],
-        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/life-calendar\">Life calendar</a>, <a href=\"https://github.com/SlidEnergy/life-calendar\">Проект на GitHub</a></p><p>Интерактивный онлайн календарь всей вашей жизни в неделях. На данном проекте, я обкатал технологию работы с angularjs и DevExtreme компонентами.</p>",
+        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/life-calendar\">Life calendar</a>, <a href=\"https://github.com/SlidEnergy/life-calendar\">Проект на GitHub</a></p><p>Интерактивный онлайн календарь всей вашей жизни в неделях. На данном проекте, я обкатал технологию работы с AngularJS и DevExtreme компонентами.</p>",
         "category": "hobby"
     },
     {
@@ -273,7 +276,8 @@
         "tags": [
             "hobby",
             "web",
-            "frontend"
+            "frontend",
+            "angular"
         ],
         "images": [
             {
@@ -282,7 +286,7 @@
                 "big": "assets/projects/personalsite/main.png"
             }
         ],
-        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь.</p>",
+        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>",
         "category": "hobby"
     }
 ]
