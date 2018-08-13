@@ -11,7 +11,23 @@
             "backend",
             "lers"
         ],
-        "images": "assets/projects/lers-web/main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-web/main.png",
+                "medium": "assets/projects/lers-web/main.png",
+                "big": "assets/projects/lers-web/main.png"
+            },
+            {
+                "small": "assets/projects/lers-web/report.png",
+                "medium": "assets/projects/lers-web/report.png",
+                "big": "assets/projects/lers-web/report.png"
+            },
+            {
+                "small": "assets/projects/lers-web/incidents.png",
+                "medium": "assets/projects/lers-web/incidents.png",
+                "big": "assets/projects/lers-web/incidents.png"
+            }
+        ],
         "description": "<p>Веб-интерфейс является частью системы диспетчирезации ЛЭРС УЧЕТ.</p><p>С помощью веб-сайта удалось охватить <u>новую аудиторию пользователей</u>, которые  были не готовы устанавливать отдельное приложение. Его наличие позволило компании предоставлять услуги конечным пользователям. Дополнительная аудитория <u>увеличила общее кол-во пользователей</u> в несколько раз.</p><p>Разработка мобильной версии веб-сайта дало возможность обслуживающим инженерам решать рабочие задачи во время выезда, находясь непосредственно на объекте. Это сильно <u>сэкономило их время</u> на повторные выезды до удаленных объектов, рсположенных на расстоянии десятки и сотни километров. Компания смогла <u>сократить штат</u> выездных сотрудников в несколько раз.</p><p>Получен опыт разработки большого проекта с нуля.</p>",
         "projectUsed": [
             "ASP.NET WebForms/MVC, HTML, JavaScript",
@@ -31,7 +47,13 @@
             "teamwork",
             "windows-services"
         ],
-        "images": "assets/projects/lers-client/main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-client/main.png",
+                "medium": "assets/projects/lers-client/main.png",
+                "big": "assets/projects/lers-client/main.png"
+            }
+        ],
         "description": "<p>Рабочее место оператора и сервер являются частями системы диспетчирезации ЛЭРС УЧЕТ.</p><p>Работа над рабочим местом оператора позволило компании <u>поддерживать свои услуги на современном уровне</u>, постоянно <u>расширяя функциональные возможности</u> продаваемого комплекса. Что в свою очередь <u>выделило програмный продукт среди конкурентов</u> и сделало <u>имя компании узнаваемым</u> в своей сфере.</p><p>Получен опыт работы в команде.</p>",
         "projectUsed": [
             "WinForms, C#, async programming, sockets, windows servises, ado.net, t-sql",
@@ -50,7 +72,13 @@
             "web",
             "backend"
         ],
-        "images": "assets/projects/lers-webapi/swagger.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-webapi/swagger.png",
+                "medium": "assets/projects/lers-webapi/swagger.png",
+                "big": "assets/projects/lers-webapi/swagger.png"
+            }
+        ],
         "description": "<p>Были разработаны: фреймворк, веб-сервис soap, сервис REST Api и система внешних модулей для взаимодействия программного продукта с другими системами.</p><p>Багодаря разработки фреймворка удалось <u>упростить и стандартизировать взаимодействие компонентов</u> системы, что в свою учередь <u>ускорило дальнейшую разработку</u> программного продукта и дало возможность расширять функциональность системы под свои нужны.</p><p>В результате интеграции с другими системами, компания смогла <u>войти в занятый сектор рынка</u>, <u>увеличить количество клиентов и продаж</u>, <u>увеличить узнаваемость программного продукта</u>.</p><p>Получен опыт разработки больших проектов с нуля и опыт работы в команде.</p>",
         "projectUsed": [
             "Фреймворк: .NET 4.6, C#, async programming, sockets",
@@ -75,7 +103,13 @@
             "windows-services",
             "winforms"
         ],
-        "images": "assets/projects/lers-license/main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-license/main.png",
+                "medium": "assets/projects/lers-license/main.png",
+                "big": "assets/projects/lers-license/main.png"
+            }
+        ],
         "description": "",
         "projectUsed": [],
         "category": "project"
@@ -94,7 +128,13 @@
             "lers",
             "teamwork"
         ],
-        "images": "assets/projects/lers-telemetry/main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-telemetry/main.png",
+                "medium": "assets/projects/lers-telemetry/main.png",
+                "big": "assets/projects/lers-telemetry/main.png"
+            }
+        ],
         "description": "",
         "projectUsed": [],
         "category": "project"
@@ -108,7 +148,13 @@
             "miac",
             "winforms"
         ],
-        "images": "assets/projects/miac/main.jpg",
+        "images": [
+            {
+                "small": "assets/projects/miac/main.jpg",
+                "medium": "assets/projects/miac/main.jpg",
+                "big": "assets/projects/miac/main.jpg"
+            }
+        ],
         "description": "<p>Сайт: <a class=\"site\" href=\"http://www.fesmu.ru/voz/20101/2010108.aspx\">Статья в вестнике общественного здоровья и здравоохранения Дальнего Востока России 2010 год №1</a></p><p>Был разработан модуль и утилита для формирования персонифицированных заявок на льготные лекарственные препараты.</p><p>Внедренние информационной системы в деятельность муниципальных учреждений здравоохранения позволила оптимизировать формирование заявки на лекарственные средства с точки зрения их приоритетности и экономии финансовых средств в условиях лимита финансирования, ограничив количество малоприоритетных препаратов. Это <u>сократило стоимость сводной потребности</u> в лекарственных средствах по городу.</p><p>Таким образом, благодаря внедрению информационной системы, <u>оптимизировано планирование лекарственных препаратов</u> по программе государственной социальной помощи, <u>обеспечена \"адресная\" лекарственная помощь</u>, что в конечном итоге <u>повысило удовлетворенность населения</u> льготным лекарственным обеспечением.</p>",
         "projectUsed": [
             "T-SQL, .NET WinForm",
@@ -124,7 +170,13 @@
             "lers",
             "winforms"
         ],
-        "images": "assets/utilities/modemTune-main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-modemtune/main.png",
+                "medium": "assets/projects/lers-modemtune/main.png",
+                "big": "assets/projects/lers-modemtune/main.png"
+            }
+        ],
         "description": "<p>Я разработал утилиту, с помощью которой автоматизировал сложную схему настройки различных модемов для их работы со всеми поддерживаемыми приборами учета.</p><p>Это позволило <u>сократить время ввода</u> в эксплуатацию в десятки и сотни раз и <u>понизить уровень входа</u> с узкоспециализированного специалиста до уровня пользователя ПК.</p>",
         "category": "utility"
     },
@@ -136,7 +188,13 @@
             "lers",
             "winforms"
         ],
-        "images": "assets/projects/lers-databaserestore/main.png",
+        "images": [
+            {
+                "small": "assets/projects/lers-databaserestore/main.png",
+                "medium": "assets/projects/lers-databaserestore/main.png",
+                "big": "assets/projects/lers-databaserestore/main.png"
+            }
+        ],
         "description": "<p>Я разработал утилиту, с помощью которой автоматизировал восстановление базы данных.</p><p>Это позволило <u>затрачивать меньше времени</u> на обслуживание системы и <u>понизить уровень входа</u> с узкоспециализированного специалиста до уровня пользователя ПК.</p>",
         "category": "utility"
     },
@@ -148,7 +206,23 @@
             "c#",
             "unity3d"
         ],
-        "images": "assets/projects/unmarried/main.jpg",
+        "images": [
+            {
+                "small": "assets/projects/unmarried/main.jpg",
+                "medium": "assets/projects/unmarried/main.jpg",
+                "big": "assets/projects/unmarried/main.jpg"
+            },
+            {
+                "small": "assets/projects/unmarried/lose.jpg",
+                "medium": "assets/projects/unmarried/lose.jpg",
+                "big": "assets/projects/unmarried/lose.jpg"
+            },
+            {
+                "small": "assets/projects/unmarried/menu.jpg",
+                "medium": "assets/projects/unmarried/menu.jpg",
+                "big": "assets/projects/unmarried/menu.jpg"
+            }
+        ],
         "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/unmarried\">Unmarried</a>, <a href=\"https://github.com/SlidEnergy/unmarried\">Проект на GitHub</a></p><p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
         "category": "hobby"
     },
@@ -160,7 +234,18 @@
             "c#",
             "unity3d"
         ],
-        "images": "assets/projects/viruswar/win.jpg",
+        "images": [
+            {
+                "small": "assets/projects/viruswar/win.jpg",
+                "medium": "assets/projects/viruswar/win.jpg",
+                "big": "assets/projects/viruswar/win.jpg"
+            },
+            {
+                "small": "assets/projects/viruswar/lose.jpg",
+                "medium": "assets/projects/viruswar/lose.jpg",
+                "big": "assets/projects/viruswar/lose.jpg"
+            }
+        ],
         "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/viruswar\">VirusWar</a>, <a href=\"https://github.com/SlidEnergy/viruswar\">Проект на GitHub</a></p><p>Простая игра аркада в стиле virus, в которой нужно развить колонию вирусов и не дать развиться вражеским колониям. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
         "category": "hobby"
     },
@@ -173,7 +258,13 @@
             "devexpress",
             "frontend"
         ],
-        "images": "assets/hobbies/lifecalendar-main.png",
+        "images": [
+            {
+                "small": "assets/projects/lifecalendar/main.png",
+                "medium": "assets/projects/lifecalendar/main.png",
+                "big": "assets/projects/lifecalendar/main.png"
+            }
+        ],
         "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/life-calendar\">Life calendar</a>, <a href=\"https://github.com/SlidEnergy/life-calendar\">Проект на GitHub</a></p><p>Интерактивный онлайн календарь всей вашей жизни в неделях. На данном проекте, я обкатал технологию работы с angularjs и DevExtreme компонентами.</p>",
         "category": "hobby"
     },
@@ -184,7 +275,13 @@
             "web",
             "frontend"
         ],
-        "images": "assets/hobbies/about.png",
+        "images": [
+            {
+                "small": "assets/projects/personalsite/main.png",
+                "medium": "assets/projects/personalsite/main.png",
+                "big": "assets/projects/personalsite/main.png"
+            }
+        ],
         "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь.</p>",
         "category": "hobby"
     }

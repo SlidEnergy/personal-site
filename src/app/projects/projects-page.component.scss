@@ -5,58 +5,5 @@ section {
         max-width: $wrap-width;
         margin: $wrap-margin;
         padding: $wrap-padding;
-
-        .project {
-            min-height: 350px;
-
-            .tags {
-                margin-bottom: 16px;
-                word-wrap: break-word;
-
-                a:not(:last-child):after {
-                    content: ',';
-                    right: -10px;
-                    position: relative;
-                }
-            }
-
-            img.frame {
-                padding: 2px;
-                background-color: #fff;
-                box-shadow: -1px -1px 0 #ececec, inset -1px -1px 5px #b3b3b3;
-                border: 1px solid #b3b3b3;
-                border-radius: 2px;
-                background-clip: padding-box;
-            }
-
-            img.frame.left {
-                margin-right: 15px;
-            }
-
-            .left {
-                float: left;
-            }
-
-            ul.inside {
-                list-style-position: inside;
-            }
-
-            a {
-                color: #000;
-                position: relative;
-                margin-right: 10px;
-                padding: 0px 4px;
-                background-color: #beefff;
-                border-radius: 8px;
-                background-clip: padding-box;
-                text-shadow: none;
-                text-decoration: none;
-                border: 1px solid #a5cdef;
-            
-                &:hover {
-                    background-color: #cff3ff;
-                }
-            }
-        }
     }
 }

@@ -4,6 +4,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { HttpClientModule } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
 
+import { NgxGalleryModule } from 'ngx-gallery';
+
 import { AboutAuthorModule } from './about-author/about-author.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,9 +15,9 @@ import { ProjectsPageComponent } from './projects/projects-page.component';
 import { ProjectComponent } from './projects/project/project.component';
 import { ProjectFilterPipe } from './projects/project-filter.pipe';
 
-const appRoutes: Routes =[
-  { path: '', component: AboutAuthorComponent},
-  { path: 'projects', component: ProjectsPageComponent},
+const appRoutes: Routes = [
+  { path: '', component: AboutAuthorComponent },
+  { path: 'projects', component: ProjectsPageComponent },
   { path: '**', redirectTo: '/' }
 ];
 
@@ -30,6 +32,7 @@ const appRoutes: Routes =[
   ],
   imports: [
     BrowserModule,
+    NgxGalleryModule,
     AngularFontAwesomeModule,
     AboutAuthorModule,
     HttpClientModule,

@@ -4,11 +4,10 @@
     <a href="#"
        *ngFor="let tag of project?.tags">{{tag}}</a>
   </div>
-  <img src="{{project?.images}}"
-       width="300"
-       height="250"
-       class="left frame"
-       itemprop="image">
+  <ngx-gallery class="gallery"
+               [options]="galleryOptions"
+               [images]="project?.images">
+  </ngx-gallery>
   <p innerHTML="{{project?.description}}"></p>
   <p *ngIf="project?.projectUsed">В проекте использовалось:</p>
   <ul class="inside">
