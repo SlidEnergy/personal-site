@@ -1,26 +1,23 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { HttpModule } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
-import { ProjectsPageService } from './projects-page.service';
-import { Project } from './project/project';
+import { ProjectsService } from './api/projects.service';
+import { Project } from './api/project';
 
 import 'rxjs/add/operator/filter';
-import { Category } from '../models/category';
 
 @Component({
   selector: 'app-projects-page',
   templateUrl: './projects-page.component.html',
   styleUrls: ['./projects-page.component.scss'],
-  providers: [ProjectsPageService],
+  providers: [ProjectsService],
   encapsulation: ViewEncapsulation.None
 })
 export class ProjectsPageComponent implements OnInit {
   projects$: Observable<Project[]>;
   selectedTag?: string;
 
-  constructor(private httpService: ProjectsPageService) { }
+  constructor(private httpService: ProjectsService) { }
 
   ngOnInit() {
     this.projects$ = this.httpService.getProjects();

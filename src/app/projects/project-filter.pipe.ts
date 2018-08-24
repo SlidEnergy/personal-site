@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Project } from './project/project';
+import { Project } from './api/project';
 
 @Pipe({
   name: 'projectFilter'
