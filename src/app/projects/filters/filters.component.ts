@@ -10,7 +10,6 @@ import { Observable } from 'rxjs/Observable';
 })
 export class FiltersComponent implements OnInit {
 
-  selectedTag?: string;
   filterVisible = false;
   tagsByCategory: Observable<{ text: string, tags: string[] }[]>;
   mainCategories = [
@@ -32,15 +31,13 @@ export class FiltersComponent implements OnInit {
     }
   ];
 
-  @Input('selectedTag') set selectedTagInput(value: string) {
-    this.selectedTag = value;
-  }
+  @Input() selectedTag?: string;
 
-  @Output() selectedTagChange = new EventEmitter<string>();
+  @Output() tagClicked = new EventEmitter<string>();
 
   tag_click(value: string) {
     this.selectedTag = value;
-    this.selectedTagChange.emit(value);
+    this.tagClicked.emit(value);
   }
 
   constructor(tagsService: TagsService) {

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { AboutAuthorComponent } from './about-author.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -11,7 +12,8 @@ import { WorkExpComponent } from './about-me-formal/work-exp/work-exp.component'
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     AboutAuthorComponent,

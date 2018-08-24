@@ -1,9 +1,11 @@
-<app-filters [(selectedTag)]="selectedTag"></app-filters>
+<app-filters [selectedTag]="selectedTag"
+             (tagClicked)="tag_click($event)"></app-filters>
 <div class="projects">
   <div class="wrapper">
     <h1>Список проектов ({{selectedTag ? selectedTag : 'все'}})</h1>
     <app-project *ngFor="let project of projects$ | async | projectFilter:selectedTag"
-                 [project]="project">
+                 [project]="project"
+                 (tagClicked)="tag_click($event)">
     </app-project>
     <section>&nbsp;</section>
   </div>

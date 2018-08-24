@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Project } from '../api/project';
 
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
@@ -14,6 +14,7 @@ export class ProjectComponent implements OnInit {
   galleryImages: NgxGalleryImage[];
 
   @Input() project: Project;
+  @Output() tagClicked = new EventEmitter<string>();
 
   constructor() { }
 

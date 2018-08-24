@@ -5,6 +5,7 @@ import { ProjectsService } from './api/projects.service';
 import { Project } from './api/project';
 
 import 'rxjs/add/operator/filter';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-projects-page',
@@ -17,9 +18,19 @@ export class ProjectsPageComponent implements OnInit {
   projects$: Observable<Project[]>;
   selectedTag?: string;
 
-  constructor(private httpService: ProjectsService) { }
+  constructor(
+    private httpService: ProjectsService,
+    private router: Router,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit() {
+    this.route.fragment.subscribe(fragment => { this.selectedTag = fragment; });
     this.projects$ = this.httpService.getProjects();
+  }
+
+  tag_click(tag: string) {
+    this.selectedTag = tag;
+    this.router.navigate(['/projects'], { fragment: tag });
   }
 }

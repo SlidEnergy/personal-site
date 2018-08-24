@@ -1,0 +1,24 @@
+ a {
+    color: #000;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 0px 4px;
+    background-color: #beefff;
+    border-radius: 8px;
+    background-clip: padding-box;
+    text-shadow: none;
+    text-decoration: none;
+    border: 1px solid #a5cdef;
+    display: inline-block;
+
+    &:hover {
+        background-color: #cff3ff;
+    }
+
+    &:not(:last-child):after {
+        content: ',';
+        right: -10px;
+        position: relative;
+    }
+}

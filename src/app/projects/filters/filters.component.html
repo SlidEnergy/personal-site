@@ -16,10 +16,10 @@
          *ngFor="let category of tagsByCategory | async">
       <p>{{category.text}}</p>
       <div class="tags">
-        <a *ngFor="let tag of category.tags"
-           href="javascript:void(0);"
-           (click)="tag_click(tag)"
-           class="tag">{{tag}}</a>
+        <app-tag *ngFor="let tag of category.tags"
+                 [tag]="tag"
+                 (click)="tag_click(tag)"
+                 class="tag">{{tag}}</app-tag>
       </div>
     </div>
   </div>

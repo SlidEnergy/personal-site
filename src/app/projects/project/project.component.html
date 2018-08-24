@@ -1,16 +1,18 @@
 <section class="project">
-  <h3>{{project?.title}}</h3>
+  <h3>{{project.title}}</h3>
   <div class="tags">
-    <a href="#"
-       *ngFor="let tag of project?.tags">{{tag}}</a>
+    <app-tag href="#"
+             *ngFor="let tag of project.tags"
+             (click)="tagClicked.emit(tag)"
+             [tag]="tag"></app-tag>
   </div>
   <ngx-gallery class="gallery"
                [options]="galleryOptions"
-               [images]="project?.images">
+               [images]="project.images">
   </ngx-gallery>
-  <p innerHTML="{{project?.description}}"></p>
-  <p *ngIf="project?.projectUsed">В проекте использовалось:</p>
+  <p innerHTML="{{project.description}}"></p>
+  <p *ngIf="project.projectUsed">В проекте использовалось:</p>
   <ul class="inside">
-    <li *ngFor="let uses of project?.projectUsed">{{uses}}</li>
+    <li *ngFor="let uses of project.projectUsed">{{uses}}</li>
   </ul>
 </section>

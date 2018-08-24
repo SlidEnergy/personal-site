@@ -15,6 +15,7 @@ import { ProjectsPageComponent } from './projects/projects-page.component';
 import { ProjectComponent } from './projects/project/project.component';
 import { ProjectFilterPipe } from './projects/project-filter.pipe';
 import { FiltersComponent } from './projects/filters/filters.component';
+import { TagComponent } from './shared/tag/tag.component';
 
 const appRoutes: Routes = [
   { path: '', component: AboutAuthorComponent },
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     ProjectsPageComponent,
     ProjectComponent,
     ProjectFilterPipe,
-    FiltersComponent
+    FiltersComponent,
+    TagComponent
   ],
   imports: [
     BrowserModule,
