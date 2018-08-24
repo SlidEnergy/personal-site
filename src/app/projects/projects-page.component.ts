@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { HttpClient } from '@angular/common/http'; 
+import { HttpClient } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
@@ -18,20 +18,11 @@ import { Category } from '../models/category';
 })
 export class ProjectsPageComponent implements OnInit {
   projects$: Observable<Project[]>;
-  categories: Category[];
+  selectedTag?: string;
 
   constructor(private httpService: ProjectsPageService) { }
 
   ngOnInit() {
     this.projects$ = this.httpService.getProjects();
-    this.initCategories();
-  }
-
-  initCategories() {
-    this.categories = [
-      { id: 'project', title: 'Основные проекты' },
-      { id: 'utility', title: 'Утилиты' },
-      { id: 'hobby', title: 'Хобби' },
-    ];
   }
 }

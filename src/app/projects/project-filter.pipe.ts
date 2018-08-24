@@ -6,12 +6,16 @@ import { Project } from './project/project';
 })
 export class ProjectFilterPipe implements PipeTransform {
 
-  transform(projects: Project[], category: string): Project[] {
+  transform(projects: Project[], tag: string): Project[] {
     if (!projects) {
       return;
     }
 
-    return projects.filter(project => project.category == category);
+    if (!tag) {
+      return projects;
+    }
+
+    return projects.filter(project => project.tags.includes(tag));
   }
 
 }
