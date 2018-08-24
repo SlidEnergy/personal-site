@@ -85,13 +85,14 @@ var AboutAuthorComponent = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutAuthorModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_author_component__ = __webpack_require__("../../../../../src/app/about-author/about-author.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_me_about_me_component__ = __webpack_require__("../../../../../src/app/about-author/about-me/about-me.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_me_formal_about_me_formal_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/about-me-formal.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_me_formal_contacts_contacts_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/contacts/contacts.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_me_formal_prof_skills_prof_skills_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_me_formal_presonal_qual_presonal_qual_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_me_formal_work_exp_work_exp_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_author_component__ = __webpack_require__("../../../../../src/app/about-author/about-author.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__about_me_about_me_component__ = __webpack_require__("../../../../../src/app/about-author/about-me/about-me.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_me_formal_about_me_formal_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/about-me-formal.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_me_formal_contacts_contacts_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/contacts/contacts.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_me_formal_prof_skills_prof_skills_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_me_formal_presonal_qual_presonal_qual_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_me_formal_work_exp_work_exp_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -107,22 +108,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AboutAuthorModule = (function () {
     function AboutAuthorModule() {
     }
     AboutAuthorModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"]
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_2__angular_router__["c" /* RouterModule */]
             ],
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__about_author_component__["a" /* AboutAuthorComponent */],
-                __WEBPACK_IMPORTED_MODULE_3__about_me_about_me_component__["a" /* AboutMeComponent */],
-                __WEBPACK_IMPORTED_MODULE_4__about_me_formal_about_me_formal_component__["a" /* AboutMeFormalComponent */],
-                __WEBPACK_IMPORTED_MODULE_5__about_me_formal_contacts_contacts_component__["a" /* ContactsComponent */],
-                __WEBPACK_IMPORTED_MODULE_6__about_me_formal_prof_skills_prof_skills_component__["a" /* ProfSkillsComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__about_me_formal_presonal_qual_presonal_qual_component__["a" /* PresonalQualComponent */],
-                __WEBPACK_IMPORTED_MODULE_8__about_me_formal_work_exp_work_exp_component__["a" /* WorkExpComponent */]
+                __WEBPACK_IMPORTED_MODULE_3__about_author_component__["a" /* AboutAuthorComponent */],
+                __WEBPACK_IMPORTED_MODULE_4__about_me_about_me_component__["a" /* AboutMeComponent */],
+                __WEBPACK_IMPORTED_MODULE_5__about_me_formal_about_me_formal_component__["a" /* AboutMeFormalComponent */],
+                __WEBPACK_IMPORTED_MODULE_6__about_me_formal_contacts_contacts_component__["a" /* ContactsComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__about_me_formal_prof_skills_prof_skills_component__["a" /* ProfSkillsComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__about_me_formal_presonal_qual_presonal_qual_component__["a" /* PresonalQualComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__about_me_formal_work_exp_work_exp_component__["a" /* WorkExpComponent */]
             ]
         })
     ], AboutAuthorModule);
@@ -410,7 +413,7 @@ var ProfSkillsComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <h3>Опыт работы</h3>\r\n  <ul>\r\n    <li>\r\n      Дополнительно: ИП с 2012 года, репетиторство, наставничество и работа на иностранные компании.\r\n    </li>\r\n    <li>\r\n      ООО \"ЛЭРС УЧЕТ\" (2011 – по настоящее время) -\r\n      <b>Программист</b> (Отдел IT)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку серверной\r\n          части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для интеграции с другими\r\n          системами, веб‑интерфейс, webapi.</li>\r\n        <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>\r\n        <li>разработка внешних модулей, утилит, скриптов.</li>\r\n      </ul>\r\n      <u>Использование: </u>\r\n      <ul>\r\n        <li>общее: C#, .NET 4, sockets, pipes, async programming, NUnit, SVN/GIT, Jira, Mantis, PowerShell; </li>\r\n        <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>\r\n        <li>клиент: WinForms, DevExpress;</li>\r\n        <li>веб‑интерфейс: asp.net, JavaScript, AngularJS, html5, css3, WebApi.</li>\r\n      </ul>\r\n      <u>Получен опыт:</u> работы в команде, технической поддержки и коммерческой разработке ПО, написания качественного и чистого\r\n      кода с целью дальнейшего сопровождения, работы с системами управления версиями и системами отслеживания ошибок и задач,\r\n      тестирование кода.\r\n      <br>\r\n      <a href=\"projects.html#lers\">Смотреть проекты и достижения</a>\r\n    </li>\r\n    <li>\r\n      МБУ Межотраслевой информационно-аналитический центр (2009 – 2011) -\r\n      <b>Программист</b> (Отдел ПО)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>\r\n        <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>\r\n        <li>разработка прикладных программ на C#.</li>\r\n      </ul>\r\n      <u>Использование:</u> T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.\r\n      <br>\r\n      <a href=\"projects.html#miac\">Смотреть проекты и достижения</a>\r\n    </li>\r\n  </ul>\r\n</section>"
+module.exports = "<section>\r\n  <h3>Опыт работы</h3>\r\n  <ul>\r\n    <li>\r\n      Дополнительно: ИП с 2012 года, репетиторство, наставничество и работа на иностранные компании.\r\n    </li>\r\n    <li>\r\n      ООО \"ЛЭРС УЧЕТ\" (2011 – по настоящее время) -\r\n      <b>Программист</b> (Отдел IT)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку серверной\r\n          части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для интеграции с другими\r\n          системами, веб‑интерфейс, webapi.</li>\r\n        <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>\r\n        <li>разработка внешних модулей, утилит, скриптов.</li>\r\n      </ul>\r\n      <u>Использование: </u>\r\n      <ul>\r\n        <li>общее: C#, .NET 4, sockets, pipes, async programming, NUnit, SVN/GIT, Jira, Mantis, PowerShell; </li>\r\n        <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>\r\n        <li>клиент: WinForms, DevExpress;</li>\r\n        <li>веб‑интерфейс: asp.net, JavaScript, AngularJS, html5, css3, WebApi.</li>\r\n      </ul>\r\n      <u>Получен опыт:</u> работы в команде, технической поддержки и коммерческой разработке ПО, написания качественного\r\n      и чистого кода с целью дальнейшего сопровождения, работы с системами управления версиями и системами отслеживания ошибок\r\n      и задач, тестирование кода.\r\n      <br>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"lers\">Смотреть проекты и достижения</a>\r\n    </li>\r\n    <li>\r\n      МБУ Межотраслевой информационно-аналитический центр (2009 – 2011) -\r\n      <b>Программист</b> (Отдел ПО)\r\n      <br>\r\n      <u>Основные обязанности:</u>\r\n      <ul>\r\n        <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>\r\n        <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>\r\n        <li>разработка прикладных программ на C#.</li>\r\n      </ul>\r\n      <u>Использование:</u> T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.\r\n      <br>\r\n      <a routerLink=\"projects\"\r\n         fragment=\"miac\">Смотреть проекты и достижения</a>\r\n    </li>\r\n  </ul>\r\n</section>"
 
 /***/ }),
 
@@ -471,7 +474,7 @@ var WorkExpComponent = (function () {
 /***/ "../../../../../src/app/about-author/about-me/about-me.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"about-me\">\r\n  <div class=\"wrapper\">\r\n    <h1>Об авторе</h1>\r\n    <img src=\"assets/author/photo.jpg\" width=\"300\" height=\"250\" alt=\"Михаил Ключко\" title=\"Михаил Ключко\" class=\"left frame\" itemprop=\"image\">\r\n    <p>Меня зовут <span itemprop=\"name\">Михаил Ключко</span>, мне 30 лет, живу в Хабаровске.</p>\r\n    <p>Я квалифицированный разработчик программного обеспечения с опытом работы более 8 лет в разработке приложений, веб‑сайтов и интерфейсов. Обладаю обширными техническими знаниями и вниманием к деталям для написания программ свободных от ошибок. Я перфекционист по природе и методично все тестирую.</p>\r\n    <p>Я специализируюсь на <b>.NET Framework</b>, в основном на разработке настольных приложений и многозвенных систем. У меня имеется профильное образование и опыт в <b>веб‑разработке</b>. </p>\r\n    <p>Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве пользовательских интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в первую очередь я ищу долгосрочные проекты.</p>\r\n    <p>Другую интересную информацию обо мне можно получить из социальных сервисов: <a href=\"//facebook.com/slidenergy\" target=\"_blank\" rel=\"nofollow\">Facebook</a>, <a href=\"//linkedin.com/in/slidenergy\" target=\"_blank\" rel=\"nofollow\">LinkedIn</a> и <a href=\"//vk.com/slidenergy\" target=\"_blank\" rel=\"me nofollow\">Вконтакте</a>.</p>\r\n  </div>\r\n</div>"
+module.exports = "<div class=\"about-me\">\r\n  <div class=\"wrapper\">\r\n    <h1>Об авторе</h1>\r\n    <img src=\"assets/author/photo.jpg\"\r\n         width=\"300\"\r\n         height=\"250\"\r\n         alt=\"Михаил Ключко\"\r\n         title=\"Михаил Ключко\"\r\n         class=\"left frame\"\r\n         itemprop=\"image\">\r\n    <p>Меня зовут <span itemprop=\"name\">Михаил Ключко</span>, мне {{age}} лет, живу в Хабаровске.</p>\r\n    <p>Я квалифицированный разработчик программного обеспечения с опытом работы более 8 лет в разработке приложений, веб‑сайтов\r\n      и интерфейсов. Обладаю обширными техническими знаниями и вниманием к деталям для написания программ свободных от ошибок.\r\n      Я перфекционист по природе и методично все тестирую.</p>\r\n    <p>Я специализируюсь на <b>.NET Framework</b>, в основном на разработке настольных приложений и многозвенных систем.\r\n      У меня имеется профильное образование и опыт в <b>веб‑разработке</b>. </p>\r\n    <p>Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве пользовательских\r\n      интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в первую очередь я ищу долгосрочные\r\n      проекты.</p>\r\n    <p>Другую интересную информацию обо мне можно получить из социальных сервисов: <a href=\"//facebook.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">Facebook</a>, <a href=\"//linkedin.com/in/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"nofollow\">LinkedIn</a> и <a href=\"//vk.com/slidenergy\"\r\n         target=\"_blank\"\r\n         rel=\"me nofollow\">Вконтакте</a>.</p>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -514,6 +517,15 @@ var AboutMeComponent = (function () {
     }
     AboutMeComponent.prototype.ngOnInit = function () {
     };
+    Object.defineProperty(AboutMeComponent.prototype, "age", {
+        get: function () {
+            var ageDifMs = Date.now() - new Date(1987, 6, 30).getTime();
+            var ageDate = new Date(ageDifMs); // miliseconds from epoch
+            return Math.abs(ageDate.getUTCFullYear() - 1970);
+        },
+        enumerable: true,
+        configurable: true
+    });
     AboutMeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-about-me',
@@ -604,12 +616,16 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__projects_projects_page_component__ = __webpack_require__("../../../../../src/app/projects/projects-page.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__projects_project_project_component__ = __webpack_require__("../../../../../src/app/projects/project/project.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__projects_project_filter_pipe__ = __webpack_require__("../../../../../src/app/projects/project-filter.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__projects_filters_filters_component__ = __webpack_require__("../../../../../src/app/projects/filters/filters.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__projects_tag_tag_component__ = __webpack_require__("../../../../../src/app/projects/tag/tag.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -640,7 +656,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_9__footer_footer_component__["a" /* FooterComponent */],
                 __WEBPACK_IMPORTED_MODULE_11__projects_projects_page_component__["a" /* ProjectsPageComponent */],
                 __WEBPACK_IMPORTED_MODULE_12__projects_project_project_component__["a" /* ProjectComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__projects_project_filter_pipe__["a" /* ProjectFilterPipe */]
+                __WEBPACK_IMPORTED_MODULE_13__projects_project_filter_pipe__["a" /* ProjectFilterPipe */],
+                __WEBPACK_IMPORTED_MODULE_14__projects_filters_filters_component__["a" /* FiltersComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__projects_tag_tag_component__["a" /* TagComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["BrowserModule"],
@@ -648,7 +666,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_2_angular_font_awesome__["a" /* AngularFontAwesomeModule */],
                 __WEBPACK_IMPORTED_MODULE_6__about_author_about_author_module__["a" /* AboutAuthorModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_4__angular_router__["a" /* RouterModule */].forRoot(appRoutes)
+                __WEBPACK_IMPORTED_MODULE_4__angular_router__["c" /* RouterModule */].forRoot(appRoutes)
             ],
             providers: [],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
@@ -725,7 +743,7 @@ var FooterComponent = (function () {
 /***/ "../../../../../src/app/header/header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header>\r\n    <div class=\"wrapper\">\r\n        <div class=\"logo\">\r\n            <a routerLink=\"/\">SlidEnergy</a>\r\n            <div>Senior Full-stack разработчик</div>\r\n        </div>\r\n        <ul class=\"menu\"\r\n            role=\"navigation\">\r\n            <li>\r\n                <a routerLink=\"/\"\r\n                   routerLinkActive=\"active\"\r\n                   [routerLinkActiveOptions]=\"{exact:true}\">Обо мне</a>\r\n            </li>\r\n            <li>\r\n                <a routerLink=\"/projects\"\r\n                   routerLinkActive=\"active\">Проекты</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</header>"
+module.exports = "<header>\r\n    <div class=\"wrapper\">\r\n        <div class=\"logo\">\r\n            <a routerLink=\"/\">SlidEnergy</a>\r\n            <div>Senior Desktop & Web разработчик</div>\r\n        </div>\r\n        <ul class=\"menu\"\r\n            role=\"navigation\">\r\n            <li>\r\n                <a routerLink=\"/\"\r\n                   routerLinkActive=\"active\"\r\n                   [routerLinkActiveOptions]=\"{exact:true}\">Обо мне</a>\r\n            </li>\r\n            <li>\r\n                <a routerLink=\"/projects\"\r\n                   routerLinkActive=\"active\">Проекты</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</header>"
 
 /***/ }),
 
@@ -783,6 +801,190 @@ var HeaderComponent = (function () {
 
 /***/ }),
 
+/***/ "../../../../../src/app/projects/api/projects.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/share.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ProjectsService = (function () {
+    function ProjectsService(http) {
+        this.http = http;
+    }
+    ProjectsService.prototype.getProjects = function () {
+        return this.http.get('data/projects.json');
+    };
+    ProjectsService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
+    ], ProjectsService);
+    return ProjectsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/api/tags.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TagsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/share.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TagsService = (function () {
+    function TagsService(http) {
+        this.http = http;
+    }
+    TagsService.prototype.getTagsByCategory = function () {
+        return this.http.get('data/tags.json');
+    };
+    TagsService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
+    ], TagsService);
+    return TagsService;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/filters/filters.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"wrapper\">\n  <ul class=\"nav-category\">\n    <li class=\"nav-category-link\"\n        *ngFor=\"let mainCategory of mainCategories\">\n      <a href=\"javascript:void(0);\"\n         class=\"nav-category-link tag\"\n         [class.active]=\"selectedTag == mainCategory.tag\"\n         (click)=\"tag_click(mainCategory.tag)\">{{mainCategory.text}}</a>\n    </li>\n  </ul>\n  <div class=\"show-tags\"><a href=\"javascript:void(0);\"\n       (click)=\"filterVisible = !filterVisible\">Фильтрация по тегам</a></div>\n  <div class=\"filter\"\n       [style.display]=\"filterVisible ? 'flex' : 'none'\">\n    <div class=\"filter-category\"\n         *ngFor=\"let category of tagsByCategory | async\">\n      <p>{{category.text}}</p>\n      <div class=\"tags\">\n        <app-tag *ngFor=\"let tag of category.tags\"\n                 [tag]=\"tag\"\n                 (click)=\"tag_click(tag)\"\n                 class=\"tag\">{{tag}}</app-tag>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/filters/filters.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ":host {\n  display: block;\n  padding-top: 30px;\n  padding-bottom: 30px; }\n  :host .wrapper {\n    display: block;\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 0 40px; }\n  :host .nav-category {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: wrap;\n        flex-wrap: wrap;\n    list-style: none;\n    padding-left: 0px;\n    margin-top: 0px; }\n    :host .nav-category .nav-category-link {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 auto;\n              flex: 1 1 auto;\n      text-align: center;\n      text-decoration: none; }\n      :host .nav-category .nav-category-link a {\n        font-size: 1.4em;\n        color: #000;\n        text-decoration: none;\n        border-bottom: 2px dotted #333; }\n        :host .nav-category .nav-category-link a.active {\n          border-bottom-color: #00aee8;\n          border-bottom-style: solid; }\n        :host .nav-category .nav-category-link a:hover {\n          transition: border .3s;\n          border-bottom-color: #00aee8; }\n  :host .show-tags {\n    text-align: center;\n    margin-top: 30px; }\n    :host .show-tags a {\n      border-bottom: 1px dotted black;\n      color: gray;\n      text-decoration: none; }\n  :host .filter {\n    margin-top: 20px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: nowrap;\n        flex-wrap: nowrap; }\n    :host .filter .filter-category {\n      margin-right: 20px;\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 150px;\n              flex: 1 1 150px; }\n    :host .filter .filter-category:last-child {\n      margin-right: 0px; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/filters/filters.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FiltersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api_tags_service__ = __webpack_require__("../../../../../src/app/projects/api/tags.service.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FiltersComponent = (function () {
+    function FiltersComponent(tagsService) {
+        this.filterVisible = false;
+        this.mainCategories = [
+            {
+                text: 'Все проекты',
+                tag: undefined
+            },
+            {
+                text: 'Desktop',
+                tag: 'desktop'
+            },
+            {
+                text: 'Web (full-stack)',
+                tag: 'web'
+            },
+            {
+                text: 'Другие (gamedev)',
+                tag: 'gamedev'
+            }
+        ];
+        this.tagClicked = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.tagsByCategory = tagsService.getTagsByCategory().map(function (sortedTags) {
+            return [
+                { text: 'По месту работы', tags: sortedTags.byWork },
+                { text: 'По типу проектов', tags: sortedTags.byProjectType },
+                { text: 'По языку программирования', tags: sortedTags.byLanguage },
+                { text: 'Другие теги', tags: sortedTags.other }
+            ];
+        });
+    }
+    FiltersComponent.prototype.tag_click = function (value) {
+        this.selectedTag = value;
+        this.tagClicked.emit(value);
+    };
+    FiltersComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", String)
+    ], FiltersComponent.prototype, "selectedTag", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], FiltersComponent.prototype, "tagClicked", void 0);
+    FiltersComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-filters',
+            template: __webpack_require__("../../../../../src/app/projects/filters/filters.component.html"),
+            providers: [__WEBPACK_IMPORTED_MODULE_1__api_tags_service__["a" /* TagsService */]],
+            styles: [__webpack_require__("../../../../../src/app/projects/filters/filters.component.scss")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__api_tags_service__["a" /* TagsService */]])
+    ], FiltersComponent);
+    return FiltersComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "../../../../../src/app/projects/project-filter.pipe.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -799,11 +1001,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var ProjectFilterPipe = (function () {
     function ProjectFilterPipe() {
     }
-    ProjectFilterPipe.prototype.transform = function (projects, category) {
+    ProjectFilterPipe.prototype.transform = function (projects, tag) {
         if (!projects) {
             return;
         }
-        return projects.filter(function (project) { return project.category == category; });
+        if (!tag) {
+            return projects;
+        }
+        return projects.filter(function (project) { return project.tags.includes(tag); });
     };
     ProjectFilterPipe = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"])({
@@ -820,7 +1025,7 @@ var ProjectFilterPipe = (function () {
 /***/ "../../../../../src/app/projects/project/project.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"project\">\r\n  <h3>{{project?.title}}</h3>\r\n  <div class=\"tags\">\r\n    <a href=\"#\"\r\n       *ngFor=\"let tag of project?.tags\">{{tag}}</a>\r\n  </div>\r\n  <ngx-gallery class=\"gallery\"\r\n               [options]=\"galleryOptions\"\r\n               [images]=\"project?.images\">\r\n  </ngx-gallery>\r\n  <p innerHTML=\"{{project?.description}}\"></p>\r\n  <p *ngIf=\"project?.projectUsed\">В проекте использовалось:</p>\r\n  <ul class=\"inside\">\r\n    <li *ngFor=\"let uses of project?.projectUsed\">{{uses}}</li>\r\n  </ul>\r\n</section>"
+module.exports = "<section class=\"project\">\r\n  <h3>{{project.title}}</h3>\r\n  <div class=\"tags\">\r\n    <app-tag href=\"#\"\r\n             *ngFor=\"let tag of project.tags\"\r\n             (click)=\"tagClicked.emit(tag)\"\r\n             [tag]=\"tag\"></app-tag>\r\n  </div>\r\n  <ngx-gallery class=\"gallery\"\r\n               [options]=\"galleryOptions\"\r\n               [images]=\"project.images\">\r\n  </ngx-gallery>\r\n  <p innerHTML=\"{{project.description}}\"></p>\r\n  <p *ngIf=\"project.projectUsed\">В проекте использовалось:</p>\r\n  <ul class=\"inside\">\r\n    <li *ngFor=\"let uses of project.projectUsed\">{{uses}}</li>\r\n  </ul>\r\n</section>"
 
 /***/ }),
 
@@ -832,7 +1037,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".project {\n  min-height: 350px; }\n  .project .tags {\n    margin-bottom: 16px;\n    word-wrap: break-word; }\n    .project .tags a:not(:last-child):after {\n      content: ',';\n      right: -10px;\n      position: relative; }\n  .project .gallery {\n    float: left;\n    margin-right: 15px; }\n  .project ul.inside {\n    list-style-position: inside; }\n  .project a {\n    color: #000;\n    position: relative;\n    margin-right: 10px;\n    padding: 0px 4px;\n    background-color: #beefff;\n    border-radius: 8px;\n    background-clip: padding-box;\n    text-shadow: none;\n    text-decoration: none;\n    border: 1px solid #a5cdef; }\n    .project a:hover {\n      background-color: #cff3ff; }\n", ""]);
+exports.push([module.i, ".project {\n  min-height: 350px; }\n  .project .tags {\n    margin-bottom: 16px;\n    word-wrap: break-word; }\n  .project .gallery {\n    float: left;\n    margin-right: 15px; }\n  .project ul.inside {\n    list-style-position: inside; }\n", ""]);
 
 // exports
 
@@ -863,6 +1068,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var ProjectComponent = (function () {
     function ProjectComponent() {
+        this.tagClicked = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
     }
     ProjectComponent.prototype.ngOnInit = function () {
         this.galleryOptions = [
@@ -886,6 +1092,10 @@ var ProjectComponent = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
         __metadata("design:type", Object)
     ], ProjectComponent.prototype, "project", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], ProjectComponent.prototype, "tagClicked", void 0);
     ProjectComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-project',
@@ -904,7 +1114,7 @@ var ProjectComponent = (function () {
 /***/ "../../../../../src/app/projects/projects-page.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n  <div class=\"wrapper\">\r\n    <div *ngFor=\"let category of categories\">\r\n      <h1>{{category.title}}</h1>\r\n      <app-project \r\n        *ngFor=\"let project of projects$ | async | projectFilter:category.id\" \r\n        [project]=\"project\">\r\n      </app-project>\r\n    </div>\r\n  </div>\r\n</section>"
+module.exports = "<app-filters [selectedTag]=\"selectedTag\"\r\n             (tagClicked)=\"tag_click($event)\"></app-filters>\r\n<div class=\"projects\">\r\n  <div class=\"wrapper\">\r\n    <h1>Список проектов ({{selectedTag ? selectedTag : 'все'}})</h1>\r\n    <app-project *ngFor=\"let project of projects$ | async | projectFilter:selectedTag\"\r\n                 [project]=\"project\"\r\n                 (tagClicked)=\"tag_click($event)\">\r\n    </app-project>\r\n    <section>&nbsp;</section>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -916,7 +1126,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "section .wrapper {\n  max-width: 1080px;\n  margin: 0 auto;\n  padding: 0 40px; }\n", ""]);
+exports.push([module.i, ".projects {\n  padding-top: 30px;\n  background-color: #fff;\n  box-shadow: 0 0 8px 0 #b3b3b3;\n  text-shadow: #fff 0 1px 0; }\n  .projects .wrapper {\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 0 40px; }\n", ""]);
 
 // exports
 
@@ -932,8 +1142,9 @@ module.exports = module.exports.toString();
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectsPageComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__projects_page_service__ = __webpack_require__("../../../../../src/app/projects/projects-page.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api_projects_service__ = __webpack_require__("../../../../../src/app/projects/api/projects.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_filter__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/filter.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -946,30 +1157,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ProjectsPageComponent = (function () {
-    function ProjectsPageComponent(httpService) {
+    function ProjectsPageComponent(httpService, router, route) {
         this.httpService = httpService;
+        this.router = router;
+        this.route = route;
     }
     ProjectsPageComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.fragment.subscribe(function (fragment) { _this.selectedTag = fragment; });
         this.projects$ = this.httpService.getProjects();
-        this.initCategories();
     };
-    ProjectsPageComponent.prototype.initCategories = function () {
-        this.categories = [
-            { id: 'project', title: 'Основные проекты' },
-            { id: 'utility', title: 'Утилиты' },
-            { id: 'hobby', title: 'Хобби' },
-        ];
+    ProjectsPageComponent.prototype.tag_click = function (tag) {
+        this.selectedTag = tag;
+        this.router.navigate(['/projects'], { fragment: tag });
     };
     ProjectsPageComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-projects-page',
             template: __webpack_require__("../../../../../src/app/projects/projects-page.component.html"),
             styles: [__webpack_require__("../../../../../src/app/projects/projects-page.component.scss")],
-            providers: [__WEBPACK_IMPORTED_MODULE_1__projects_page_service__["a" /* ProjectsPageService */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_1__api_projects_service__["a" /* ProjectsService */]],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__projects_page_service__["a" /* ProjectsPageService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__api_projects_service__["a" /* ProjectsService */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* ActivatedRoute */]])
     ], ProjectsPageComponent);
     return ProjectsPageComponent;
 }());
@@ -978,15 +1192,37 @@ var ProjectsPageComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/projects/projects-page.service.ts":
+/***/ "../../../../../src/app/projects/tag/tag.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<a href=\"javascript:void(0);\"\n   (click)=\"click.emit(tag)\"\n   class=\"tag\">{{tag}}</a>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/tag/tag.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "a {\n  color: #000;\n  position: relative;\n  margin-top: 5px;\n  margin-right: 10px;\n  padding: 0px 4px;\n  background-color: #beefff;\n  border-radius: 8px;\n  background-clip: padding-box;\n  text-shadow: none;\n  text-decoration: none;\n  border: 1px solid #a5cdef;\n  display: inline-block; }\n  a:hover {\n    background-color: #cff3ff; }\n  a:not(:last-child):after {\n    content: ',';\n    right: -10px;\n    position: relative; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/projects/tag/tag.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectsPageService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TagComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_share__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/share.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -997,21 +1233,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
-var ProjectsPageService = (function () {
-    function ProjectsPageService(http) {
-        this.http = http;
+var TagComponent = (function () {
+    function TagComponent() {
+        this.click = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
     }
-    ProjectsPageService.prototype.getProjects = function () {
-        return this.http.get('data/projects.json').share();
+    TagComponent.prototype.ngOnInit = function () {
     };
-    ProjectsPageService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
-    ], ProjectsPageService);
-    return ProjectsPageService;
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", String)
+    ], TagComponent.prototype, "tag", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], TagComponent.prototype, "click", void 0);
+    TagComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-tag',
+            template: __webpack_require__("../../../../../src/app/projects/tag/tag.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/projects/tag/tag.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TagComponent);
+    return TagComponent;
 }());
 
 

@@ -4,8 +4,6 @@
         "tags": [
             "web",
             "c#",
-            "frontend",
-            "backend",
             "lers",
             "aspnet",
             "javascript",
@@ -40,7 +38,7 @@
     {
         "title": "Рабочее место оператора + сервер",
         "tags": [
-            "winforms",
+            "desktop",
             "c#",
             "lers",
             "devexpress",
@@ -68,7 +66,6 @@
         "tags": [
             "web",
             "c#",
-            "backend",
             "api",
             "lers",
             "teamwork"
@@ -90,16 +87,13 @@
     {
         "title": "Менеджер лицензий + сайт + сервер",
         "tags": [
+            "desktop",
             "web",
             "c#",
-            "frontend",
-            "backend",
             "lers",
             "t-sql",
             "devexpress",
-            "pipes",
             "windows-services",
-            "winforms",
             "aspnet"
         ],
         "images": [
@@ -122,8 +116,6 @@
         "tags": [
             "web",
             "c#",
-            "frontend",
-            "backend",
             "lers",
             "t-sql",
             "devexpress",
@@ -149,7 +141,7 @@
     {
         "title": "Информационная система в здравоохранении + утилита (2010 год)",
         "tags": [
-            "winforms",
+            "desktop",
             "c#",
             "miac",
             "devexpress",
@@ -172,8 +164,8 @@
     {
         "title": "Утилита настройки модемов",
         "tags": [
+            "desktop",
             "utils",
-            "winforms",
             "c#",
             "lers"
         ],
@@ -190,8 +182,8 @@
     {
         "title": "Утилита восстановления базы данных",
         "tags": [
+            "desktop",
             "utils",
-            "winforms",
             "c#",
             "lers"
         ],
@@ -208,8 +200,8 @@
     {
         "title": "Игра - Холостяк",
         "tags": [
-            "hobby",
             "gamedev",
+            "hobby",
             "c#",
             "unity3d"
         ],
@@ -236,8 +228,8 @@
     {
         "title": "Игра - VirusWar",
         "tags": [
-            "hobby",
             "gamedev",
+            "hobby",
             "c#",
             "unity3d"
         ],
@@ -259,9 +251,8 @@
     {
         "title": "Календарь жизни - LifeCalendar",
         "tags": [
-            "hobby",
             "web",
-            "frontend",
+            "hobby",
             "angularjs",
             "devexpress"
         ],
@@ -278,9 +269,8 @@
     {
         "title": "Сайт портфолио",
         "tags": [
-            "hobby",
             "web",
-            "frontend",
+            "hobby",
             "angular"
         ],
         "images": [
