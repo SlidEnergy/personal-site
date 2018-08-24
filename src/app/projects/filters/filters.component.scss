@@ -1,0 +1,59 @@
+@import '../../app.component';
+
+:host {
+    padding-top: 30px;
+
+    .wrapper {
+        display: block;
+        max-width: $wrap-width;
+        margin: $wrap-margin;
+        padding: $wrap-padding;
+    }
+
+    .nav-category {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        list-style: none;
+        padding-left: 0px;
+
+        .nav-category-link {
+            flex: 1 1 auto;
+            text-align: center;
+            text-decoration: none;
+
+            a {
+                font-size: 1.4em;
+                color: #000;
+                text-decoration: none;
+                border-bottom: 2px dotted #333;
+
+                &.active {
+                    border-bottom-color: #00aee8;
+                    border-bottom-style: solid;
+                }
+
+                &:hover {
+                    transition: border .3s;
+                    border-bottom-color: #00aee8;
+                }
+            }
+        }
+    }
+
+    .filter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+
+        .filter-category {
+            margin-right: 20px;
+            flex: 1 1 150px;
+        }
+
+        .filter-category:last-child {
+            margin-right: 0px;
+        }
+    }
+}

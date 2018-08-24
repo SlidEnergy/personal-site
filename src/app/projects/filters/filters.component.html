@@ -1,0 +1,105 @@
+<div class="wrapper">
+  <h1>Фильтрация</h1>
+  <ul class="nav-category">
+    <li class="nav-category-link">
+      <a href="javascript:void(0);"
+         class="nav-category-link tag"
+         [class.active]="!selectedTag"
+         (click)="tag_click(undefined)">Все проекты</a>
+    </li>
+    <li class="nav-category-link">
+      <a href="javascript:void(0);"
+         class="nav-category-link tag"
+         [class.active]="selectedTag == 'desktop'"
+         (click)="tag_click('desktop')">Desktop</a>
+    </li>
+    <li class="nav-category-link">
+      <a href="javascript:void(0);"
+         class="nav-category-link tag"
+         [class.active]="selectedTag == 'web'"
+         (click)="tag_click('web')">Web (full-stack)</a>
+    </li>
+    <li class="nav-category-link">
+      <a href="javascript:void(0);"
+         class="nav-category-link tag"
+         [class.active]="selectedTag == 'gamedev'"
+         (click)="tag_click('gamedev')">Другие (gamedev)</a>
+    </li>
+  </ul>
+
+  <div class="filter">
+    <div class="filter-category">
+      <p>По месту работы:</p>
+      <div class="tags">
+        <a href="javascript:void(0);"
+           (click)="tag_click('lers')"
+           class="tag">lers</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('miac')"
+           class="tag">miac</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('hobby')"
+           class="tag">hobby</a>
+      </div>
+    </div>
+    <div class="filter-category">
+      <p>По типу проектов:</p>
+      <div class="tags">
+
+        <a href="javascript:void(0);"
+           (click)="tag_click('web')"
+           class="tag">web</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('desktop')"
+           class="tag">desktop</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('t-sql')"
+           class="tag">t-sql</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('api')"
+           class="tag">api</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('utils')"
+           class="tag">utils</a>
+      </div>
+    </div>
+    <div class="filter-category">
+      <p>По языку программирования:</p>
+      <div class="tags">
+
+        <a href="javascript:void(0);"
+           (click)="tag_click('c#')"
+           class="tag">c#</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('javascript')"
+           class="tag">javascript</a>
+      </div>
+    </div>
+    <div class="filter-category">
+      <p>Другие теги:</p>
+      <div class="tags">
+        <a href="javascript:void(0);"
+           (click)="tag_click('angular')"
+           class="tag">angular</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('devexpress')"
+           class="tag">devexpress</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('teamwork')"
+           class="tag">teamwork</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('windows-services')"
+           class="tag">windows-services</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('pipes')"
+           class="tag">pipes</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('gamedev')"
+           class="tag">gamedev</a>
+        <a href="javascript:void(0);"
+           (click)="tag_click('unity3d')"
+           class="tag">unity3d</a>
+      </div>
+    </div>
+  </div>
+</div>

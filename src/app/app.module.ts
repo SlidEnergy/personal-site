@@ -14,6 +14,7 @@ import { AboutAuthorComponent } from './about-author/about-author.component';
 import { ProjectsPageComponent } from './projects/projects-page.component';
 import { ProjectComponent } from './projects/project/project.component';
 import { ProjectFilterPipe } from './projects/project-filter.pipe';
+import { FiltersComponent } from './projects/filters/filters.component';
 
 const appRoutes: Routes = [
   { path: '', component: AboutAuthorComponent },
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
     FooterComponent,
     ProjectsPageComponent,
     ProjectComponent,
-    ProjectFilterPipe
+    ProjectFilterPipe,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
