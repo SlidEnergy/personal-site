@@ -8,6 +8,7 @@ import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 export class FiltersComponent implements OnInit {
 
   selectedTag?: string;
+  filterVisible = false;
 
   @Input('selectedTag') set selectedTagInput(value: string) {
     this.selectedTag = value;
@@ -24,5 +25,4 @@ export class FiltersComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

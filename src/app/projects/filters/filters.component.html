@@ -1,5 +1,4 @@
 <div class="wrapper">
-  <h1>Фильтрация</h1>
   <ul class="nav-category">
     <li class="nav-category-link">
       <a href="javascript:void(0);"
@@ -26,8 +25,10 @@
          (click)="tag_click('gamedev')">Другие (gamedev)</a>
     </li>
   </ul>
-
-  <div class="filter">
+  <div class="show-tags"><a href="javascript:void(0);"
+       (click)="filterVisible = !filterVisible">Фильтрация по тегам</a></div>
+  <div class="filter"
+       [style.display]="filterVisible ? 'flex' : 'none'">
     <div class="filter-category">
       <p>По месту работы:</p>
       <div class="tags">

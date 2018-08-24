@@ -1,7 +1,9 @@
 @import '../../app.component';
 
 :host {
+    display: block;
     padding-top: 30px;
+    padding-bottom: 30px;
 
     .wrapper {
         display: block;
@@ -13,9 +15,9 @@
     .nav-category {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 30px;
         list-style: none;
         padding-left: 0px;
+        margin-top: 0px;
 
         .nav-category-link {
             flex: 1 1 auto;
@@ -41,9 +43,19 @@
         }
     }
 
-    .filter {
+    .show-tags {
+        text-align: center;
         margin-top: 30px;
-        margin-bottom: 30px;
+        
+        a {
+            border-bottom: 1px dotted black;
+            color: gray;
+            text-decoration: none;
+        }
+    }
+
+    .filter {
+        margin-top: 20px;
         display: flex;
         flex-wrap: nowrap;
 
