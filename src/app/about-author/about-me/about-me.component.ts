@@ -12,4 +12,9 @@ export class AboutMeComponent implements OnInit {
   ngOnInit() {
   }
 
+  get age(): number {
+    let ageDifMs = Date.now() - new Date(1987, 6, 30).getTime();
+    let ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
 }
