@@ -1,0 +1,74 @@
+@import '../../app.component';
+
+.feedback {
+    padding-top: 30px;
+   text-shadow: #fff 0 1px 0;
+
+    .wrapper {
+        display: block;
+        max-width: $wrap-width;
+        margin: $wrap-margin;
+        padding: $wrap-padding;
+
+        form {
+            width: 500px;
+            margin: auto;
+        
+            input,
+            textarea {
+                font: inherit;
+                padding: 5px 5px;
+                width: 100%;
+                margin-top: 3px;
+                margin-bottom: 15px;
+                box-sizing: border-box;
+            }
+            input::placeholder,
+            textarea::placeholder {
+                font-size: 14px;
+            }
+            button {
+                width: 100%;
+                padding: 8px 35px;
+            }
+            label {
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 2px;
+                display: block;
+            }
+
+            .message {
+                display: none;
+                margin-top: 20px;
+
+                position: relative;
+                padding: .75rem 1.25rem;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+            }
+            
+            &.emailjs-success .message,
+            &.emailjs-sending .message,
+            &.emailjs-error .message {
+                display: block;
+                transition: all .3s;
+            }
+            &.emailjs-sending .message {
+                color: #0c5460;
+                background-color: #d1ecf1;
+                border-color: #bee5eb;
+            }
+            &.emailjs-success .message {
+                color: #155724;
+                background-color: #d4edda;
+                border-color: #c3e6cb;
+            }
+            &.emailjs-error .message {
+                color: #721c24;
+                background-color: #f8d7da;
+                border-color: #f5c6cb;
+            }
+        }
+    }
+}

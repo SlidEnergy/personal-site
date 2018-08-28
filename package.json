@@ -24,6 +24,7 @@
     "@angular/router": "^5.0.0",
     "angular-font-awesome": "^3.0.3",
     "core-js": "^2.4.1",
+    "emailjs-com": "^2.2.4",
     "font-awesome": "^4.7.0",
     "ngx-gallery": "^5.6.1",
     "rxjs": "^5.5.2",

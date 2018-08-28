@@ -1,0 +1,26 @@
+<div class="feedback">
+  <div class="wrapper">
+    <section>
+      <h1>Напишите мне</h1>
+      <p>Если у вас есть интересный проект связанный с блокчейном, веб-разработкой или вы просто хотите пообщаться на общие
+        темы, пишите.
+      </p>
+    </section>
+    <form id="contact-form">
+      <label>Имя</label>
+      <input type="text"
+             name="from_name"
+             placeholder="Ваше имя">
+      <label>Email</label>
+      <input type="email"
+             name="from_email"
+             placeholder="Email для ответа">
+      <label>Сообщения</label>
+      <textarea name="message_html"
+                placeholder="Ваше сообщение"></textarea>
+      <button (click)="send_click($event)">Отправить</button>
+      <div class="message">{{message}}</div>
+    </form>
+    <section>&nbsp;</section>
+  </div>
+</div>
