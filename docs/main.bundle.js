@@ -20,7 +20,7 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_lazy_route_resource lazy re
 /***/ "../../../../../src/app/about-author/about-author.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-about-me></app-about-me>\r\n<app-about-me-formal></app-about-me-formal>"
+module.exports = "<app-about-me></app-about-me>\r\n<app-about-me-formal></app-about-me-formal>\r\n<app-feedback></app-feedback>"
 
 /***/ }),
 
@@ -93,12 +93,14 @@ var AboutAuthorComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__about_me_formal_prof_skills_prof_skills_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/prof-skills/prof-skills.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__about_me_formal_presonal_qual_presonal_qual_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/presonal-qual/presonal-qual.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__about_me_formal_work_exp_work_exp_component__ = __webpack_require__("../../../../../src/app/about-author/about-me-formal/work-exp/work-exp.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__feedback_feedback_component__ = __webpack_require__("../../../../../src/app/about-author/feedback/feedback.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -125,7 +127,8 @@ var AboutAuthorModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__about_me_formal_contacts_contacts_component__["a" /* ContactsComponent */],
                 __WEBPACK_IMPORTED_MODULE_7__about_me_formal_prof_skills_prof_skills_component__["a" /* ProfSkillsComponent */],
                 __WEBPACK_IMPORTED_MODULE_8__about_me_formal_presonal_qual_presonal_qual_component__["a" /* PresonalQualComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__about_me_formal_work_exp_work_exp_component__["a" /* WorkExpComponent */]
+                __WEBPACK_IMPORTED_MODULE_9__about_me_formal_work_exp_work_exp_component__["a" /* WorkExpComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__feedback_feedback_component__["a" /* FeedbackComponent */]
             ]
         })
     ], AboutAuthorModule);
@@ -535,6 +538,84 @@ var AboutMeComponent = (function () {
         __metadata("design:paramtypes", [])
     ], AboutMeComponent);
     return AboutMeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/about-author/feedback/feedback.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"feedback\">\n  <div class=\"wrapper\">\n    <section>\n      <h1>Напишите мне</h1>\n      <p>Если у вас есть интересный проект связанный с блокчейном, веб-разработкой или вы просто хотите пообщаться на общие\n        темы, пишите.\n      </p>\n    </section>\n    <form id=\"contact-form\">\n      <label>Имя</label>\n      <input type=\"text\"\n             name=\"from_name\"\n             placeholder=\"Ваше имя\">\n      <label>Email</label>\n      <input type=\"email\"\n             name=\"from_email\"\n             placeholder=\"Email для ответа\">\n      <label>Сообщения</label>\n      <textarea name=\"message_html\"\n                placeholder=\"Ваше сообщение\"></textarea>\n      <button (click)=\"send_click($event)\">Отправить</button>\n      <div class=\"message\">{{message}}</div>\n    </form>\n    <section>&nbsp;</section>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/about-author/feedback/feedback.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".feedback {\n  padding-top: 30px;\n  text-shadow: #fff 0 1px 0; }\n  .feedback .wrapper {\n    display: block;\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 0 40px; }\n    .feedback .wrapper form {\n      width: 500px;\n      margin: auto; }\n      .feedback .wrapper form input,\n      .feedback .wrapper form textarea {\n        font: inherit;\n        padding: 5px 5px;\n        width: 100%;\n        margin-top: 3px;\n        margin-bottom: 15px;\n        box-sizing: border-box; }\n      .feedback .wrapper form input::-webkit-input-placeholder,\n      .feedback .wrapper form textarea::-webkit-input-placeholder {\n        font-size: 14px; }\n      .feedback .wrapper form input:-ms-input-placeholder,\n      .feedback .wrapper form textarea:-ms-input-placeholder {\n        font-size: 14px; }\n      .feedback .wrapper form input::placeholder,\n      .feedback .wrapper form textarea::placeholder {\n        font-size: 14px; }\n      .feedback .wrapper form button {\n        width: 100%;\n        padding: 8px 35px; }\n      .feedback .wrapper form label {\n        font-weight: bold;\n        font-size: 14px;\n        margin-bottom: 2px;\n        display: block; }\n      .feedback .wrapper form .message {\n        display: none;\n        margin-top: 20px;\n        position: relative;\n        padding: .75rem 1.25rem;\n        border: 1px solid transparent;\n        border-radius: .25rem; }\n      .feedback .wrapper form.emailjs-success .message,\n      .feedback .wrapper form.emailjs-sending .message,\n      .feedback .wrapper form.emailjs-error .message {\n        display: block;\n        transition: all .3s; }\n      .feedback .wrapper form.emailjs-sending .message {\n        color: #0c5460;\n        background-color: #d1ecf1;\n        border-color: #bee5eb; }\n      .feedback .wrapper form.emailjs-success .message {\n        color: #155724;\n        background-color: #d4edda;\n        border-color: #c3e6cb; }\n      .feedback .wrapper form.emailjs-error .message {\n        color: #721c24;\n        background-color: #f8d7da;\n        border-color: #f5c6cb; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/about-author/feedback/feedback.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FeedbackComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_emailjs_com__ = __webpack_require__("../../../../emailjs-com/source/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_emailjs_com___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_emailjs_com__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FeedbackComponent = (function () {
+    function FeedbackComponent() {
+    }
+    FeedbackComponent.prototype.ngOnInit = function () {
+    };
+    FeedbackComponent.prototype.send_click = function (event) {
+        var _this = this;
+        __WEBPACK_IMPORTED_MODULE_1_emailjs_com__["init"]('user_yn75C5B2KcUPr1rN2IXW1');
+        event.preventDefault();
+        this.message = 'Отправляем письмо...';
+        __WEBPACK_IMPORTED_MODULE_1_emailjs_com__["sendForm"]('gmail', 'template_YVf0zvqH', '#contact-form')
+            .then(function (response) {
+            _this.message = 'Письмо успешно отправлено';
+            console.log('SUCCESS!', response.status, response.text);
+        }, function (error) {
+            _this.message = 'Письмо не удалось отправить';
+            console.log('FAILED...', error);
+        });
+    };
+    FeedbackComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-feedback',
+            template: __webpack_require__("../../../../../src/app/about-author/feedback/feedback.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/about-author/feedback/feedback.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], FeedbackComponent);
+    return FeedbackComponent;
 }());
 
 

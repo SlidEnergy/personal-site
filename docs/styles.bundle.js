@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nbody {\n  background-color: #ececec;\n  margin: 0; }\n\nbody {\n  font-family: Roboto, 'PT Sans',Helvetica,sans-serif; }\n\nh1, h3 {\n  font-weight: normal;\n  font-family: 'Lobster',Helvetica,sans-serif; }\n\nh1 {\n  font-size: 2em;\n  margin: .67em 0; }\n\nh1:first-child {\n  margin-top: 0; }\n\nh3 {\n  margin: 1em 0; }\n\nsection h1 {\n  margin-top: 0; }\n\n/*** Angular 2 link without href ***/\na:not([href]) {\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n      user-select: none; }\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nbody {\n  background-color: #ececec;\n  margin: 0; }\n\nbody,\nbutton {\n  font-family: Roboto, 'PT Sans',Helvetica,sans-serif; }\n\nh1, h3 {\n  font-weight: normal;\n  font-family: 'Lobster',Helvetica,sans-serif; }\n\nh1 {\n  font-size: 2em;\n  margin: .67em 0; }\n\nh1:first-child {\n  margin-top: 0; }\n\nh3 {\n  margin: 1em 0; }\n\nsection h1 {\n  margin-top: 0; }\n\n/*** Angular 2 link without href ***/\na:not([href]) {\n  cursor: pointer;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n      user-select: none; }\n", ""]);
 
 // exports
 
