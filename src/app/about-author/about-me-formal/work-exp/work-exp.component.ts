@@ -12,4 +12,9 @@ export class WorkExpComponent implements OnInit {
   ngOnInit() {
   }
 
+  get experience(): number {
+    let ageDifMs = Date.now() - new Date(2009, 11, 30).getTime();
+    let ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
 }

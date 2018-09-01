@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProfSkillsComponent implements OnInit {
 
   progLang = {
-    name: 'Языки программирования/разметки и скриптовые языки',
+    name: 'Языки и разметка',
     beginner: 'PowerShell',
     intermediate: 'JavaScript, TypeScript, T-SQL, HTML, CSS',
     expert: 'C#'
