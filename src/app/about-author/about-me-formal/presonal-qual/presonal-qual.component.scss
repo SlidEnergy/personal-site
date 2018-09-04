@@ -1,7 +1,36 @@
-ul {
+.skills {
     padding-left: 20px;
+    flex-wrap: wrap;
+    display: flex;
 
-    li {
-        margin: 4px 0;
+    .skill {
+        flex: 1 1 50%;
+        padding: 15px;
+
+        .icon {
+            font-size: 32px;
+            color: gray;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            float: left;
+            text-align: center;
+            vertical-align: bottom;
+            line-height: 66px;
+        }
+
+        .skill-content {
+            margin-left: 90px;
+
+            .title {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            .text {
+                color: gray;
+            }
+        }
     }
 }
