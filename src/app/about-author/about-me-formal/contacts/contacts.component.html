@@ -4,9 +4,12 @@
     <div class="container">
         <div class="container-item contacts">
             <dl>
-                <dt>Мобильный телефон:</dt><dd itemprop="telephone">+7&nbsp;(924)&nbsp;200-84-73</dd>
-                <dt>Электронный адрес:</dt><dd><a href="mailto:slidenergy@gmail.com"
-                       itemprop="email">slidenergy@gmail.com</a></dd>
+                <dt>Мобильный телефон:</dt><dd itemprop="telephone">{{ '+&#055;&#032;(&#057;&#050;&#052;)&#032;&#050;&#048;&#048;&#045;&#056;&#052;&#045;&#055;&#051;'
+                    | noindex}}</dd>
+                <dt>Электронный адрес:</dt><dd><a [href]="'mailto:' + '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;' | noindex"
+                
+                       itemprop="email">{{ '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'
+                        | noindex}}</a></dd>
                 <dt>Skype:</dt><dd><a href="skype:sliderhit?chat">sliderhit</a></dd>
             </dl>
         </div>
