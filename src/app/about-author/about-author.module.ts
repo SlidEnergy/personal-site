@@ -10,11 +10,13 @@ import { ProfSkillsComponent } from './about-me-formal/prof-skills/prof-skills.c
 import { PresonalQualComponent } from './about-me-formal/presonal-qual/presonal-qual.component';
 import { WorkExpComponent } from './about-me-formal/work-exp/work-exp.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    SharedModule
   ],
   declarations: [
     AboutAuthorComponent,

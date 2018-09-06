@@ -16,6 +16,7 @@ import { ProjectComponent } from './projects/project/project.component';
 import { ProjectFilterPipe } from './projects/project-filter.pipe';
 import { FiltersComponent } from './projects/filters/filters.component';
 import { TagComponent } from './projects/tag/tag.component';
+import { SharedModule } from './shared/shared.module';
 
 const appRoutes: Routes = [
   { path: '', component: AboutAuthorComponent },
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     AngularFontAwesomeModule,
     AboutAuthorModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
