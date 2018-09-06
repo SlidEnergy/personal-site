@@ -4,11 +4,13 @@
         *ngFor="let mainCategory of mainCategories">
       <a href="javascript:void(0);"
          class="nav-category-link tag"
+         rel="nofollow"
          [class.active]="selectedTag == mainCategory.tag"
          (click)="tag_click(mainCategory.tag)">{{mainCategory.text}}</a>
     </li>
   </ul>
   <div class="show-tags"><a href="javascript:void(0);"
+       rel="nofollow"
        (click)="filterVisible = !filterVisible">Фильтрация по тегам</a></div>
   <div class="filter"
        [style.display]="filterVisible ? 'flex' : 'none'">

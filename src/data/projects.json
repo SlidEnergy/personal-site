@@ -154,7 +154,7 @@
                 "big": "assets/projects/miac/main.jpg"
             }
         ],
-        "description": "<p>Сайт: <a class=\"site\" href=\"http://www.fesmu.ru/voz/20101/2010108.aspx\">Статья в вестнике общественного здоровья и здравоохранения Дальнего Востока России 2010 год №1</a></p><p>Был разработан модуль и утилита для формирования персонифицированных заявок на льготные лекарственные препараты.</p><p>Внедренние информационной системы в деятельность муниципальных учреждений здравоохранения позволила оптимизировать формирование заявки на лекарственные средства с точки зрения их приоритетности и экономии финансовых средств в условиях лимита финансирования, ограничив количество малоприоритетных препаратов. Это <u>сократило стоимость сводной потребности</u> в лекарственных средствах по городу.</p><p>Таким образом, благодаря внедрению информационной системы, <u>оптимизировано планирование лекарственных препаратов</u> по программе государственной социальной помощи, <u>обеспечена \"адресная\" лекарственная помощь</u>, что в конечном итоге <u>повысило удовлетворенность населения</u> льготным лекарственным обеспечением.</p>",
+        "description": "<p>Сайт: <a target=\"_blank\" rel=\"nofollow\" class=\"site\" href=\"http://www.fesmu.ru/voz/20101/2010108.aspx\">Статья в вестнике общественного здоровья и здравоохранения Дальнего Востока России 2010 год №1</a></p><p>Был разработан модуль и утилита для формирования персонифицированных заявок на льготные лекарственные препараты.</p><p>Внедренние информационной системы в деятельность муниципальных учреждений здравоохранения позволила оптимизировать формирование заявки на лекарственные средства с точки зрения их приоритетности и экономии финансовых средств в условиях лимита финансирования, ограничив количество малоприоритетных препаратов. Это <u>сократило стоимость сводной потребности</u> в лекарственных средствах по городу.</p><p>Таким образом, благодаря внедрению информационной системы, <u>оптимизировано планирование лекарственных препаратов</u> по программе государственной социальной помощи, <u>обеспечена \"адресная\" лекарственная помощь</u>, что в конечном итоге <u>повысило удовлетворенность населения</u> льготным лекарственным обеспечением.</p>",
         "projectUsed": [
             "T-SQL, .NET WinForm",
             "Компоненты DevExpress WinForms"
@@ -222,7 +222,7 @@
                 "big": "assets/projects/unmarried/menu.jpg"
             }
         ],
-        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/unmarried\">Unmarried</a>, <a href=\"https://github.com/SlidEnergy/unmarried\">Проект на GitHub</a></p><p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
+        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a target=\"_blank\" rel=\"nofollow\" href=\"https://slidenergy.github.io/unmarried\">Unmarried</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/SlidEnergy/unmarried\">Проект на GitHub</a></p><p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
         "category": "hobby"
     },
     {
@@ -245,7 +245,7 @@
                 "big": "assets/projects/viruswar/lose.jpg"
             }
         ],
-        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a href=\"https://slidenergy.github.io/viruswar\">VirusWar</a>, <a href=\"https://github.com/SlidEnergy/viruswar\">Проект на GitHub</a></p><p>Простая игра аркада в стиле virus, в которой нужно развить колонию вирусов и не дать развиться вражеским колониям. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
+        "description": "<p>Демо для браузеров с поддержкой Unity WebPlayer: <a target=\"_blank\" rel=\"nofollow\" href=\"https://slidenergy.github.io/viruswar\">VirusWar</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/SlidEnergy/viruswar\">Проект на GitHub</a></p><p>Простая игра аркада в стиле virus, в которой нужно развить колонию вирусов и не дать развиться вражеским колониям. На данном проекте, я обкатал технологию работы с Unity3D.</p>",
         "category": "hobby"
     },
     {
@@ -263,7 +263,7 @@
                 "big": "assets/projects/lifecalendar/main.png"
             }
         ],
-        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/life-calendar\">Life calendar</a>, <a href=\"https://github.com/SlidEnergy/life-calendar\">Проект на GitHub</a></p><p>Интерактивный онлайн календарь всей вашей жизни в неделях. На данном проекте, я обкатал технологию работы с AngularJS и DevExtreme компонентами.</p>",
+        "description": "<p>Сайт: <a target=\"_blank\" rel=\"nofollow\" href=\"https://slidenergy.github.io/life-calendar\">Life calendar</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/SlidEnergy/life-calendar\">Проект на GitHub</a></p><p>Интерактивный онлайн календарь всей вашей жизни в неделях. На данном проекте, я обкатал технологию работы с AngularJS и DevExtreme компонентами.</p>",
         "category": "hobby"
     },
     {
@@ -280,7 +280,7 @@
                 "big": "assets/projects/personalsite/main.png"
             }
         ],
-        "description": "<p>Сайт: <a href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>",
+        "description": "<p>Сайт: <a target=\"_blank\" rel=\"nofollow\" href=\"https://slidenergy.github.io/\">Об авторе - Михаил Ключко, разработчик</a>, <a target=\"_blank\" rel=\"nofollow\" href=\"https://github.com/SlidEnergy/personal-site\">Проект на GitHub</a></p><p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>",
         "category": "hobby"
     }
 ]
