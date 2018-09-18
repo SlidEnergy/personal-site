@@ -20,7 +20,8 @@
         "aboutMe": "Обо мне",
         "fullname": "Михаил Ключко",
         "projects": "Проекты",
-        "subtitle": "Senior Full-Stack разработчик"
+        "subtitle": "Senior Full-Stack разработчик",
+        "pageTitle": "Михаил Ключко, разработчик"
     },
     "projects": {
         "allProjects": "Все проекты",

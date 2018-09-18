@@ -20,7 +20,8 @@
         "aboutMe": "About me",
         "projects": "Projects",
         "subtitle": "Senior Full-Stack developer",
-        "fullname": "Michael Kluchko"
+        "fullname": "Michael Kluchko",
+        "pageTitle": "Michael Kluchko, developer"
     },
     "projects": {
         "allProjects": "All projects",
