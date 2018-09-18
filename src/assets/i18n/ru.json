@@ -1,19 +1,40 @@
 {
-    "core": {
-        "aboutMe": "Обо мне",
-        "projects": "Проекты",
-        "subtitle": "Senior Full-Stack разработчик"
-    },
     "about": {
         "aboutAuthor": "Об авторе",
         "aboutMeFormal": "Теперь более формально",
+        "downloadResume": "Скачать резюме",
         "education": "Образование ({{value}} лет)",
+        "emailForAnswer": "Email для ответа",
+        "message": "Сообщение",
+        "name": "Имя",
         "personalQual": "Персональные качества",
         "profSkills": "Профессиональные навыки",
+        "send": "Отправить",
         "workExp": "Опыт работы ({{value}} лет)",
         "writeMe": "Напишите мне",
-        "send": "Отправить"
+        "writeMeText": "Если у вас есть интересный проект или вы просто хотите пообщаться на общие темы, пишите.",
+        "yourMessage": "Ваше сообщение",
+        "yourName": "Ваше имя"
     },
-    "projects": {},
+    "core": {
+        "aboutMe": "Обо мне",
+        "fullname": "Михаил Ключко",
+        "projects": "Проекты",
+        "subtitle": "Senior Full-Stack разработчик"
+    },
+    "projects": {
+        "allProjects": "Все проекты",
+        "byLanguage": "По языку программирования",
+        "byProjectType": "По типу проекта",
+        "byWork": "По месту работы",
+        "desktop": "Desktop",
+        "filterByTags": "Фильтрация по тегам",
+        "listOfProjects": "Список проектов",
+        "other": "Другие (gamedev)",
+        "otherTags": "Другие теги",
+        "web": "Web (full-stack)",
+        "all": "все",
+        "usedInProject": "В проекте использовалось"
+    },
     "shared": {}
 }

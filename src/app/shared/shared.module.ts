@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { NoindexPipe } from './noindex.pipe';
 
@@ -6,8 +7,12 @@ import { NoindexPipe } from './noindex.pipe';
   declarations: [
     NoindexPipe
   ],
+  imports: [
+    TranslateModule
+  ],
   exports: [
-    NoindexPipe
+    NoindexPipe,
+    TranslateModule
   ],
 })
 export class SharedModule { }

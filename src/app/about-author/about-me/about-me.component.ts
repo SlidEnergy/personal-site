@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getOldYears, getWorkExperienceYears } from '../../shared/years-utils';
 
 @Component({
   selector: 'app-about-me',
@@ -7,20 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
 
+  oldYears = getOldYears();
+  workExperienceYears = getWorkExperienceYears();
+
   constructor() { }
 
   ngOnInit() {
-  }
-
-  get age(): number {
-    let ageDifMs = Date.now() - new Date(1987, 6, 30).getTime();
-    let ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
-  }
-
-  get experience(): number {
-    let ageDifMs = Date.now() - new Date(2009, 11, 30).getTime();
-    let ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
   }
 }

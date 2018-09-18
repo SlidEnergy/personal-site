@@ -1,19 +1,40 @@
 {
-    "core": {
-        "aboutMe": "About me",
-        "projects": "Projects",
-        "subtitle": "Senior Full-Stack developer"
-    },
     "about": {
         "aboutAuthor": "About author",
         "aboutMeFormal": "Now formal",
-        "profSkills": "Professionanl skills",
-        "personalQual": "Personal quality",
-        "workExp": "Work experience ({{value}} years)",
         "education": "Education ({{value}} years)",
+        "personalQual": "Personal quality",
+        "profSkills": "Professionanl skills",
+        "send": "Send",
+        "workExp": "Work experience ({{value}} years)",
         "writeMe": "Write me",
-        "send": "Send"
+        "downloadResume": "Download resume",
+        "writeMeText": "If you have interested project or you want talk about common topics write me.",
+        "name": "Name",
+        "message": "Message",
+        "yourName": "Your name",
+        "emailForAnswer": "Email for answer",
+        "yourMessage": "Your message"
     },
-    "projects": {},
+    "core": {
+        "aboutMe": "About me",
+        "projects": "Projects",
+        "subtitle": "Senior Full-Stack developer",
+        "fullname": "Michael Kluchko"
+    },
+    "projects": {
+        "allProjects": "All projects",
+        "other": "Other (gamedev)",
+        "filterByTags": "Filter by tags",
+        "listOfProjects": "List of projects",
+        "web": "Web (full-stack)",
+        "desktop": "Desktop",
+        "byWork": "By work",
+        "byProjectType": "By project type",
+        "byLanguage": "By programming language",
+        "otherTags": "Other tags",
+        "all": "all",
+        "usedInProject": "Used in project"
+    },
     "shared": {}
 }

@@ -6,17 +6,17 @@
          class="nav-category-link tag"
          rel="nofollow"
          [class.active]="selectedTag == mainCategory.tag"
-         (click)="tag_click(mainCategory.tag)">{{mainCategory.text}}</a>
+         (click)="tag_click(mainCategory.tag)">{{mainCategory.text | translate}}</a>
     </li>
   </ul>
   <div class="show-tags"><a href="javascript:void(0);"
        rel="nofollow"
-       (click)="filterVisible = !filterVisible">Фильтрация по тегам</a></div>
+       (click)="filterVisible = !filterVisible">{{ 'projects.filterByTags' | translate }}</a></div>
   <div class="filter"
        [style.display]="filterVisible ? 'flex' : 'none'">
     <div class="filter-category"
          *ngFor="let category of tagsByCategory | async">
-      <p>{{category.text}}</p>
+      <p>{{category.text | translate}}</p>
       <div class="tags">
         <app-tag *ngFor="let tag of category.tags"
                  [tag]="tag"

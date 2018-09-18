@@ -14,19 +14,19 @@ export class FiltersComponent implements OnInit {
   tagsByCategory: Observable<{ text: string, tags: string[] }[]>;
   mainCategories = [
     {
-      text: 'Все проекты',
+      text: 'projects.allProjects',
       tag: undefined
     },
     {
-      text: 'Desktop',
+      text: 'projects.desktop',
       tag: 'desktop'
     },
     {
-      text: 'Web (full-stack)',
+      text: 'projects.web',
       tag: 'web'
     },
     {
-      text: 'Другие (gamedev)',
+      text: 'projects.other',
       tag: 'gamedev'
     }
   ];
@@ -43,10 +43,10 @@ export class FiltersComponent implements OnInit {
   constructor(tagsService: TagsService) {
     this.tagsByCategory = tagsService.getTagsByCategory().map(sortedTags =>
       [
-        { text: 'По месту работы', tags: sortedTags.byWork },
-        { text: 'По типу проектов', tags: sortedTags.byProjectType },
-        { text: 'По языку программирования', tags: sortedTags.byLanguage },
-        { text: 'Другие теги', tags: sortedTags.other }
+        { text: 'projects.byWork', tags: sortedTags.byWork },
+        { text: 'projects.byProjectType', tags: sortedTags.byProjectType },
+        { text: 'projects.byLanguage', tags: sortedTags.byLanguage },
+        { text: 'projects.otherTags', tags: sortedTags.other }
       ]
     );
   }

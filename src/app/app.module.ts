@@ -10,8 +10,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AboutAuthorModule } from './about-author/about-author.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './core/header/header.component';
+import { FooterComponent } from './core/footer/footer.component';
 import { AboutAuthorComponent } from './about-author/about-author.component';
 import { ProjectsPageComponent } from './projects/projects-page.component';
 import { ProjectComponent } from './projects/project/project.component';

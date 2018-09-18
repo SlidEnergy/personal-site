@@ -1,4 +1,4 @@
-@import '../app.component';
+@import '../../app.component';
 
 footer {
     position: relative;
@@ -82,7 +82,7 @@ footer {
 	left: 0;
 	right: 0;
 	content: "";
-	background-image: url('../../assets/layout/footer_bg.png');
+	background-image: url('../../../assets/layout/footer_bg.png');
 	z-index: -1
 }
 

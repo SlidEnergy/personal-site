@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getWorkExperienceYears } from '../../../shared/years-utils';
 
 @Component({
   selector: 'app-work-exp',
@@ -7,14 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkExpComponent implements OnInit {
 
+  workExperienceYears = getWorkExperienceYears();
+
   constructor() { }
 
   ngOnInit() {
-  }
-
-  get experience(): number {
-    let ageDifMs = Date.now() - new Date(2009, 11, 30).getTime();
-    let ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
   }
 }

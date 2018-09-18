@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getOldYears } from '../../../shared/years-utils';
 
 @Component({
   selector: 'app-contacts',
@@ -7,14 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsComponent implements OnInit {
 
+  oldYears = getOldYears();
+
   constructor() { }
 
   ngOnInit() {
-  }
-
-  get age(): number {
-    let ageDifMs = Date.now() - new Date(1987, 6, 30).getTime();
-    let ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
   }
 }

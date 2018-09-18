@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { getEducationYears } from '../../shared/years-utils';
 
 @Component({
   selector: 'app-about-me-formal',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-me-formal.component.scss']
 })
 export class AboutMeFormalComponent implements OnInit {
+
+  educationYears = getEducationYears();
 
   constructor() { }
 

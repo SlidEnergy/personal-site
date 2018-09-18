@@ -11,7 +11,7 @@
                [images]="project.images">
   </ngx-gallery>
   <p [innerHTML]="project.description | noindex:'html'"></p>
-  <p *ngIf="project.projectUsed">В проекте использовалось:</p>
+  <p *ngIf="project.projectUsed">{{ 'projects.usedInProject' | translate }}:</p>
   <ul class="inside">
     <li *ngFor="let uses of project.projectUsed">{{uses}}</li>
   </ul>
