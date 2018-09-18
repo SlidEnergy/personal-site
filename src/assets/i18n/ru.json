@@ -1,1 +1,19 @@
-{}
+{
+    "core": {
+        "aboutMe": "Обо мне",
+        "projects": "Проекты",
+        "subtitle": "Senior Full-Stack разработчик"
+    },
+    "about": {
+        "aboutAuthor": "Об авторе",
+        "aboutMeFormal": "Теперь более формально",
+        "education": "Образование ({{value}} лет)",
+        "personalQual": "Персональные качества",
+        "profSkills": "Профессиональные навыки",
+        "workExp": "Опыт работы ({{value}} лет)",
+        "writeMe": "Напишите мне",
+        "send": "Отправить"
+    },
+    "projects": {},
+    "shared": {}
+}

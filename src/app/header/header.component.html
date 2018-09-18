@@ -2,21 +2,30 @@
     <div class="wrapper">
         <div class="logo">
             <a routerLink="/">SlidEnergy</a>
-            <div>Senior Full-Stack разработчик</div>
+            <div>{{'core.subtitle' | translate }}</div>
         </div>
-        <ul class="menu"
-            role="navigation">
-            <li>
-                <a routerLink="/"
-                   routerLinkActive="active"
-                   [routerLinkActiveOptions]="{exact:true}"
-                   rel="nofollow">Обо мне</a>
-            </li>
-            <li>
-                <a routerLink="/projects"
-                   routerLinkActive="active"
-                   rel="nofollow">Проекты</a>
-            </li>
-        </ul>
+        <div>
+            <ul class="menu"
+                role="navigation">
+                <li>
+                    <a routerLink="/"
+                       routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact:true}"
+                       rel="nofollow">{{ 'core.aboutMe' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/projects"
+                       routerLinkActive="active"
+                       rel="nofollow">{{ 'core.projects' | translate }}</a>
+                </li>
+
+
+
+            </ul>
+            <span class="languages">[ <a [ngClass]="{ 'active': currentLang == 'en'}"
+                   (click)="language_click('en')">en</a> | <a [ngClass]="{ 'active': currentLang == 'ru'}"
+                   (click)="language_click('ru')">ru</a>
+                ]</span>
+        </div>
     </div>
 </header>

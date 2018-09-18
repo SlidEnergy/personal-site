@@ -1,1 +1,19 @@
-{}
+{
+    "core": {
+        "aboutMe": "About me",
+        "projects": "Projects",
+        "subtitle": "Senior Full-Stack developer"
+    },
+    "about": {
+        "aboutAuthor": "About author",
+        "aboutMeFormal": "Now formal",
+        "profSkills": "Professionanl skills",
+        "personalQual": "Personal quality",
+        "workExp": "Work experience ({{value}} years)",
+        "education": "Education ({{value}} years)",
+        "writeMe": "Write me",
+        "send": "Send"
+    },
+    "projects": {},
+    "shared": {}
+}

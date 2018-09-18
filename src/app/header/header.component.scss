@@ -8,7 +8,7 @@ header {
 
     .wrapper {
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 4fr 2fr;
         max-width: $wrap-width;
         margin: $wrap-margin;
         padding: $wrap-padding;
@@ -52,6 +52,21 @@ header {
                         transition: border .3s;
                         border-bottom-color: #00aee8;
                     }
+                }
+            }
+        }
+
+        .languages {
+          margin-left: 40px;
+
+          a {
+                &.active {
+                    color: #00aee8;
+                }
+
+                &:hover {
+                    transition: color .3s;
+                    color: #00aee8;
                 }
             }
         }
