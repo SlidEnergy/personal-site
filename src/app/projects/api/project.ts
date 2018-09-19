@@ -5,6 +5,5 @@ export interface Project {
     images: any[];
     descriptionRu: string;
     descriptionEn: string;
-    projectUsed: string;
     category: string;
 }

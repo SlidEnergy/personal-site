@@ -28,10 +28,16 @@
         раположенных на расстоянии десятки и сотни километров. Компания смогла <u>сократить штат</u> выездных сотрудников в несколько раз.
       </p>
       <p>Получен опыт разработки большого проекта с нуля.</p>
+      <p>В проекте использовалось:</p>
+      <ul>
+        <li>ASP.NET WebForms/MVC, HTML, JavaScript</li>
+        <li>Библиотеки: jQuery, AngularJs</li>
+        <li>Компоненты: DevExpress ASP.NET, DevExtreme Html&amp;JavaScript</li>
+      </ul>
     descriptionEn: >
       <noindex>
-        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS ARM</a></p>
-        <p>Web-interface is part of automated meter reading software LERS ARM.</p>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+        <p>Web-interface is part of automated meter reading software LERS AMR.</p>
       </noindex>
       <p>
         С помощью веб-сайта удалось охватить <u>новую аудиторию пользователей</u>, которые  были не готовы устанавливать отдельное приложение.
@@ -44,16 +50,22 @@
         раположенных на расстоянии десятки и сотни километров. Компания смогла <u>сократить штат</u> выездных сотрудников в несколько раз.
       </p>
       <p>Получен опыт разработки большого проекта с нуля.</p>
-    projectUsed: ['ASP.NET WebForms/MVC, HTML, JavaScript', 'Библиотеки: jQuery, AngularJs', 'Компоненты: DevExpress ASP.NET, DevExtreme Html&amp;JavaScript']
-    category: project95.213.
+      <p>Used in project:</p>
+      <ul>
+        <li>ASP.NET WebForms/MVC, HTML, JavaScript</li>
+        <li>Libraries: jQuery, AngularJs</li>
+        <li>Components: DevExpress ASP.NET, DevExtreme Html&amp;JavaScript</li>
+      </ul>
+    category: project.
 -
-    title: 'Рабочее место оператора + сервер'
+    titleRu: 'Рабочее место оператора + сервер'
+    titleEn: 'The workstation of the operator + server'
     tags: [desktop, 'c#', lers, devexpress, t-sql, teamwork, windows-services]
     images: 
       - small: assets/projects/lers-client/main.png
         medium: assets/projects/lers-client/main.png
         big: assets/projects/lers-client/main.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
         <p>Рабочее место оператора и сервер являются частями системы диспетчирезации ЛЭРС УЧЕТ.</p>
@@ -64,16 +76,39 @@
         Что в свою очередь <u>выделило програмный продукт среди конкурентов</u> и сделало <u>имя компании узнаваемым</u> в своей сфере.
       </p>
       <p>Получен опыт работы в команде.</p>
-    projectUsed: ['WinForms, C#, async programming, sockets, windows services, ado.net, t-sql', 'Библиотеки: Entity Framework, Newtonsoft', 'Компоненты: DevExpress WinForms']
+      <p>В проекте использовалось:</p>
+      <ul>
+        <li>WinForms, C#, async programming, sockets, windows services, ado.net, t-sql</li>
+        <li>Библиотеки: Entity Framework, Newtonsoft</li>
+        <li>Компоненты: DevExpress WinForms</li>
+      </ul>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+        <p>Рабочее место оператора и сервер являются частями системы диспетчирезации ЛЭРС УЧЕТ.</p>
+      </noindex>
+      <p>
+        Работа над рабочим местом оператора позволило компании <u>поддерживать свои услуги на современном уровне</u>, 
+        постоянно <u>расширяя функциональные возможности</u> продаваемого комплекса. 
+        Что в свою очередь <u>выделило програмный продукт среди конкурентов</u> и сделало <u>имя компании узнаваемым</u> в своей сфере.
+      </p>
+      <p>Получен опыт работы в команде.</p>
+      <p>Used in project:</p>
+      <ul>
+        <li>WinForms, C#, async programming, sockets, windows services, ado.net, t-sql</li>
+        <li>Libraries: Entity Framework, Newtonsoft</li>
+        <li>Components: DevExpress WinForms</li>
+      </ul>
     category: project
 -
-    title: 'Фреймворк + веб-сервис soap + сервис REST Api'
+    titleRu: 'Фреймворк + веб-сервис soap + REST Api'
+    titleEn: 'Framework + web-service soap + REST Api'
     tags: [web, 'c#', api, lers, teamwork]
     images: 
       - small: assets/projects/lers-webapi/swagger.png
         medium: assets/projects/lers-webapi/swagger.png
         big: assets/projects/lers-webapi/swagger.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
       </noindex>
@@ -88,16 +123,43 @@
         <u>увеличить количество клиентов и продаж</u>, <u>увеличить узнаваемость программного продукта</u>.
       </p>
       <p>Получен опыт разработки больших проектов с нуля и опыт работы в команде.</p>
-    projectUsed: ['Фреймворк: C#, async programming, sockets', 'Веб-сервисы: C#, asmx web services, WebApi, Swagger, OpenApi']
+      <p>В проекте использовалось:</p>
+      <p>
+      <ul>
+        <li>Фреймворк: C#, async programming, sockets</li>
+        <li>Веб-сервисы: C#, asmx web services, WebApi, Swagger, OpenApi</li>
+      </ul>
+      </p>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+      </noindex>
+      <p>
+        Были разработаны: фреймворк, веб-сервис soap, сервис REST Api и система внешних модулей 
+        для взаимодействия программного продукта с другими системами.
+      </p>
+      <p>
+        Багодаря разработки фреймворка удалось <u>упростить и стандартизировать взаимодействие компонентов</u> системы, 
+        что в свою учередь <u>ускорило дальнейшую разработку</u> программного продукта и дало возможность расширять функциональность системы 
+        под свои нужны.</p><p>В результате интеграции с другими системами, компания смогла <u>войти в занятый сектор рынка</u>, 
+        <u>увеличить количество клиентов и продаж</u>, <u>увеличить узнаваемость программного продукта</u>.
+      </p>
+      <p>Получен опыт разработки больших проектов с нуля и опыт работы в команде.</p>
+      <p>Used in project:</p>
+      <ul>
+        <li>Framework: C#, async programming, sockets</li>
+        <li>Web services: C#, asmx web services, WebApi, Swagger, OpenApi</li>
+      </ul>
     category: project
 -
-    title: 'Менеджер лицензий + сайт + сервер'
+    titleRu: 'Менеджер лицензий + сайт + сервер'
+    titleEn: 'License manager + web site + server'
     tags: [desktop, web, 'c#', lers, t-sql, devexpress, windows-services, aspnet]
     images: 
       - small: assets/projects/lers-license/main.png
         medium: assets/projects/lers-license/main.png
         big: assets/projects/lers-license/main.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
       </noindex>
@@ -107,16 +169,38 @@
         В результате, это позволило <u>нанять отдел продаж</u> и <u>делегировать им все работу</u> с лицензиями.
       </p>
       <p>Модель активации позволила <u>значительно уменьшить количество неправомерного использования</u> программного продукта.</p>
-    projectUsed: ['Менеджер лицензий: WinForms, C#, pipes, DevExpress', 'Сайт: ASP.NET WebForms/MVC, pipes, DevExpress/DevExtreme, asp.net handlers', 'Сервер лицензий: C#, pipes, windows services, ado.net, t-sql']
+      <p>В проекте использовалось:</p>
+      <ul>
+        <li>Менеджер лицензий: WinForms, C#, pipes, DevExpress</li>
+        <li>Сайт: ASP.NET WebForms/MVC, pipes, DevExpress/DevExtreme, asp.net handlers</li>
+        <li>Сервер лицензий: C#, pipes, windows services, ado.net, t-sql</li>
+      </ul>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+      </noindex>
+      <p>
+        Я разработал комплекс программного ПО, при помощи которого компания смогла <u>автоматизировать работу</u> с лицензиями 
+        и <u>перевести программный продукт на новую модель</u> активации и проверки лицензии на сервере. 
+        В результате, это позволило <u>нанять отдел продаж</u> и <u>делегировать им все работу</u> с лицензиями.
+      </p>
+      <p>Модель активации позволила <u>значительно уменьшить количество неправомерного использования</u> программного продукта.</p>
+      <p>В проекте использовалось:</p>
+      <ul>
+        <li>License manager: WinForms, C#, pipes, DevExpress</li>
+        <li>Web site: ASP.NET WebForms/MVC, pipes, DevExpress/DevExtreme, asp.net handlers</li>
+        <li>License server: C#, pipes, windows services, ado.net, t-sql</li>
+      </ul>
     category: project
 -
-    title: 'Сервер телеметрии + сайт'
+    titleRu: 'Сервер телеметрии + сайт'
+    titleEn: 'Telemetry server + web site'
     tags: [web, 'c#', lers, t-sql, devexpress, javascript, angular, teamwork]
     images: 
       - small: assets/projects/lers-telemetry/main.png
         medium: assets/projects/lers-telemetry/main.png
         big: assets/projects/lers-telemetry/main.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
       </noindex>
@@ -128,16 +212,40 @@
         Также собираемая информация позволяет <u>корректировать планы развития</u> программного продукта, 
         что влияет на <u>общий результат работы</u> компании.
       </p>
-    projectUsed: ['C#, ado.net, t-sql, ASP.NET MVC', 'Библиотеки: Angular, Entity Framework, Newtonsoft', 'Компоненты: DevExpress DevExtreme']
+       <p>В проекте использовалось:</p>
+      <ul>
+        <li>C#, ado.net, t-sql, ASP.NET MVC</li>
+        <li>Библиотеки: Angular, Entity Framework, Newtonsoft</li>
+        <li>Компоненты: DevExpress DevExtreme</li>
+      </ul>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+      </noindex>
+      <p>
+        Я разработал комплекс ПО для сбора телеметрии и отчетов об ошибках. Это позволяет собирать необходимую информацию 
+        для <u>оптимизации модели лицензирования</u>, что способствует <u>увеличению продаж</u>.
+      </p>
+      <p>
+        Также собираемая информация позволяет <u>корректировать планы развития</u> программного продукта, 
+        что влияет на <u>общий результат работы</u> компании.
+      </p>
+      <p>Used in project:</p>
+      <ul>
+        <li>C#, ado.net, t-sql, ASP.NET MVC</li>
+        <li>Libraries: Angular, Entity Framework, Newtonsoft</li>
+        <li>Components: DevExpress DevExtreme</li>
+      </ul>
     category: project
 -
-    title: 'Информационная система в здравоохранении + утилита (2010 год)'
+    titleRu: 'Информационная система в здравоохранении + утилита (2010 год)'
+    titleEn: 'Information system in health + utility (2010 year)'
     tags: [desktop, 'c#', miac, devexpress, t-sql]
     images: 
       - small: assets/projects/miac/main.jpg
         medium: assets/projects/miac/main.jpg
         big: assets/projects/miac/main.jpg
-    description: >
+    descriptionRu: >
       <p>
         Сайт: <a target="_blank" rel="nofollow" class="site" href="http://www.fesmu.ru/voz/20101/2010108.aspx">
         Статья в вестнике общественного здоровья и здравоохранения Дальнего Востока России 2010 год №1</a>
@@ -154,16 +262,43 @@
         по программе государственной социальной помощи, <u>обеспечена "адресная" лекарственная помощь</u>, 
         что в конечном итоге <u>повысило удовлетворенность населения</u> льготным лекарственным обеспечением.
       </p>
-    projectUsed: ['T-SQL, .NET WinForm', 'Компоненты DevExpress WinForms']
+      <p>В проекте использовалось:</p>
+      <ul>
+        <li>T-SQL, .NET WinForm</li>
+        <li>Компоненты: DevExpress WinForms</li>
+      </ul>
+    descriptionEn: >
+      <p>
+        Сайт: <a target="_blank" rel="nofollow" class="site" href="http://www.fesmu.ru/voz/20101/2010108.aspx">
+        Статья в вестнике общественного здоровья и здравоохранения Дальнего Востока России 2010 год №1</a>
+      </p>
+      <p>Был разработан модуль и утилита для формирования персонифицированных заявок на льготные лекарственные препараты.</p>
+      <p>
+        Внедренние информационной системы в деятельность муниципальных учреждений здравоохранения позволила оптимизировать 
+        формирование заявки на лекарственные средства с точки зрения их приоритетности и экономии финансовых средств 
+        в условиях лимита финансирования, ограничив количество малоприоритетных препаратов. 
+        Это <u>сократило стоимость сводной потребности</u> в лекарственных средствах по городу.
+      </p>
+      <p>
+        Таким образом, благодаря внедрению информационной системы, <u>оптимизировано планирование лекарственных препаратов</u> 
+        по программе государственной социальной помощи, <u>обеспечена "адресная" лекарственная помощь</u>, 
+        что в конечном итоге <u>повысило удовлетворенность населения</u> льготным лекарственным обеспечением.
+      </p>
+      <p>Used in project:</p>
+       <ul>
+        <li>T-SQL, .NET WinForm</li>
+        <li>Components: DevExpress WinForms</li>
+      </ul>
     category: project
 -
-    title: 'Утилита настройки модемов'
+    titleRu: 'Утилита настройки модемов'
+    titleEn: 'Modem tune utility'
     tags: [desktop, utils, 'c#', lers]
     images: 
       - small: assets/projects/lers-modemtune/main.png
         medium: assets/projects/lers-modemtune/main.png
         big: assets/projects/lers-modemtune/main.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
       </noindex>
@@ -175,15 +310,28 @@
         Это позволило <u>сократить время ввода</u> в эксплуатацию в десятки и сотни раз и <u>понизить уровень входа</u> 
         с узкоспециализированного специалиста до уровня пользователя ПК.
       </p>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+      </noindex>
+      <p>
+        Я разработал утилиту, с помощью которой автоматизировал сложную схему настройки различных модемов для их работы 
+        со всеми поддерживаемыми приборами учета.
+      </p>
+      <p>
+        Это позволило <u>сократить время ввода</u> в эксплуатацию в десятки и сотни раз и <u>понизить уровень входа</u> 
+        с узкоспециализированного специалиста до уровня пользователя ПК.
+      </p>
     category: utility
 -
-    title: 'Утилита восстановления базы данных'
+    titleRu: 'Утилита восстановления базы данных'
+    titleEn: 'Database restore utility'
     tags: [desktop, utils, 'c#', lers]
     images: 
       - small: assets/projects/lers-databaserestore/main.png
         medium: assets/projects/lers-databaserestore/main.png
         big: assets/projects/lers-databaserestore/main.png
-    description: >
+    descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
       </noindex>
@@ -192,9 +340,19 @@
         Это позволило <u>затрачивать меньше времени</u> на обслуживание системы и <u>понизить уровень входа</u> 
         с узкоспециализированного специалиста до уровня пользователя ПК.
       </p>
+    descriptionEn: >
+      <noindex>
+        <p>Product site: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">LERS AMR</a></p>
+      </noindex>
+      <p>Я разработал утилиту, с помощью которой автоматизировал восстановление базы данных.</p>
+      <p>
+        Это позволило <u>затрачивать меньше времени</u> на обслуживание системы и <u>понизить уровень входа</u> 
+        с узкоспециализированного специалиста до уровня пользователя ПК.
+      </p>
     category: utility
 -
-    title: 'Игра - Холостяк'
+    titleRu: 'Игра - Холостяк'
+    titleEn: 'Game - Single'
     tags: [gamedev, hobby, 'c#', unity3d]
     images: 
       - small: assets/projects/unmarried/main.jpg
@@ -206,7 +364,14 @@
       - small: assets/projects/unmarried/menu.jpg
         medium: assets/projects/unmarried/menu.jpg
         big: assets/projects/unmarried/menu.jpg
-    description: >
+    descriptionRu: >
+      <p>
+        Демо для браузеров с поддержкой Unity WebPlayer: 
+        <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/unmarried">Unmarried</a>, 
+        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/unmarried">Проект на GitHub</a>
+      </p>
+      <p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>
+    descriptionEn: >
       <p>
         Демо для браузеров с поддержкой Unity WebPlayer: 
         <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/unmarried">Unmarried</a>, 
@@ -215,7 +380,8 @@
       <p>Простая игра аркада, в которой молодому человеку нужно сбежать от невест. На данном проекте, я обкатал технологию работы с Unity3D.</p>
     category: hobby
 -
-    title: 'Игра - VirusWar'
+    titleRu: 'Игра - VirusWar'
+    titleEn: 'Game - VirusWar'
     tags: [gamedev, hobby, 'c#', unity3d]
     images: 
       - small: assets/projects/viruswar/win.jpg
@@ -224,7 +390,17 @@
       - small: assets/projects/viruswar/lose.jpg
         medium: assets/projects/viruswar/lose.jpg
         big: assets/projects/viruswar/lose.jpg
-    description: >
+    descriptionRu: >
+      <p>
+        Демо для браузеров с поддержкой Unity WebPlayer: 
+        <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/viruswar">VirusWar</a>, 
+        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/viruswar">Проект на GitHub</a>
+      </p>
+      <p>
+        Простая игра аркада в стиле virus, в которой нужно развить колонию вирусов и не дать развиться вражеским колониям. 
+        На данном проекте, я обкатал технологию работы с Unity3D.
+      </p>
+    descriptionEn: >
       <p>
         Демо для браузеров с поддержкой Unity WebPlayer: 
         <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/viruswar">VirusWar</a>, 
@@ -236,13 +412,23 @@
       </p>
     category: hobby
 -
-    title: 'Календарь жизни - LifeCalendar'
+    titleRu: 'Календарь жизни - LifeCalendar'
+    titleEn: 'Calendar of life - LifeCalendar'
     tags: [web, hobby, angularjs, devexpress]
     images: 
       - small: assets/projects/lifecalendar/main.png
         medium: assets/projects/lifecalendar/main.png
         big: assets/projects/lifecalendar/main.png
-    description: >
+    descriptionRu: >
+      <p>
+        Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/life-calendar">Life calendar</a>, 
+        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/life-calendar">Проект на GitHub</a>
+      </p>
+      <p>
+        Интерактивный онлайн календарь всей вашей жизни в неделях. 
+        На данном проекте, я обкатал технологию работы с AngularJS и DevExtreme компонентами.
+      </p>
+    descriptionEn: >
       <p>
         Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/life-calendar">Life calendar</a>, 
         <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/life-calendar">Проект на GitHub</a>
@@ -253,13 +439,20 @@
       </p>
     category: hobby
 -
-    title: 'Сайт портфолио'
+    titleRu: 'Сайт портфолио'
+    titleEn: 'Portfolio site'
     tags: [web, hobby, angular]
     images:
       - small: assets/projects/personalsite/main.png
         medium: assets/projects/personalsite/main.png
         big: assets/projects/personalsite/main.png
-    description: >
+    descriptionRu: >
+      <p>
+        Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/">Об авторе - Михаил Ключко, разработчик</a>, 
+        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/personal-site">Проект на GitHub</a>
+      </p>
+      <p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>
+    descriptionEn: >
       <p>
         Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/">Об авторе - Михаил Ключко, разработчик</a>, 
         <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/personal-site">Проект на GitHub</a>

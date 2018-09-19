@@ -34,8 +34,7 @@
         "other": "Другие (gamedev)",
         "otherTags": "Другие теги",
         "web": "Web (full-stack)",
-        "all": "все",
-        "usedInProject": "В проекте использовалось"
+        "all": "все"
     },
     "shared": {}
 }

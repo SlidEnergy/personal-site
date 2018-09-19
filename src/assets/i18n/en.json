@@ -34,8 +34,7 @@
         "byProjectType": "By project type",
         "byLanguage": "By programming language",
         "otherTags": "Other tags",
-        "all": "all",
-        "usedInProject": "Used in project"
+        "all": "all"
     },
     "shared": {}
 }
