@@ -1,5 +1,5 @@
 <section class="project">
-  <h3>{{project.title}}</h3>
+  <h3>{{currentLang == 'ru' ? project.titleRu : project.titleEn}}</h3>
   <div class="tags">
     <app-tag href="#"
              *ngFor="let tag of project.tags"
@@ -10,7 +10,7 @@
                [options]="galleryOptions"
                [images]="project.images">
   </ngx-gallery>
-  <p [innerHTML]="project.description | noindex:'html'"></p>
+  <p [innerHTML]="currentLang == 'ru' ? project.descriptionRu : project.descriptionEn | noindex:'html'"></p>
   <p *ngIf="project.projectUsed">{{ 'projects.usedInProject' | translate }}:</p>
   <ul class="inside">
     <li *ngFor="let uses of project.projectUsed">{{uses}}</li>

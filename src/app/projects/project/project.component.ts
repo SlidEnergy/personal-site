@@ -2,6 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Project } from '../api/project';
 
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-project',
@@ -16,7 +17,9 @@ export class ProjectComponent implements OnInit {
   @Input() project: Project;
   @Output() tagClicked = new EventEmitter<string>();
 
-  constructor() { }
+  currentLang = this.translate.currentLang;
+
+  constructor(private translate: TranslateService) { }
 
   ngOnInit() {
     this.galleryOptions = [

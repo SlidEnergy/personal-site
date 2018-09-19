@@ -1,8 +1,10 @@
 export interface Project {
-    title: string;
+    titleRu: string;
+    titleEn: string;
     tags: string;
     images: any[];
-    description: string;
+    descriptionRu: string;
+    descriptionEn: string;
     projectUsed: string;
     category: string;
 }

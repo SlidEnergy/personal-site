@@ -26,7 +26,8 @@
               "node_modules/font-awesome/scss/font-awesome.scss"
             ],
             "scripts": [
-              "node_modules/emailjs-com/dist/email.js"
+              "node_modules/emailjs-com/dist/email.js",
+              "node_modules/js-yaml/dist/js-yaml.min.js"
             ]
           },
           "configurations": {

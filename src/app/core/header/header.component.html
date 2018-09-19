@@ -1,7 +1,7 @@
 <header>
     <div class="wrapper">
         <div class="logo">
-            <a routerLink="/">SlidEnergy</a>
+            <a routerLink="/">{{'core.fullname' | translate}}</a>
             <div>{{'core.subtitle' | translate }}</div>
         </div>
         <div>
@@ -18,9 +18,6 @@
                        routerLinkActive="active"
                        rel="nofollow">{{ 'core.projects' | translate }}</a>
                 </li>
-
-
-
             </ul>
             <span class="languages">[ <a [ngClass]="{ 'active': currentLang == 'en'}"
                    (click)="language_click('en')">en</a> | <a [ngClass]="{ 'active': currentLang == 'ru'}"
