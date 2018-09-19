@@ -25,6 +25,7 @@
     "@angular/router": "^6.1.7",
     "@ngx-translate/core": "^10.0.2",
     "@ngx-translate/http-loader": "^3.0.1",
+    "@w11k/ngx-componentdestroyed": "^4.0.1",
     "angular-font-awesome": "^3.1.2",
     "core-js": "^2.4.1",
     "emailjs-com": "^2.2.4",
