@@ -8,32 +8,66 @@
          title="{{ 'core.fullname' | translate }}"
          class="left frame"
          itemprop="image">
-    <p>Меня зовут <span itemprop="name">Михаил Ключко</span>, мне {{oldYears}} год, живу в г. Хабаровск.</p>
-    <p>
-      Я <b>Full-Stack</b> разработчик со стеком технологий <b>.NET Framework</b> и <b>Angular</b>. У меня есть опыт
-      работы <b>более {{workExperienceYears}} лет</b> в разработке настольных приложений, с клиент-серверной
-      архитектурой, и веб-сайтов. Я имею <b>профильное образование</b> и обладаю обширными
-      техническими знаниями и вниманием к деталям для написания программ свободных от ошибок. Я перфекционист по
-      природе и методично все тестирую.
-    </p>
-    <p>
-      Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве
-      пользовательских интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в первую
-      очередь я ищу долгосрочные проекты.
-    </p>
-    <p>Другую интересную информацию обо мне можно получить из социальных сервисов:
-      <a href="//github.com/slidenergy"
-         target="_blank"
-         rel="nofollow">GitHub</a>,
-      <a href="//facebook.com/slidenergy"
-         target="_blank"
-         rel="nofollow">Facebook</a>,
-      <a href="//linkedin.com/in/slidenergy"
-         target="_blank"
-         rel="nofollow">LinkedIn</a> и
-      <a href="//vk.com/slidenergy"
-         target="_blank"
-         rel="nofollow">Вконтакте</a>.
-    </p>
+    <div *ngIf="currentLang == 'ru'">
+      <p>Меня зовут <span itemprop="name">Михаил Ключко</span>, мне {{oldYears}} год, живу в г. Хабаровск.</p>
+      <p>
+        Я <b>Full-Stack</b> разработчик со стеком технологий <b>.NET Framework</b> и <b>Angular</b>. У меня есть опыт
+        работы <b>более {{workExperienceYears}} лет</b> в разработке настольных приложений, с клиент-серверной
+        архитектурой, и веб-сайтов. Я имею <b>профильное образование</b> и обладаю обширными
+        техническими знаниями и вниманием к деталям для написания программ свободных от ошибок. Я перфекционист по
+        природе и методично все тестирую.
+      </p>
+      <p>
+        Мне нравится работать над проектами в команде, которая заботится о высоком качестве приложений и удобстве
+        пользовательских интерфейсов. Для меня важно построение длительных взаимоотношений с клиентами, поэтому в
+        первую
+        очередь я ищу долгосрочные проекты.
+      </p>
+      <p>Другую интересную информацию обо мне можно получить из социальных сервисов:
+        <a href="//github.com/slidenergy"
+           target="_blank"
+           rel="nofollow">GitHub</a>,
+        <a href="//facebook.com/slidenergy"
+           target="_blank"
+           rel="nofollow">Facebook</a>,
+        <a href="//linkedin.com/in/slidenergy"
+           target="_blank"
+           rel="nofollow">LinkedIn</a> и
+        <a href="//vk.com/slidenergy"
+           target="_blank"
+           rel="nofollow">Вконтакте</a>.
+      </p>
+    </div>
+    <div *ngIf="currentLang == 'en'">
+      <p>My name is <span itemprop="name">Michael Kluchko</span>, I am {{oldYears}} years old, and I live in Russia,
+        Khabarovsk city.</p>
+      <p>
+        I am <b>Full-Stack</b> developer with technology stack of <b>.NET Framework</b> and <b>Angular</b>. I have work
+        experience
+        <b>more {{workExperienceYears}} years</b> in developing desktop applications, with client-server architecture,
+        and web-sites.
+        I have a <b>profile education</b> and have extensive technical knowledge and attention to detail for bug-free
+        software. I am a perfectionist by nature and I test everything methodically.
+      </p>
+      <p>
+        I like working on projects with a team that cares about high quality applications and usable interfaces.
+        Building a long term relationship with clients is important for me. So in the first I am looking for
+        long-term projects.
+      </p>
+      <p>Other interesting information about me can be obtained from social services:
+        <a href="//github.com/slidenergy"
+           target="_blank"
+           rel="nofollow">GitHub</a>,
+        <a href="//facebook.com/slidenergy"
+           target="_blank"
+           rel="nofollow">Facebook</a>,
+        <a href="//linkedin.com/in/slidenergy"
+           target="_blank"
+           rel="nofollow">LinkedIn</a> и
+        <a href="//vk.com/slidenergy"
+           target="_blank"
+           rel="nofollow">Vkontakte</a>.
+      </p>
+    </div>
   </div>
 </div>

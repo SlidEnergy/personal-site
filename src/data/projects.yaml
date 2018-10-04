@@ -49,7 +49,7 @@
         находясь непосредственно на объекте. Это сильно <u>сэкономило их время</u> на повторные выезды до удаленных объектов, 
         раположенных на расстоянии десятки и сотни километров. Компания смогла <u>сократить штат</u> выездных сотрудников в несколько раз.
       </p>
-      <p>Получен опыт разработки большого проекта с нуля.</p>
+      <p>Obtained experience in the development of a large project from the beginning.</p>
       <p>Used in project:</p>
       <ul>
         <li>ASP.NET WebForms/MVC, HTML, JavaScript</li>
@@ -92,7 +92,7 @@
         постоянно <u>расширяя функциональные возможности</u> продаваемого комплекса. 
         Что в свою очередь <u>выделило програмный продукт среди конкурентов</u> и сделало <u>имя компании узнаваемым</u> в своей сфере.
       </p>
-      <p>Получен опыт работы в команде.</p>
+      <p>Gained experience in a team.</p>
       <p>Used in project:</p>
       <ul>
         <li>WinForms, C#, async programming, sockets, windows services, ado.net, t-sql</li>
@@ -144,7 +144,7 @@
         под свои нужны.</p><p>В результате интеграции с другими системами, компания смогла <u>войти в занятый сектор рынка</u>, 
         <u>увеличить количество клиентов и продаж</u>, <u>увеличить узнаваемость программного продукта</u>.
       </p>
-      <p>Получен опыт разработки больших проектов с нуля и опыт работы в команде.</p>
+      <p>Obtained experience in the development of a large project from the beginning and experience in a team.</p>
       <p>Used in project:</p>
       <ul>
         <li>Framework: C#, async programming, sockets</li>
@@ -185,7 +185,7 @@
         В результате, это позволило <u>нанять отдел продаж</u> и <u>делегировать им все работу</u> с лицензиями.
       </p>
       <p>Модель активации позволила <u>значительно уменьшить количество неправомерного использования</u> программного продукта.</p>
-      <p>В проекте использовалось:</p>
+      <p>Used in project:</p>
       <ul>
         <li>License manager: WinForms, C#, pipes, DevExpress</li>
         <li>Web site: ASP.NET WebForms/MVC, pipes, DevExpress/DevExtreme, asp.net handlers</li>
@@ -454,8 +454,8 @@
       <p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>
     descriptionEn: >
       <p>
-        Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/">Об авторе - Михаил Ключко, разработчик</a>, 
-        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/personal-site">Проект на GitHub</a>
+        Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/">About author - Michael Kluchko, developer</a>, 
+        <a target="_blank" rel="nofollow" href="https://github.com/SlidEnergy/personal-site">GitHub project</a>
       </p>
-      <p>Это текущий сайт, на котором вы сейчас находитесь. В проекте использовался Angular.</p>
+      <p>This is the current site where you are currently located. The project used Angular.</p>
     category: hobby

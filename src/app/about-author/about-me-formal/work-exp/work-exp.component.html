@@ -1,46 +1,91 @@
 <section>
   <h1>{{ 'about.workExp' | translate:{value: workExperienceYears} }}</h1>
-  <div class="work">
-    <div class="period">2011 - настоящее время</div>
-    <div class="text">
-      <div class="title">{{ 'ООО "ЛЭРС УЧЕТ" - Программист' | noindex }}</div>
-      Сайт продукта: <a target="_blank"
-         rel="noreferrer nofollow"
-         [href]="'http://www.lers.ru/' | noindex">{{ 'ЛЭРС УЧЕТ' | noindex}}</a>
-      <ul>
-        <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку
-          серверной
-          части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для интеграции с
-          другими
-          системами, веб‑интерфейс, webapi.</li>
-        <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>
-        <li>разработка системы телеметрии, внешних модулей, утилит, скриптов.</li>
-      </ul>
-      Использовалось:
-      <ul>
-        <li>общее: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>
-        <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>
-        <li>клиент: WinForms, DevExpress;</li>
-        <li>веб‑интерфейс: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>
-      </ul>
-      <a routerLink="projects"
-         fragment="lers"
-         rel="nofollow">Смотреть проекты и достижения</a>
+  <div *ngIf="currentLang == 'ru'">
+    <div class="work">
+      <div class="period">2011 - настоящее время</div>
+      <div class="text">
+        <div class="title">{{ 'ООО "ЛЭРС УЧЕТ" - Программист' | noindex }}</div>
+        Сайт продукта: <a target="_blank"
+           rel="noreferrer nofollow"
+           [href]="'http://www.lers.ru/' | noindex">{{ 'ЛЭРС УЧЕТ' | noindex}}</a>
+        <ul>
+          <li>разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов, включая разработку
+            серверной части, базы данных, клиентского приложения, слоя сетевого взаимодействия, своего фреймворка для
+            интеграции с другими системами, веб‑интерфейс, web api.
+          </li>
+          <li>разработка системы управления лицензиями, дилерами и активацией ПО;</li>
+          <li>разработка системы телеметрии, внешних модулей, утилит, скриптов.</li>
+        </ul>
+        Использовалось:
+        <ul>
+          <li>общее: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>
+          <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>
+          <li>клиент: WinForms, DevExpress;</li>
+          <li>веб‑интерфейс: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>
+        </ul>
+        <a routerLink="projects"
+           fragment="lers"
+           rel="nofollow">Смотреть проекты и достижения</a>
+      </div>
+    </div>
+    <div class="work">
+      <div class="period">2009 - 2011</div>
+      <div class="text">
+        <div class="title">МБУ Межотраслевой информационно-аналитический центр - Программист</div>
+        <ul>
+          <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>
+          <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>
+          <li>разработка прикладных программ на C#.</li>
+        </ul>
+        <p>Использовалось: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
+        <a routerLink="projects"
+           fragment="miac"
+           rel="nofollow">Смотреть проекты и достижения</a>
+      </div>
     </div>
   </div>
-  <div class="work">
-    <div class="period">2009 - 2011</div>
-    <div class="text">
-      <div class="title">МБУ Межотраслевой информационно-аналитический центр - Программист</div>
-      <ul>
-        <li>сопровождение и доработка муниципальной медицинской информационной системы;</li>
-        <li>написание SQL запросов и работа с базами данных в среде MS SQL Server;</li>
-        <li>разработка прикладных программ на C#.</li>
-      </ul>
-      <p>Использовалось: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
-      <a routerLink="projects"
-         fragment="miac"
-         rel="nofollow">Смотреть проекты и достижения</a>
+  <div *ngIf="currentLang == 'en'">
+    <div class="work">
+      <div class="period">2011 - now</div>
+      <div class="text">
+        <div class="title">{{ 'LERS AMR Software - Software Engineer' | noindex }}</div>
+        Product site: <a target="_blank"
+           rel="noreferrer nofollow"
+           [href]="'http://www.lers.ru/' | noindex">{{ 'LERS AMR' | noindex}}</a>
+        <ul>
+          <li>development of a n-tier dispatch system and metering of energy consumption, including development
+            a server side, databases, a client application, a network layer, own framework for integration with other
+            systems, a web-interface, a web api.
+          </li>
+          <li>development of a management system for licenses, dealers and software activation;</li>
+          <li>development of a telemetry system, external modules, utilities, scripts.</li>
+        </ul>
+        Used:
+        <ul>
+          <li>common: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>
+          <li>server: Windows Services, ado.net, t-sql, Entity Framework;</li>
+          <li>client: WinForms, DevExpress;</li>
+          <li>web: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>
+        </ul>
+        <a routerLink="projects"
+           fragment="lers"
+           rel="nofollow">See projects and progress</a>
+      </div>
+    </div>
+    <div class="work">
+      <div class="period">2009 - 2011</div>
+      <div class="text">
+        <div class="title">MPB Intersectoral information-analytical center - Software Engineer</div>
+        <ul>
+          <li>support and и development municipal medical information system;</li>
+          <li>writing SQL queries and working with databases in MS SQL Server;</li>
+          <li>development C# application.</li>
+        </ul>
+        <p>Used: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
+        <a routerLink="projects"
+           fragment="miac"
+           rel="nofollow">See projects and progress</a>
+      </div>
     </div>
   </div>
 </section>

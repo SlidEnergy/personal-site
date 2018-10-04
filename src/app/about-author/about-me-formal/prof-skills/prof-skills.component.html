@@ -11,23 +11,27 @@
         </thead>
         <tbody>
             <tr *ngFor="let item of items">
-                <td>{{item.name}}</td>
+                <td>{{ currentLang == 'ru' ? item.nameRu : item.nameEn }}</td>
                 <td>{{item.beginner}}</td>
                 <td>{{item.intermediate}}</td>
                 <td>{{item.expert}}</td>
             </tr>
         </tbody>
     </table>
-    <p>Знаю
-        <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами
-        <b>JIRA</b> и
-        <b>Mantis</b>, системами управления версий
-        <b>GIT</b> и
-        <b>SVN</b>. Работаю в среде
-        <b>MS Visual Studio и VS Code</b> с базой данных
-        <b>MS SQL Server</b>.
-    </p>
-    <p>Есть опыт работы в <b>команде</b>, <b>технической поддержки</b> и <b>коммерческой разработке ПО</b>, написания
-        качественного
-        и чистого кода с целью дальнейшего сопровождения.</p>
+    <div *ngIf="currentLang == 'ru'">
+        <p>Знаю <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами
+            <b>JIRA</b> и <b>Mantis</b>, системами управления версий <b>GIT</b> и <b>SVN</b>. Работаю в среде
+            <b>MS Visual Studio и VS Code</b> с базой данных <b>MS SQL Server</b>.
+        </p>
+        <p>Есть опыт работы в <b>команде</b>, <b>технической поддержки</b> и <b>коммерческой разработке ПО</b>,
+            написания качественного и чистого кода с целью дальнейшего сопровождения.</p>
+    </div>
+    <div *ngIf="currentLang == 'en'">
+        <p>I know <b>English</b> at the level of reading and correspondence. I use task management systems
+            <b>JIRA</b> and <b>Mantis</b>, version management systems <b>GIT</b> and
+            <b>SVN</b>. I work in <b>MS Visual Studio и VS Code</b> with database <b>MS SQL Server</b>.
+        </p>
+        <p>I have experience in teamwork, technical support and commercial softrware development, and writing high
+            quality and clean code for the purpose of futher support.</p>
+    </div>
 </section>

@@ -6,12 +6,22 @@
         <app-work-exp></app-work-exp>
         <section>
             <h1>{{ 'about.education' | translate:{value: educationYears} }}</h1>
-            <ul>
-                <li>
-                    <strong>Инженер программист (2004‑2009) и Магистратура (2009-2011)</strong>
-                    <div class="university">Тихоокеанский государственный университет, г. Хабаровск</div>
-                </li>
-            </ul>
+            <div *ngIf="currentLang == 'ru'">
+                <ul>
+                    <li>
+                        <strong>Инженер программист (2004‑2009) и Магистратура (2009-2011)</strong>
+                        <div class="university">Тихоокеанский государственный университет, г. Хабаровск</div>
+                    </li>
+                </ul>
+            </div>
+            <div *ngIf="currentLang == 'en'">
+                <ul>
+                    <li>
+                        <strong>Software Engineer (2004‑2009) and Master degree (2009-2011)</strong>
+                        <div class="university">Pacific National University, Russia, Khabarovsk city</div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section>&nbsp;</section>
     </div>

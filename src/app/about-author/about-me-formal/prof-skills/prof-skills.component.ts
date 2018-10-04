@@ -1,35 +1,41 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { untilComponentDestroyed } from '@w11k/ngx-componentdestroyed';
 
 @Component({
   selector: 'app-prof-skills',
   templateUrl: './prof-skills.component.html',
   styleUrls: ['./prof-skills.component.scss']
 })
-export class ProfSkillsComponent implements OnInit {
+export class ProfSkillsComponent implements OnInit, OnDestroy {
 
   progLang = {
-    name: 'Языки и разметка',
+    nameRu: 'Языки и разметка',
+    nameEn: 'Languages and markup',
     beginner: 'PowerShell',
     intermediate: 'JavaScript, TypeScript, T-SQL, HTML, CSS',
     expert: 'C#'
   };
 
   technology = {
-    name: 'Технологии',
+    nameRu: 'Технологии',
+    nameEn: 'Technologies',
     beginner: 'NodeJS, Entity Framework',
     intermediate: 'NUnit testing, sockets',
     expert: 'WinForms, ado.net, ASP.NET, WebApi, async programming'
   };
 
   visualComponents = {
-    name: 'Визуальные компоненты',
+    nameRu: 'Визуальные компоненты',
+    nameEn: 'Visual components',
     beginner: '',
     intermediate: '',
     expert: 'DevExpress WinForms/ASP.NET/JS&HTML'
   };
 
   frameworks = {
-    name: 'Фреймворки',
+    nameRu: 'Фреймворки',
+    nameEn: 'Frameworks',
     beginner: 'Bootstrap, AngularJS',
     intermediate: 'Angular 2+',
     expert: '.NET 4.6'
@@ -42,9 +48,13 @@ export class ProfSkillsComponent implements OnInit {
     this.frameworks,
   ];
 
-  constructor() { }
+  currentLang = this.translate.currentLang;
 
-  ngOnInit() {
+  constructor(private translate: TranslateService) {
+    this.translate.onLangChange.pipe(untilComponentDestroyed(this)).subscribe((event: LangChangeEvent) => this.currentLang = event.lang);
   }
 
+  ngOnInit() { }
+
+  ngOnDestroy() { }
 }

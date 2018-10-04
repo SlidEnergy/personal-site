@@ -1,14 +1,14 @@
 <section>
   <h1>{{ 'about.personalQual' | translate }}</h1>
-
-  <div class="skills">
+  <div *ngIf="currentLang == 'ru'"
+       class="skills">
     <div class="skill">
       <div class="icon"><i class="fa fa-credit-card"></i></div>
       <div class="skill-content">
         <div class="title">Умею зарабатывать и управлять деньгами</div>
-        <div class="text"> Есть опыт накоплений, инвестирования, ведения бюджета, ведения предпринимательской
-          деятельности,
-          организации и управления доходным объектом недвижимости.</div>
+        <div class="text">Есть опыт накоплений, инвестирования, ведения бюджета, ведения предпринимательской
+          деятельности, организации и управления доходным объектом недвижимости.
+        </div>
       </div>
     </div>
     <div class="skill">
@@ -30,8 +30,7 @@
       <div class="skill-content">
         <div class="title">Легко и быстро обучаюсь, люблю осваивать новые технологии</div>
         <div class="text">Будучи .NET desktop разработчиком, написал сайт и мобильное приложения используя angular,
-          nodejs,
-          cordova.
+          nodejs, cordova.
         </div>
       </div>
     </div>
@@ -40,8 +39,7 @@
       <div class="skill-content">
         <div class="title">Не боюсь трудностей, берусь за сложную работу в разных сферах</div>
         <div class="text">Есть опыт дизайнерского ремонта, организации мини общежития, посуточной аренды,
-          репетиторства,
-          фриланса.
+          репетиторства, фриланса.
         </div>
       </div>
     </div>
@@ -50,6 +48,57 @@
       <div class="skill-content">
         <div class="title">Продуктивность</div>
         <div class="text">Знаю что такое GTD, Agile, умею расставлять приоритеты и печатать вслепую.</div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="currentLang == 'en'"
+       class="skills">
+    <div class="skill">
+      <div class="icon"><i class="fa fa-credit-card"></i></div>
+      <div class="skill-content">
+        <div class="title">Can earn and manage money</div>
+        <div class="text">I have experience with saving, investment, budget management, business management activity,
+          organization and management of profitable real estate.</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="icon"><i class="fa fa-heart"></i></div>
+      <div class="skill-content">
+        <div class="title">Full commitment work</div>
+        <div class="text">I have experience of working for an idea and knowledge, when I get carried away I work
+          without breaks and weekends.</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="icon"><i class="fa fa-bullseye"></i></div>
+      <div class="skill-content">
+        <div class="title">Sense of purpose</div>
+        <div class="text">I have experience of excellent results when no one believed in success.</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="icon"><i class="fa fa-graduation-cap"></i></div>
+      <div class="skill-content">
+        <div class="title">Learn quickly and easily, I like to learn new technologies</div>
+        <div class="text">Being a .NET desktop developer, wrote a website and mobile application using angular, nodejs,
+          cordova.
+        </div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="icon"><i class="fa fa-briefcase"></i></div>
+      <div class="skill-content">
+        <div class="title">I'm not afraid of difficulties, I undertake difficult work in various fields</div>
+        <div class="text">I have experience in design repair, organizing a mini-hostel, daily rent, teaching,
+          freelancing.
+        </div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="icon"><i class="fa fa-clock-o"></i></div>
+      <div class="skill-content">
+        <div class="title">Productivity</div>
+        <div class="text">I know what GTD, Agile is, I know how to prioritize and touch typing.</div>
       </div>
     </div>
   </div>

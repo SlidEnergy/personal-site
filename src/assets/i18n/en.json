@@ -14,7 +14,8 @@
         "message": "Message",
         "yourName": "Your name",
         "emailForAnswer": "Email for answer",
-        "yourMessage": "Your message"
+        "yourMessage": "Your message",
+        "yearsOld": "{{value}} years"
     },
     "core": {
         "aboutMe": "About me",
@@ -36,5 +37,8 @@
         "otherTags": "Other tags",
         "all": "all"
     },
-    "shared": {}
+    "shared": {
+        "phone": "Phone",
+        "email": "Email"
+    }
 }
