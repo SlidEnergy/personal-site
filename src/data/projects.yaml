@@ -264,7 +264,7 @@
       </p>
       <p>В проекте использовалось:</p>
       <ul>
-        <li>T-SQL, .NET WinForm</li>
+        <li>T-SQL, .NET WinForms</li>
         <li>Компоненты: DevExpress WinForms</li>
       </ul>
     descriptionEn: >
@@ -286,7 +286,7 @@
       </p>
       <p>Used in project:</p>
        <ul>
-        <li>T-SQL, .NET WinForm</li>
+        <li>T-SQL, .NET WinForms</li>
         <li>Components: DevExpress WinForms</li>
       </ul>
     category: project
