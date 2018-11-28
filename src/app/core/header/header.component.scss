@@ -35,9 +35,10 @@ header {
             margin-top: 33px;
 
             li {
-                margin: 0 10px;
+                margin-right: 10px;
                 float: left;
                 list-style: none;
+                padding-bottom: 10px;
 
                 a {
                     color: #000;
@@ -57,9 +58,11 @@ header {
         }
 
         .languages {
-          margin-left: 40px;
+            margin-left: 40px;
+            display: inline-block;
+            padding-bottom: 10px;
 
-          a {
+            a {
                 &.active {
                     color: #00aee8;
                 }

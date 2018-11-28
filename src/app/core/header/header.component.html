@@ -19,10 +19,10 @@
                        rel="nofollow">{{ 'core.projects' | translate }}</a>
                 </li>
             </ul>
-            <span class="languages">[ <a [ngClass]="{ 'active': currentLang == 'en'}"
+            <div class="languages">[ <a [ngClass]="{ 'active': currentLang == 'en'}"
                    (click)="language_click('en')">en</a> | <a [ngClass]="{ 'active': currentLang == 'ru'}"
                    (click)="language_click('ru')">ru</a>
-                ]</span>
+                ]</div>
         </div>
     </div>
 </header>
