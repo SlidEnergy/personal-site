@@ -20,9 +20,9 @@
     "core": {
         "aboutMe": "About me",
         "projects": "Projects",
-        "subtitle": "Senior Full-Stack developer",
+        "subtitle": "Senior Full-Stack .NET developer",
         "fullname": "Michael Kluchko",
-        "pageTitle": "Michael Kluchko, developer"
+        "pageTitle": "Michael Kluchko, Senior Full-Stack .NET developer"
     },
     "projects": {
         "allProjects": "All projects",
