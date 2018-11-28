@@ -1,10 +1,10 @@
 @import '../../app.component';
 
 header {
-    min-height: 90px;
+    min-height: 120px;
     border-bottom: 1px solid #ececec;
     box-shadow: 0 0 8px 0 #b3b3b3;
-    background: #333 url('../../../assets/layout/pattern-header.png') repeat-x 0 0;
+    background-color: $background-light;
 
     .wrapper {
         display: grid;
