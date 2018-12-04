@@ -1,37 +1,59 @@
 <section>
     <h1>{{ 'about.profSkills' | translate }}</h1>
-    <table class="skills">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Beginner</th>
-                <th>Intermediate</th>
-                <th>Expert</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let item of items">
-                <td>{{ currentLang == 'ru' ? item.nameRu : item.nameEn }}</td>
-                <td>{{item.beginner}}</td>
-                <td>{{item.intermediate}}</td>
-                <td>{{item.expert}}</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="expertise-areas">
+        <div class="expertise-area">
+            <div class="icon"><i class="fa fa-desktop"></i></div>
+            <div class="content">Разработка Desktop приложений</div>
+        </div>
+        <div class="expertise-area">
+            <div class="icon"><i class="fa fa-laptop"></i></div>
+            <div class="content">Разработка Web приложений</div>
+        </div>
+    </div>
+    <div class="techs">
+        <div class="tech">
+            <img class="icon"
+                 src="../../../../assets/img/angular-icon.svg">
+            <div class="tech-content">
+                <div class="title">Front-end</div>
+                <div class="text">
+                    .NET, C#, Windows serivces, ASP.NET, WebApi, async programming, ado.net, T-SQL, NUnit testing,
+                    networking, Entity Framework
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <img class="icon"
+                 src="../../../../assets/img/microsoft-net-icon.svg">
+            <div class="tech-content">
+                <div class="title">Back-end</div>
+                <div class="text">
+                    Angular2 (NgRx, RxJs), AngularJS, JavaScript, TypeScript, HTML, CSS, Bootstrap, WinForms,
+                    DevExpress, DevExtreme, JQuery
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <img class="icon"
+                 src="../../../../assets/img/tools-icon.svg">
+            <div class="tech-content">
+                <div class="title">Инструменты</div>
+                <div class="text">NodeJS, JIRA (Scrum) & Mantis, GIT & SVN, MS Visual Studio, VS Code, MS SQL Server</div>
+            </div>
+        </div>
+    </div>
     <div *ngIf="currentLang == 'ru'">
-        <p>Знаю <b>английский язык</b> на уровне чтения и переписки. Пользуюсь системами управления задачами
-            <b>JIRA</b> и <b>Mantis</b>, системами управления версий <b>GIT</b> и <b>SVN</b>. Работаю в среде
-            <b>MS Visual Studio и VS Code</b> с базой данных <b>MS SQL Server</b>.
+        <p>
+            Знаю <b>английский язык</b> на уровне чтения и переписки. Есть опыт работы в <b>команде</b>, <b>технической
+                поддержки</b> и <b>коммерческой разработке ПО</b>, написания качественного и чистого кода с целью
+            дальнейшего сопровождения.
         </p>
-        <p>Есть опыт работы в <b>команде</b>, <b>технической поддержки</b> и <b>коммерческой разработке ПО</b>,
-            написания качественного и чистого кода с целью дальнейшего сопровождения.</p>
     </div>
     <div *ngIf="currentLang == 'en'">
-        <p>I know <b>English</b> at the level of reading and correspondence. I use task management systems
-            <b>JIRA</b> and <b>Mantis</b>, version management systems <b>GIT</b> and
-            <b>SVN</b>. I work in <b>MS Visual Studio и VS Code</b> with database <b>MS SQL Server</b>.
+        <p>
+            I know <b>English</b> at the level of reading and correspondence. I have experience in teamwork, technical
+            support and commercial softrware development, and writing high quality and clean code for the purpose of
+            futher support.
         </p>
-        <p>I have experience in teamwork, technical support and commercial softrware development, and writing high
-            quality and clean code for the purpose of futher support.</p>
     </div>
 </section>
