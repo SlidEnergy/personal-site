@@ -8,7 +8,7 @@
                 <dd itemprop="telephone">{{
                     '+&#055;&#032;(&#057;&#050;&#052;)&#032;&#050;&#048;&#048;&#045;&#056;&#052;&#045;&#055;&#051;'
                     | noindex}}</dd>
-                <dt>{{ ('shared.email' | translate) + ':'}}</dt>
+                <dt>Email:</dt>
                 <dd><a [href]="'mailto:' + '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;' | noindex"
                        itemprop="email">{{
                         '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'
@@ -19,12 +19,14 @@
         </div>
         <div class="container-item downloads">
             {{ 'about.downloadResume' | translate }}
-            <a href="assets/resume/resume_kluchko_michael.pdf"
-               target="_blank"
-               rel="nofollow"><i class="fa fa-file-pdf-o"></i></a>
-            <a href="assets/resume/resume_kluchko_michael.doc"
-               target="_blank"
-               rel="nofollow"><i class="fa fa-file-word-o"></i></a>
+            <div>
+                <a href="assets/resume/resume_kluchko_michael.pdf"
+                target="_blank"
+                rel="nofollow"><i class="fa fa-file-pdf-o"></i></a>
+                <a href="assets/resume/resume_kluchko_michael.doc"
+                target="_blank"
+                rel="nofollow"><i class="fa fa-file-word-o"></i></a>
+            </div>
         </div>
     </div>
 </section>

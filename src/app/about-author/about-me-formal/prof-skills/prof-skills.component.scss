@@ -13,14 +13,13 @@ a {
 }
 
 .expertise-areas {
-    padding-left: 20px;
     flex-wrap: wrap;
     display: flex;
     padding-bottom: 20px;
 
     .expertise-area {
         flex: 1 1 50%;
-        padding: 15px;
+        padding: 15px 0px;
         display: flex;
         align-items: center;
         margin-bottom: 10px;
@@ -47,14 +46,13 @@ a {
     }
 }
 .techs {
-    padding-left: 20px;
     flex-wrap: wrap;
     display: flex;
     padding-bottom: 20px;
 
     .tech {
         flex: 1 1 100%;
-        padding: 15px;
+        padding: 15px 0px;
 
         .icon {
             font-size: 32px;
