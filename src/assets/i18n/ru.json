@@ -11,11 +11,14 @@
         "profSkills": "Профессиональные навыки",
         "send": "Отправить",
         "workExp": "Опыт работы ({{value}} лет)",
-        "writeMe": "Напишите мне",
-        "writeMeText": "Если у вас есть интересный проект или вы просто хотите пообщаться на общие темы, пишите.",
+        "writeToMe": "Напишите мне",
+        "writeToMeText": "Если у вас есть интересный проект или вы просто хотите пообщаться на общие темы, пишите.",
         "yourMessage": "Ваше сообщение",
         "yourName": "Ваше имя",
-        "yearsOld": "{{value}} год"
+        "yearsOld": "{{value}} год",
+        "desktopApplicationDevelopment": "Разработка Desktop приложений",
+        "webApplicationDevelopment": "Разработка Web приложений",
+        "tools": "Инструменты"
     },
     "core": {
         "aboutMe": "Обо мне",
