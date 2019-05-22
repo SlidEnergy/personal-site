@@ -16,6 +16,7 @@
         "yourMessage": "Ваше сообщение",
         "yourName": "Ваше имя",
         "yearsOld": "{{value}} год",
+        "serverSideDevelopment": "Серверная разработка",
         "desktopApplicationDevelopment": "Разработка Desktop приложений",
         "webApplicationDevelopment": "Разработка Web приложений",
         "tools": "Инструменты"

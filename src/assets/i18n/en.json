@@ -16,6 +16,7 @@
         "emailForAnswer": "Email for answer",
         "yourMessage": "Your message",
         "yearsOld": "{{value}} years",
+        "serverSideDevelopment": "Server-side development",
         "desktopApplicationDevelopment": "Desktop application development",
         "webApplicationDevelopment": "Web application development",
         "tools": "Tools"
