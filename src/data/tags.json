@@ -5,8 +5,9 @@
         "hobby"
     ],
     "byProjectType": [
-        "web",
+        "server",
         "desktop",
+        "web",
         "t-sql",
         "api",
         "utils",

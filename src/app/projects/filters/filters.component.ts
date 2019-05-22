@@ -18,16 +18,16 @@ export class FiltersComponent implements OnInit {
       tag: undefined
     },
     {
+      text: 'projects.server',
+      tag: 'server'
+    },
+    {
       text: 'projects.desktop',
       tag: 'desktop'
     },
     {
       text: 'projects.web',
       tag: 'web'
-    },
-    {
-      text: 'projects.other',
-      tag: 'gamedev'
     }
   ];
 

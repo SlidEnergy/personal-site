@@ -36,7 +36,7 @@
         "desktop": "Desktop",
         "filterByTags": "Фильтрация по тегам",
         "listOfProjects": "Список проектов",
-        "other": "Другие (gamedev)",
+        "server": "Server",
         "otherTags": "Другие теги",
         "web": "Web (full-stack)",
         "all": "все"

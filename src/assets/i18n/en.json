@@ -30,7 +30,7 @@
     },
     "projects": {
         "allProjects": "All projects",
-        "other": "Other (gamedev)",
+        "server": "Server",
         "filterByTags": "Filter by tags",
         "listOfProjects": "List of projects",
         "web": "Web (full-stack)",

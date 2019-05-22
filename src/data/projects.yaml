@@ -60,7 +60,7 @@
 -
     titleRu: 'Рабочее место оператора + сервер'
     titleEn: 'The workstation of the operator + server'
-    tags: [desktop, 'c#', lers, devexpress, t-sql, teamwork, windows-services]
+    tags: [server, desktop, 'c#', lers, devexpress, t-sql, teamwork, windows-services]
     images: 
       - small: assets/projects/lers-client/main.png
         medium: assets/projects/lers-client/main.png
@@ -103,7 +103,7 @@
 -
     titleRu: 'Фреймворк + веб-сервис soap + REST Api'
     titleEn: 'Framework + web-service soap + REST Api'
-    tags: [web, 'c#', api, lers, teamwork]
+    tags: [server, web, 'c#', api, lers, teamwork]
     images: 
       - small: assets/projects/lers-webapi/swagger.png
         medium: assets/projects/lers-webapi/swagger.png
@@ -159,7 +159,7 @@
 -
     titleRu: 'Менеджер лицензий + сайт + сервер'
     titleEn: 'License manager + website + server'
-    tags: [desktop, web, 'c#', lers, t-sql, devexpress, windows-services, aspnet]
+    tags: [server, desktop, web, 'c#', lers, t-sql, devexpress, windows-services, aspnet]
     images: 
       - small: assets/projects/lers-license/main.png
         medium: assets/projects/lers-license/main.png
@@ -200,7 +200,7 @@
 -
     titleRu: 'Сервер телеметрии + сайт'
     titleEn: 'Telemetry server + website'
-    tags: [web, 'c#', lers, t-sql, devexpress, javascript, angular, teamwork]
+    tags: [server, web, 'c#', lers, t-sql, devexpress, javascript, angular, teamwork]
     images: 
       - small: assets/projects/lers-telemetry/main.png
         medium: assets/projects/lers-telemetry/main.png
@@ -245,7 +245,7 @@
 -
     titleRu: 'Информационная система в здравоохранении + утилита (2010 год)'
     titleEn: 'Information system in health + utility (2010 year)'
-    tags: [desktop, 'c#', miac, devexpress, t-sql]
+    tags: [server, desktop, 'c#', miac, devexpress, t-sql]
     images: 
       - small: assets/projects/miac/main.jpg
         medium: assets/projects/miac/main.jpg
