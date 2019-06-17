@@ -10,5 +10,6 @@
                [options]="galleryOptions"
                [images]="project.images">
   </ngx-gallery>
-  <p [innerHTML]="currentLang == 'ru' ? project.descriptionRu : project.descriptionEn | noindex:'html'"></p>
+  <p class="text"
+     [innerHTML]="currentLang == 'ru' ? project.descriptionRu : project.descriptionEn | noindex:'html'"></p>
 </section>

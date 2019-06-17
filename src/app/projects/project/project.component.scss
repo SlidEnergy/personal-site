@@ -11,6 +11,17 @@
     .gallery {
         float: left;
         margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        min-height: 300px;
+    }
+
+    @media (max-width: 400px) {
+        .text {
+            min-height: 250px;
+        }
     }
 
     ::ng-deep ul {

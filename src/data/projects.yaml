@@ -6,12 +6,36 @@
       - small: assets/projects/lers-web/main.png 
         medium: assets/projects/lers-web/main.png
         big: assets/projects/lers-web/main.png
+      - small: assets/projects/lers-web/notifications.png
+        medium: assets/projects/lers-web/notifications.png
+        big: assets/projects/lers-web/notifications.png
       - small: assets/projects/lers-web/report.png
         medium: assets/projects/lers-web/report.png
         big: assets/projects/lers-web/report.png
-      - small: assets/projects/lers-web/incidents.png
-        medium: assets/projects/lers-web/incidents.png
-        big: assets/projects/lers-web/incidents.png
+      - small: assets/projects/lers-web/map.png
+        medium: assets/projects/lers-web/map.png
+        big: assets/projects/lers-web/map.png
+      - small: assets/projects/lers-web/table.png
+        medium: assets/projects/lers-web/table.png
+        big: assets/projects/lers-web/table.png
+      - small: assets/projects/lers-web/graph.png
+        medium: assets/projects/lers-web/graph.png
+        big: assets/projects/lers-web/graph.png
+      - small: assets/projects/lers-web/mobile-geomap-node.png
+        medium: assets/projects/lers-web/mobile-geomap-node.png
+        big: assets/projects/lers-web/mobile-geomap-node.png
+      - small: assets/projects/lers-web/mobile-geomap.png
+        medium: assets/projects/lers-web/mobile-geomap.png
+        big: assets/projects/lers-web/mobile-geomap.png
+      - small: assets/projects/lers-web/mobile-node.png
+        medium: assets/projects/lers-web/mobile-node.png
+        big: assets/projects/lers-web/mobile-node.png
+      - small: assets/projects/lers-web/mobile-nodes.png
+        medium: assets/projects/lers-web/mobile-nodes.png
+        big: assets/projects/lers-web/mobile-nodes.png
+      - small: assets/projects/lers-web/mobile-notifications.png
+        medium: assets/projects/lers-web/mobile-notifications.png
+        big: assets/projects/lers-web/mobile-notifications.png
     descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>

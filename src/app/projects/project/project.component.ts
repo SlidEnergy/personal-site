@@ -30,15 +30,16 @@ export class ProjectComponent implements OnInit, OnDestroy {
         imageSize: 'contain',
         imageArrows: this.project.images.length > 1,
         thumbnails: this.project.images.length > 1,
-        width: '300px',
-        height: '250px',
+        width: '400px',
+        height: '300px',
         thumbnailsColumns: 3,
         imageAnimation: NgxGalleryAnimation.Slide
       },
       // max-width 400
       {
         breakpoint: 400,
-        preview: false
+        width: '300px',
+        height: '250px',
       }
     ];
   }
