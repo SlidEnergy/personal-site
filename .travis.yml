@@ -3,15 +3,12 @@ node_js:
   - "10"
 dist: trusty
 sudo: required
-
 branches:
   only:
   - master
-
 script:
   - npm run prod
-
- deploy:
+deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
