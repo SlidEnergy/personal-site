@@ -14,5 +14,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: true
   repo: slidenergy/slidenergy.github.io
+  target_branch: master
   on:
     branch: master
