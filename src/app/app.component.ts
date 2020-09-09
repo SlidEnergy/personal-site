@@ -1,16 +1,15 @@
 import { Component, OnDestroy } from '@angular/core';
+import {UntilDestroy, untilDestroyed} from '@ngneat/until-destroy';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { Title, Meta } from '@angular/platform-browser';
-import { untilComponentDestroyed } from '@w11k/ngx-componentdestroyed';
 
+@UntilDestroy()
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnDestroy {
-  param = { value: 'world' };
-
   private supportedLangs = ['en', 'ru'];
 
   constructor(
@@ -23,7 +22,7 @@ export class AppComponent implements OnDestroy {
   }
 
   initTitleAndMeta() {
-    this.translate.stream('core.pageTitle').pipe(untilComponentDestroyed(this)).subscribe(title => {
+    this.translate.stream('core.pageTitle').pipe(untilDestroyed(this)).subscribe(title => {
       this.title.setTitle(title);
       this.meta.updateTag({ name: 'description', content: title });
     });

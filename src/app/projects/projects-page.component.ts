@@ -4,7 +4,6 @@ import { Observable } from 'rxjs/Observable';
 import { ProjectsService } from './api/projects.service';
 import { Project } from './api/project';
 
-import 'rxjs/add/operator/filter';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({

@@ -1,19 +1,18 @@
 import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
+import {UntilDestroy, untilDestroyed} from '@ngneat/until-destroy';
 import { Project } from './api/project';
 
-import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery-9';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
-import { untilComponentDestroyed } from '@w11k/ngx-componentdestroyed';
 
+@UntilDestroy()
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit, OnDestroy {
-
   galleryOptions: NgxGalleryOptions[];
-  galleryImages: NgxGalleryImage[];
 
   @Input() project: Project;
   @Output() tagClicked = new EventEmitter<string>();
@@ -21,7 +20,8 @@ export class ProjectComponent implements OnInit, OnDestroy {
   currentLang = this.translate.currentLang;
 
   constructor(private translate: TranslateService) {
-    this.translate.onLangChange.pipe(untilComponentDestroyed(this)).subscribe((event: LangChangeEvent) => this.currentLang = event.lang);
+    this.translate.onLangChange.pipe(untilDestroyed(this))
+        .subscribe((event: LangChangeEvent) => this.currentLang = event.lang);
   }
 
   ngOnInit() {

@@ -1,20 +1,21 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
-import { Project } from './project';
+import {HttpClient} from '@angular/common/http';
+import {Injectable} from '@angular/core';
 
 import * as yaml from 'js-yaml';
 
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/share';
-import { Observable } from 'rxjs';
+import {Observable} from 'rxjs';
+import {map} from 'rxjs/operators';
+
+import {Project} from './project';
 
 @Injectable()
 export class ProjectsService {
 
-  constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient) {
+    }
 
-  getProjects(): Observable<Project[]> {
-    return this.http.get('data/projects.yaml', { responseType: 'text' }).map(data => yaml.load(data));
-  }
+    getProjects(): Observable<Project[]> {
+        return this.http.get('data/projects.yaml', {responseType: 'text'})
+            .pipe(map(data => yaml.load(data)));
+    }
 }
