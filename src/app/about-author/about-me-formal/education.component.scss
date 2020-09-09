@@ -1,0 +1,22 @@
+.education {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .period {
+    color: gray;
+    width: 100px;
+    float: left;
+  }
+
+  .text {
+    padding-left: 120px;
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        margin: 4px 0;
+      }
+    }
+  }
+}

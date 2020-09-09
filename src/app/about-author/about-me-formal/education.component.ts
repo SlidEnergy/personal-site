@@ -1,13 +1,16 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {LangChangeEvent, TranslateService} from '@ngx-translate/core';
 import {untilComponentDestroyed} from '@w11k/ngx-componentdestroyed';
+import {getEducationYears} from '../../shared/years-utils';
 
 @Component({
-    selector: 'app-about-me-formal',
-    templateUrl: './about-me-formal.component.html',
-    styleUrls: ['./about-me-formal.component.scss']
+    selector: 'app-education',
+    templateUrl: './education.component.html',
+    styleUrls: ['./education.component.scss']
 })
-export class AboutMeFormalComponent implements OnInit, OnDestroy {
+export class EducationComponent implements OnInit, OnDestroy {
+    educationYears = getEducationYears();
+
     currentLang = this.translate.currentLang;
 
     constructor(private translate: TranslateService) {
