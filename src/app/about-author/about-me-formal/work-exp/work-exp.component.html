@@ -1,132 +1,285 @@
 <section>
-  <h1>{{ 'about.workExp' | translate:{value: workExperienceYears} }}</h1>
-  <div *ngIf="currentLang == 'ru'">
-    <div class="work">
-      <div class="period">2011 - настоящее время</div>
-      <div class="text">
-        <div class="title">{{ 'ООО "ЛЭРС УЧЕТ" - Senior Full-stack .NET Developer' | noindex }}</div>
-        Сайт продукта: <a target="_blank"
-           rel="noreferrer nofollow"
-           [href]="'http://www.lers.ru/' | noindex">{{ 'ЛЭРС УЧЕТ' | noindex}}</a>
-        <ul>
-          <li>Разработка многозвенной системы диспетчеризации и учета потребления энергоресурсов с клиентами по всей
-            России и Казахстану, включая разработку сервера, базы данных (MS SQL), клиентского приложения (DevExpress),
-            слоя сетевого взаимодействия.</li>
-          <li>Проектирование и разработка фреймворка для интеграции с другими системами, веб-интерфейса (ASP.NET,
-            AngularJS, Angular, DevExpress), программного интерфейса (WebApi).</li>
-          <li>Проектирование, разработка и внедрение: активации ПО, телеметрии (.net core, Angular), системы управления
-            лицензиями, веб-интерфейса для дилеров (ASP.NET).</li>
-          <li>Участие в планировании стратегии продаж и развития системы, в собеседованиях.</li>
-          <li>Разработка внешних модулей, утилит, тестов (NUnit), написание и оптимизация SQL запросов.</li>
-          <li>Техническая поддержка пользователей по всей России и Казахстану.</li>
-        </ul>
-        Использовалось:
-        <ul>
-          <li>общее: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>
-          <li>сервер: Windows Services, ado.net, t-sql, Entity Framework;</li>
-          <li>клиент: WinForms, DevExpress;</li>
-          <li>веб‑интерфейс: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>
-        </ul>
-        <a routerLink="projects"
-           fragment="lers"
-           rel="nofollow">Смотреть проекты и достижения</a>
-      </div>
+    <h1>{{ 'about.workExp' | translate:{value: workExperienceYears} }}</h1>
+    <div *ngIf="currentLang == 'ru'">
+        <div class="work">
+            <div class="period">2007 - по настоящее время</div>
+            <div class="text">
+                <div class="title">{{ 'ООО "ЛЭРС УЧЕТ" - Senior Full-stack .NET Developer' | noindex }}</div>
+                Сайт продукта: <a target="_blank"
+                                  rel="noreferrer nofollow"
+                                  [href]="'http://www.lers.ru/soft' | noindex">{{ 'ЛЭРС УЧЕТ' | noindex}}</a>
+                <ul>
+                    <li>
+                        Ответственен за всю веб-разработку в компании. Отвечаю за выбор технологий и вектора развития.
+                        Ставлю задачи и контролирую их выполнение, провожу ревью кода.
+                    </li>
+                    <li>
+                        Разработал веб-приложение с нуля на Angular в замен устаревшего проекта. Новое приложение
+                        является значимой частью основного продукта компании наравне с настольным и мобильным
+                        приложением. Продвигаю идею их замены на веб-приложение. Разработал ORM-like ядро для запросов к
+                        серверу и кэширования. Внедрил code-style, юнит-тесты, реактивное программирование, управление
+                        состоянием, адаптировал проект для сборки мобильного приложения используя Cordova, организовал и
+                        настроил процесс разработки.
+                    </li>
+                    <li>
+                        Участвую в разработке нового функционала сервера (.net core). Начал внедрение и внес большой
+                        вклад в развитии REST API по спецификации OpenApi на сервере.
+                    </li>
+                </ul>
+                Использовалось:
+                <ul>
+                    <li>общее: C#, .NET Core 3.1, async programming, NUnit testing, GIT, Jira;</li>
+                    <li>сервер: t-sql, Entity Framework;</li>
+                    <li>клиент: WinForms, DevExpress;</li>
+                    <li>веб‑интерфейс: asp.net, JavaScript, TypeScript, Angular, html5, css3, WebApi, DevExtreme.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">Смотреть проекты и достижения</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2013 - 2017</div>
+            <div class="text">
+                <div class="title">{{ 'ООО "ЛЭРС МЭНЕДЖЕР" - Middle Full-stack .NET Developer' | noindex }}</div>
+                Сайт продукта: <a target="_blank"
+                                  rel="noreferrer nofollow"
+                                  [href]="'http://www.lers.ru/soft' | noindex">{{ 'ЛЭРС УЧЕТ' | noindex}}</a>
+                <ul>
+                    <li>
+                        Участвовал в разработке всех компонентов основного программного комплекса компании для
+                        диспетчеризации и учета потребления энергоресурсов с большой базой клиентов по всей России и
+                        Казахстану, включая разработку сервера, базы данных (MS SQL), клиентского приложения. Наша
+                        команда смогла создать лучшее решение для учета энергоресурсов на пространстве стран СНГ с
+                        большим потенциалом выхода на международный рынок.
+                    </li>
+                    <li>
+                        Внес большой вклад в проектирование и разработку фреймворка для интеграции с другими системами.
+                        Спроектировал и разработал публичный REST API, внедрил OpenApi спецификацию. Разработал систему
+                        авторизации и аутентификации пользователей.
+                    </li>
+                    <li>
+                        Первым начал перевод на .net core и angular проектов в компании. Изучаю технологии на новых и
+                        хобби проектах, так было с: Unit testing, AngularJS, EntityFramework, Angular.
+                    </li>
+                    <li>
+                        Спроектировал и разработал новую систему активации продукта через интернет вместо старой офлайн
+                        с проверкой ключа лицензии. Принял на сопровождение и дальнейшую разработку, продукт для работы
+                        отдела продаж с лицензированием основного продукта, за несколько лет увеличил его функционал в
+                        несколько раз. Разработал веб-интерфейс для дилеров и отдела технической поддержки.
+                    </li>
+                    <li>
+                        Спроектировал и разработал систему регистрации, хранения и анализа телеметрических данных.
+                        Сервер на .net core и Entity Framework, Front-end на Angular и DevExtreme. Провел глубокую
+                        работу с оптимизацией SQL скриптов, таблиц и индексов, построением плана выполнения, поскольку
+                        запросы обрабатывали большие объемы данных.
+                    </li>
+                    <li>
+                        Параллельно оказывал техническую поддержку пользователей по всей России и Казахстану, писал
+                        документацию, что позволило прокачать мои soft-skills.
+                    </li>
+                </ul>
+                Использовалось:
+                <ul>
+                    <li>общее: C#, .NET 4.6, sockets, pipes, async programming, NUnit, GIT, Jira;</li>
+                    <li>сервер: Windows Services, t-sql, Entity Framework;</li>
+                    <li>клиент: WinForms, DevExpress;</li>
+                    <li>веб‑интерфейс: asp.net, JavaScript, AngularJS, html5, css3, WebApi.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">Смотреть проекты и достижения</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2011 - 2013</div>
+            <div class="text">
+                <div class="title">{{ 'ООО "Энергоресурсосбережение" - Full-stack .NET Developer' | noindex }}</div>
+                <ul>
+                    <li>
+                        Разработал уникальный продукт для настройки приборов и модемов, скачивание которого клиентами
+                        конкурентных продуктов, превысило скачивание основного продукта
+                    </li>
+                    <li>
+                        Разработал множество плагинов и модулей для интеграции с другими системами, публичный api
+                        сервис, что позволило клиентам других программ переходить на наш продукт.
+                    </li>
+                    <li>
+                        Разработал новое веб-приложение для большой системы с нуля (ASP.NET WebForms). Разработка
+                        включала в себя полностью frontend, частично серверную часть и базу данных.
+                    </li>
+                    <li>
+                        Переработал модули существующей системы, что позволило упростить саму систему для дальнейшей
+                        разработки.
+                    </li>
+                    <li>Все вышеописанные действия привели к росту продаж в несколько раз.</li>
+                </ul>
+                Использовалось:
+                <ul>
+                    <li>общее: C#, .NET 3.5, SVN, Mantis, PowerShell;</li>
+                    <li>сервер: Windows Services, ado.net, t-sql;</li>
+                    <li>клиент: WinForms, DevExpress;</li>
+                    <li>веб‑интерфейс: asp.net.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">Смотреть проекты и достижения</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2011, 6 мес.</div>
+            <div class="text">
+                <div class="title">Neorise LTD - Middle Full-stack .NET Developer, freelance</div>
+                <ul>
+                    <li>Участие в иностранной разработке системы автоматизации работы автосервиса, включая разработку
+                        клиентского
+                        приложения (DevExpress), сервера, базы данных (MS SQL).
+                    </li>
+                    <li>Разработка веб-интерфейса для планирования задач механников (WebApi, JQuery).</li>
+                    <li>Общение с заказчиком на всех этапах разработки на английском языке.</li>
+                </ul>
+                <p>Использовалось: T-SQL, .NET, WinForms, LINQ to SQL, DevExpress.</p>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2009 - 2011</div>
+            <div class="text">
+                <div class="title">МБУ Межотраслевой информационно-аналитический центр - Junior Full-stack Developer
+                </div>
+                <ul>
+                    <li>Доработка и сопровождение единой медицинской информационной системы и внедрение во все
+                        муниципальные
+                        учреждения здравоохранения г. Хабаровска.
+                    </li>
+                    <li>Написание и оптимизация SQL запросов, проектирование базы данных MS SQL (1000 таблиц).</li>
+                    <li>Проектирование и разработка системы формирования заявок на льготные лекарственные препараты и
+                        внедрение в
+                        учреждения здравоохранения г. Хабаровска (.NET, DevExpress).
+                    </li>
+                    <li>Техническая поддержка пользователей учреждений здравоохранения г. Хабаровска.</li>
+                </ul>
+                <p>Использовалось: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
+                <a routerLink="projects"
+                   fragment="miac"
+                   rel="nofollow">Смотреть проекты и достижения</a>
+            </div>
+        </div>
     </div>
-    <div class="work">
-      <div class="period">2010, 6 мес.</div>
-      <div class="text">
-        <div class="title">Neorise LTD - Middle Full-stack .NET Developer, freelance</div>
-        <ul>
-          <li>Участие в иностранной разработке системы автоматизации работы автосервиса, включая разработку клиентского
-            приложения (DevExpress), сервера, базы данных (MS SQL).</li>
-          <li>Разработка веб-интерфейса для планирования задач механников (WebApi, JQuery).</li>
-          <li>Общение с заказчиком на всех этапах разработки на английском языке.</li>
-        </ul>
-        <p>Использовалось: T-SQL, .NET, WinForms, LINQ to SQL, DevExpress.</p>
-      </div>
+    <div *ngIf="currentLang == 'en'">
+        <div class="work">
+            <div class="period">2017 - now</div>
+            <div class="text">
+                <div class="title">{{ 'LERS AMR Software - Senior Full-stack .NET developer' | noindex }}</div>
+                Product site: <a target="_blank"
+                                 rel="noreferrer nofollow"
+                                 [href]="'http://www.lers.ru/soft' | noindex">{{ 'LERS AMR' | noindex}}</a>
+                <ul>
+                    <li>Design and development of a framework for integration with other systems, a web-interface
+                        (ASP.NET, AngularJS, Angular, DevExpress), an application programming interface (WebApi).
+                    </li>
+                </ul>
+                Used:
+                <ul>
+                    <li>common: C#, .NET Core 3.1, async programming, NUnit, GIT, Jira;</li>
+                    <li>server: t-sql, Entity Framework;</li>
+                    <li>client: WinForms, DevExpress, DevExtreme;</li>
+                    <li>web: asp.net, JavaScript, TypeScript, Angular, html5, css3, WebApi.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">See projects and progress</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2013 - 2017</div>
+            <div class="text">
+                <div class="title">{{ 'LERS MANAGER company - Senior Full-stack .NET developer' | noindex }}</div>
+                Product site: <a target="_blank"
+                                 rel="noreferrer nofollow"
+                                 [href]="'http://www.lers.ru/soft' | noindex">{{ 'LERS AMR' | noindex}}</a>
+                <ul>
+                    <li>Development of a n-tier dispatch system and metering of energy consumption with customers
+                        throughout Russia and Kazakhstan, including development of a server, a database (MS SQL), a
+                        client
+                        application (DevExpress), a network layer.
+                    </li>
+                    <li>Design and development of a framework for integration with other systems, a web-interface
+                        (ASP.NET, AngularJS, Angular, DevExpress), an application programming interface (WebApi).
+                    </li>
+                    <li>Design, development and integration of: a product activation, a telemetry (.net core, Angular),
+                        a license management system, a web-interface for dealers (ASP.NET).
+                    </li>
+                    <li>Technical support for users throughout Russia and Kazakhstan.</li>
+                </ul>
+                Used:
+                <ul>
+                    <li>common: C#, .NET 4.6, sockets, pipes, async programming, NUnit, GIT, Jira, PowerShell;</li>
+                    <li>server: t-sql, Entity Framework;</li>
+                    <li>client: WinForms, DevExpress;</li>
+                    <li>web: asp.net, JavaScript, AngularJS, html5, css3, WebApi.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">See projects and progress</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2011 - 2013</div>
+            <div class="text">
+                <div
+                    class="title">{{ 'Energy and resource saving company - Full-stack .NET developer' | noindex }}</div>
+                <ul>
+                    <li>Development of external modules, utilities, tests (NUnit), write and optimization SQL
+                        queries.
+                    </li>
+                </ul>
+                Used:
+                <ul>
+                    <li>common: C#, .NET 3.5, SVN, Mantis, PowerShell;</li>
+                    <li>server: Windows Services, ado.net, t-sql;</li>
+                    <li>client: WinForms, DevExpress;</li>
+                    <li>web: asp.net.</li>
+                </ul>
+                <a routerLink="projects"
+                   fragment="lers"
+                   rel="nofollow">See projects and progress</a>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2011, 6 months</div>
+            <div class="text">
+                <div class="title">Neorise LTD - Middle Full-stack .NET Developer, freelance</div>
+                <ul>
+                    <li>Participation in foreign development of autoservice automation system, including the development
+                        of the
+                        client application (DevExpress), server, database (MS SQL).
+                    </li>
+                    <li>Development of a web-interface for scheduling tasks of mechanics (WebApi, JQuery).</li>
+                    <li>Communication with the customer at all stages of development in English.</li>
+                </ul>
+                <p>Used: T-SQL, .NET, WinForms, LINQ to SQL, DevExpress.</p>
+            </div>
+        </div>
+        <div class="work">
+            <div class="period">2009 - 2011</div>
+            <div class="text">
+                <div class="title">MPB Intersectoral information-analytical center - Junior Full-stack Developer</div>
+                <ul>
+                    <li>Completion and maintenance of a unified medical information system and integration in all
+                        municipal
+                        healthcare institutions of Khabarovsk.
+                    </li>
+                    <li>Write and optimization SQL queries, design of an MS SQL database (1000 tables).</li>
+                    <li>Design and development of a system for creating queries for preferential medicines and
+                        integration them into Khabarovsk’s healthcare institutions (.NET, DevExpress).
+                    </li>
+                    <li>Technical support for users of Khabarovsk healthcare institutions.</li>
+                </ul>
+                <p>Used: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
+                <a routerLink="projects"
+                   fragment="miac"
+                   rel="nofollow">See projects and progress</a>
+            </div>
+        </div>
     </div>
-    <div class="work">
-      <div class="period">2009 - 2011</div>
-      <div class="text">
-        <div class="title">МБУ Межотраслевой информационно-аналитический центр - Junior Full-stack Developer</div>
-        <ul>
-          <li>Доработка и сопровождение единой медицинской информационной системы и внедрение во все муниципальные
-            учреждения здравоохранения г. Хабаровска.</li>
-          <li>Написание и оптимизация SQL запросов, проектирование базы данных MS SQL (1000 таблиц).</li>
-          <li>Проектирование и разработка системы формирования заявок на льготные лекарственные препараты и внедрение в
-            учреждения здравоохранения г. Хабаровска (.NET, DevExpress).</li>
-          <li>Техническая поддержка пользователей учреждений здравоохранения г. Хабаровска.</li>
-        </ul>
-        <p>Использовалось: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
-        <a routerLink="projects"
-           fragment="miac"
-           rel="nofollow">Смотреть проекты и достижения</a>
-      </div>
-    </div>
-  </div>
-  <div *ngIf="currentLang == 'en'">
-    <div class="work">
-      <div class="period">2011 - now</div>
-      <div class="text">
-        <div class="title">{{ 'LERS AMR Software - Senior Full-stack .NET developer' | noindex }}</div>
-        Product site: <a target="_blank"
-           rel="noreferrer nofollow"
-           [href]="'http://www.lers.ru/' | noindex">{{ 'LERS AMR' | noindex}}</a>
-        <ul>
-          <li>Development of a n-tier dispatch system and metering of energy consumption with customers
-            throughout Russia and Kazakhstan, including development of a server, a database (MS SQL), a client
-            application (DevExpress), a network layer.</li>
-          <li>Design and development of a framework for integration with other systems, a web-interface
-            (ASP.NET, AngularJS, Angular, DevExpress), an application programming interface (WebApi).</li>
-          <li>Design, development and integration of: a product activation, a telemetry (.net core, Angular),
-            a license management system, a web-interface for dealers (ASP.NET).</li>
-          <li>Participation in planning of a sales strategy and a product development, in interviews.</li>
-          <li>Development of external modules, utilities, tests (NUnit), write and optimization SQL
-            queries.</li>
-          <li>Technical support for users throughout Russia and Kazakhstan.</li>
-        </ul>
-        Used:
-        <ul>
-          <li>common: C#, .NET 4.6, sockets, pipes, async programming, NUnit, SVN/GIT, Jira/Mantis, PowerShell; </li>
-          <li>server: Windows Services, ado.net, t-sql, Entity Framework;</li>
-          <li>client: WinForms, DevExpress;</li>
-          <li>web: asp.net, JavaScript, TypeScript, AngularJS, Angular, html5, css3, WebApi.</li>
-        </ul>
-        <a routerLink="projects"
-           fragment="lers"
-           rel="nofollow">See projects and progress</a>
-      </div>
-    </div>
-    <div class="work">
-      <div class="period">2010, 6 months</div>
-      <div class="text">
-        <div class="title">Neorise LTD - Middle Full-stack .NET Developer, freelance</div>
-        <ul>
-          <li>Participation in foreign development of autoservice automation system, including the development of the
-            client application (DevExpress), server, database (MS SQL).</li>
-          <li>Development of a web-interface for scheduling tasks of mechanics (WebApi, JQuery).</li>
-          <li>Communication with the customer at all stages of development in English.</li>
-        </ul>
-        <p>Used: T-SQL, .NET, WinForms, LINQ to SQL, DevExpress.</p>
-      </div>
-    </div>
-    <div class="work">
-      <div class="period">2009 - 2011</div>
-      <div class="text">
-        <div class="title">MPB Intersectoral information-analytical center - Junior Full-stack Developer</div>
-        <ul>
-          <li>Completion and maintenance of a unified medical information system and integration in all municipal
-            healthcare institutions of Khabarovsk.</li>
-          <li>Write and optimization SQL queries, design of an MS SQL database (1000 tables).</li>
-          <li>Design and development of a system for creating queries for preferential medicines and
-            integration them into Khabarovsk’s healthcare institutions (.NET, DevExpress).</li>
-          <li>Technical support for users of Khabarovsk healthcare institutions.</li>
-        </ul>
-        <p>Used: T-SQL, .NET 3.5, WinForms, ADO.NET, Entity Framework, DevExpress.</p>
-        <a routerLink="projects"
-           fragment="miac"
-           rel="nofollow">See projects and progress</a>
-      </div>
-    </div>
-  </div>
 </section>
