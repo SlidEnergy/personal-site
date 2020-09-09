@@ -11,31 +11,6 @@
         max-width: $wrap-width;
         margin: $wrap-margin;
         padding: $wrap-padding;
-
-        a {
-            color: #000;
-            padding: 0px 4px;
-            border-radius: 4px;
-            background-clip: padding-box;
-            text-shadow: none;
-            text-decoration: none;
-            background-color: #beefff;
-        
-            &:hover {
-                background-color: #cff3ff;
-            }
-        }
-
-        ul {
-            padding-left: 20px;
-
-            li {
-                margin: 4px 0;
-            }
-        }
     }
 }
 
-.university {
-    color: gray;
-}

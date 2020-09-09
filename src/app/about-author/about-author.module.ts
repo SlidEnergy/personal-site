@@ -7,6 +7,7 @@ import {AboutAuthorComponent} from './about-author.component';
 import {AboutMeFormalComponent} from './about-me-formal/about-me-formal.component';
 import {ContactsComponent} from './about-me-formal/contacts.component';
 import {EducationComponent} from './about-me-formal/education.component';
+import {HobbyExpComponent} from './about-me-formal/hobby-exp.component';
 import {PresonalQualComponent} from './about-me-formal/presonal-qual.component';
 import {ProfSkillsComponent} from './about-me-formal/prof-skills.component';
 import {WorkExpComponent} from './about-me-formal/work-exp.component';
@@ -28,7 +29,8 @@ import {FeedbackComponent} from './feedback.component';
         PresonalQualComponent,
         WorkExpComponent,
         FeedbackComponent,
-        EducationComponent
+        EducationComponent,
+        HobbyExpComponent
     ]
 })
 export class AboutAuthorModule {
