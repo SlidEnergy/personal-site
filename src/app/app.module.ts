@@ -10,14 +10,14 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AboutAuthorModule } from './about-author/about-author.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './core/header/header.component';
-import { FooterComponent } from './core/footer/footer.component';
+import { HeaderComponent } from './core/header.component';
+import { FooterComponent } from './core/footer.component';
 import { AboutAuthorComponent } from './about-author/about-author.component';
 import { ProjectsPageComponent } from './projects/projects-page.component';
-import { ProjectComponent } from './projects/project/project.component';
+import { ProjectComponent } from './projects/project.component';
 import { ProjectFilterPipe } from './projects/project-filter.pipe';
-import { FiltersComponent } from './projects/filters/filters.component';
-import { TagComponent } from './projects/tag/tag.component';
+import { FiltersComponent } from './projects/filters.component';
+import { TagComponent } from './projects/tag.component';
 import { SharedModule } from './shared/shared.module';
 
 const appRoutes: Routes = [

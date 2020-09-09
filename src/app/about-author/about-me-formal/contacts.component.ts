@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { getOldYears } from '../../../shared/years-utils';
+import { getOldYears } from '../../shared/years-utils';
 
 @Component({
   selector: 'app-contacts',

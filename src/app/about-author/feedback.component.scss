@@ -1,4 +1,4 @@
-@import '../../app.component';
+@import '../app.component';
 
 .feedback {
     padding-top: 10px;
@@ -22,7 +22,7 @@
         form {
             max-width: 500px;
             margin: auto;
-        
+
             input,
             textarea {
                 font: inherit;
@@ -56,7 +56,7 @@
                 border: 1px solid transparent;
                 border-radius: .25rem;
             }
-            
+
             &.emailjs-success .message,
             &.emailjs-sending .message,
             &.emailjs-error .message {

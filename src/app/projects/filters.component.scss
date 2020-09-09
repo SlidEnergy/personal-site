@@ -1,4 +1,4 @@
-@import '../../app.component';
+@import '../app.component';
 
 :host {
     display: block;
@@ -48,7 +48,7 @@
     .show-tags {
         text-align: center;
         margin-top: 20px;
-        
+
         a {
             border-bottom: 1px dotted black;
             color: gray;

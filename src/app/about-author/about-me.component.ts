@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { getOldYears, getWorkExperienceYears } from '../../shared/years-utils';
+import { getOldYears, getWorkExperienceYears } from '../shared/years-utils';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 import { untilComponentDestroyed } from '@w11k/ngx-componentdestroyed';
 

@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
-import { TagsService } from '../api/tags.service';
+import { TagsService } from './api/tags.service';
 import { Observable } from 'rxjs/Observable';
 
 @Component({
