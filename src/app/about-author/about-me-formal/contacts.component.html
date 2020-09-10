@@ -7,11 +7,12 @@
                 <dt>{{ ('shared.phone' | translate) + ':'}}</dt>
                 <dd itemprop="telephone">{{
                     '+&#055;&#032;(&#057;&#050;&#052;)&#032;&#050;&#048;&#048;&#045;&#056;&#052;&#045;&#055;&#051;'
-                    | noindex}}</dd>
+                        | noindex}}</dd>
                 <dt>Email:</dt>
-                <dd><a [href]="'mailto:' + '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;' | noindex"
-                       itemprop="email">{{
-                        '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'
+                <dd><a
+                    [href]="'mailto:' + '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;' | noindex"
+                    itemprop="email">{{
+                    '&#115;&#108;&#105;&#100;&#101;&#110;&#101;&#114;&#103;&#121;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'
                         | noindex}}</a></dd>
                 <dt>Skype:</dt>
                 <dd><a href="skype:sliderhit?chat">sliderhit</a></dd>
@@ -20,12 +21,18 @@
         <div class="container-item downloads">
             {{ 'about.downloadResume' | translate }}
             <div>
-                <a href="../../../assets/resume/resume_kluchko_michael.pdf"
-                target="_blank"
-                rel="nofollow"><i class="fa fa-file-pdf-o"></i></a>
-                <a href="../../../assets/resume/resume_kluchko_michael.doc"
-                target="_blank"
-                rel="nofollow"><i class="fa fa-file-word-o"></i></a>
+                <div class="file">
+                    <a href="../../../assets/resume/resume_kluchko_michael.pdf"
+                       target="_blank"
+                       rel="nofollow"><i class="fa fa-file-pdf-o"></i></a>
+                    <div class="lang">ru </div>
+                </div>
+                <div class="file">
+                    <a href="../../../assets/resume/resume_kluchko_michael_en.pdf"
+                       target="_blank"
+                       rel="nofollow"><i class="fa fa-file-pdf-o"></i></a>
+                    <div class="lang">en </div>
+                </div>
             </div>
         </div>
     </div>
