@@ -110,9 +110,9 @@
       - small: assets/projects/lers-client/menu1.png
         medium: assets/projects/lers-client/menu1.png
         big: assets/projects/lers-client/menu1.png
-      - small: assets/projects/lers-client/menu1.png
-        medium: assets/projects/lers-client/menu1.png
-        big: assets/projects/lers-client/menu1.png
+      - small: assets/projects/lers-client/menu2.png
+        medium: assets/projects/lers-client/menu2.png
+        big: assets/projects/lers-client/menu2.png
     descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
@@ -477,6 +477,9 @@
       - small: assets/projects/lifecalendar/main.png
         medium: assets/projects/lifecalendar/main.png
         big: assets/projects/lifecalendar/main.png
+      - small: assets/projects/lifecalendar/main2.png
+        medium: assets/projects/lifecalendar/main2.png
+        big: assets/projects/lifecalendar/main2.png
     descriptionRu: >
       <p>
         Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/life-calendar">Life calendar</a>,
@@ -504,6 +507,9 @@
       - small: assets/projects/personalsite/main.png
         medium: assets/projects/personalsite/main.png
         big: assets/projects/personalsite/main.png
+      - small: assets/projects/personalsite/projects.png
+        medium: assets/projects/personalsite/projects.png
+        big: assets/projects/personalsite/projects.png
     descriptionRu: >
       <p>
         Сайт: <a target="_blank" rel="nofollow" href="https://slidenergy.github.io/">Об авторе - Михаил Ключко, разработчик</a>,
