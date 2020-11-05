@@ -153,6 +153,12 @@
     titleEn: 'Framework + web-service soap + REST Api'
     tags: [server, web, 'c#', api, lers, teamwork]
     images:
+      - small: assets/projects/lers-webapi/server-swagger.png
+        medium: assets/projects/lers-webapi/server-swagger.png
+        big: assets/projects/lers-webapi/server-swagger.png
+      - small: assets/projects/lers-webapi/server-swagger-nodes.png
+        medium: assets/projects/lers-webapi/server-swagger-nodes.png
+        big: assets/projects/lers-webapi/server-swagger-nodes.png
       - small: assets/projects/lers-webapi/swagger.png
         medium: assets/projects/lers-webapi/swagger.png
         big: assets/projects/lers-webapi/swagger.png
