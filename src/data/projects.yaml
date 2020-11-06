@@ -218,6 +218,9 @@
       - small: assets/projects/lers-license/main.png
         medium: assets/projects/lers-license/main.png
         big: assets/projects/lers-license/main.png
+      - small: assets/projects/lers-license/history.png
+        medium: assets/projects/lers-license/history.png
+        big: assets/projects/lers-license/history.png
     descriptionRu: >
       <noindex>
         <p>Сайт продукта: <a target="_blank" rel="noreferrer nofollow" href="http://www.lers.ru/">ЛЭРС УЧЕТ</a></p>
