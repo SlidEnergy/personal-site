@@ -5,7 +5,7 @@
       <p>{{ 'about.writeToMeText' | translate }}
       </p>
     </section>
-    <form id="contact-form">
+    <form id="contact-form" [class]="statusClass">
       <label>{{ 'about.name' | translate }}</label>
       <input type="text"
              name="from_name"

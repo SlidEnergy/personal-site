@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as emailjs from 'emailjs-com';
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
 @Component({
   selector: 'app-feedback',
@@ -9,6 +9,7 @@ import * as emailjs from 'emailjs-com';
 export class FeedbackComponent implements OnInit {
 
   message: string;
+  statusClass: string;
 
   constructor() { }
 
@@ -20,13 +21,16 @@ export class FeedbackComponent implements OnInit {
     event.preventDefault();
 
     this.message = 'Отправляем письмо...';
+    this.statusClass = 'emailjs-sending';
 
-    emailjs.sendForm('gmail', 'template_YVf0zvqH', '#contact-form')
-      .then(response => {
+    emailjs.sendForm('service_d3ukm9o', 'template_YVf0zvqH', '#contact-form')
+      .then((response: EmailJSResponseStatus) => {
         this.message = 'Письмо успешно отправлено';
+          this.statusClass = 'emailjs-success';
         console.log('SUCCESS!', response.status, response.text);
       }, error => {
         this.message = 'Письмо не удалось отправить';
+          this.statusClass = 'emailjs-error';
         console.log('FAILED...', error);
       });
   }
