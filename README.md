@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/SlidEnergy/personal-site.svg?branch=master)](https://app.travis-ci.com/SlidEnergy/personal-site)
+
 # PersonalSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
