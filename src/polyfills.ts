@@ -22,7 +22,7 @@ import 'core-js/es';
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
-import * as process from 'process';
+// import * as process from 'process';
 /**
  * By default, zone.js will patch all possible macroTask and DomEvents
  * user can disable parts of macroTask/DomEvents patch by setting following flags
@@ -50,4 +50,4 @@ import * as process from 'process';
  * Zone JS is required by default for Angular itself.
  */
 import 'zone.js'; // Included with Angular CLI.
-window['process'] = process;
+// window['process'] = process;
