@@ -53,7 +53,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     }),
     AboutAuthorModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, {useHash: true}),
+    RouterModule.forRoot(appRoutes, { useHash: true, relativeLinkResolution: 'legacy' }),
     SharedModule,
   ],
   providers: [],
