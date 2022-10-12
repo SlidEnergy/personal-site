@@ -108,7 +108,6 @@
       }
     }
   },
-  "defaultProject": "personal-site",
   "schematics": {
     "@schematics/angular:component": {
       "spec": false,
