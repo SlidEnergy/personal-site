@@ -1,10 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
 
 import { ProjectsService } from './api/projects.service';
 import { Project } from './api/project';
 
 import { Router, ActivatedRoute } from '@angular/router';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-projects-page',
